@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
+                "file": "Advanced Machine Learning/Sequence Models/BERT.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bert",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
+                "file": "Advanced Machine Learning/Sequence Models/BERT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
+                "file": "Advanced Machine Learning/Sequence Models/BERT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md"
+                "file": "Advanced Machine Learning/Sequence Models/BERT.md"
               }
             }
           }
@@ -148,15 +149,51 @@
   },
   "active": "e1c98b6a13bc0b8e",
   "lastOpenFiles": [
-    "netlify.toml",
-    "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
-    "Advanced Machine Learning/Index - Advanced Machine Learning.md",
-    "Index.md",
-    "Untitled.md",
-    "Untitled",
-    "ignored",
-    "Blockchain and Distributed Ledger Technologies",
+    "index.md",
     "Advanced Machine Learning/Convolutional Neural Networks.md",
-    "README.md"
+    "Advanced Machine Learning/Index - Advanced Machine Learning.md",
+    "home.md",
+    "main.md",
+    "netlify.toml",
+    "README.md",
+    "LICENSE",
+    "Index.md",
+    "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
+    "Blockchain and Distributed Ledger Technologies",
+    "Advanced Machine Learning/images/motifs_shaded_boxes.png",
+    "Advanced Machine Learning/images/bert.png",
+    "Advanced Machine Learning/images/Untitled.png",
+    "Advanced Machine Learning/images/Untitled-2023-12-08-1233_(6).png",
+    "Advanced Machine Learning/images/Untitled-2023-12-08-1233_(5).png",
+    "Advanced Machine Learning/images/Untitled-2023-12-08-1233_(2).png",
+    "Advanced Machine Learning/images/Screenshot_2024-01-30_at_7.15.09_PM.png",
+    "Advanced Machine Learning/images/Screenshot_2024-01-30_at_7.03.38_PM.png",
+    "Advanced Machine Learning/images/Screenshot_2024-01-30_at_2.28.54_PM.png",
+    "Advanced Machine Learning/images/Screenshot_2024-01-30_at_1.26.55_PM.png",
+    "Advanced Machine Learning/Visual Search/Visual Search.md",
+    "Advanced Machine Learning/Visual Search/Semantic Search.md",
+    "Advanced Machine Learning/Visual Search/SIFT Descriptor.md",
+    "Advanced Machine Learning/Visual Search/Deep Representations for Visual Search.md",
+    "Advanced Machine Learning/Visual Search/Object Search.md",
+    "Advanced Machine Learning/Visual Search/Person Search.md",
+    "Advanced Machine Learning/Sequence Models/Transformers.md",
+    "Advanced Machine Learning/Sequence Models/Recurrent Neural Networks (RNN).md",
+    "Advanced Machine Learning/Sequence Models/Temporal Convolutional Networks (TCN).md",
+    "Advanced Machine Learning/Sequence Models/Sequence Models.md",
+    "Advanced Machine Learning/Sequence Models/Long Short Term Memory (LSTMs).md",
+    "Advanced Machine Learning/Sequence Models/Examples of Sequence Modelling Problems.md",
+    "Advanced Machine Learning/Sequence Models/BERT.md",
+    "Advanced Machine Learning/Self-Supervised Learning/SimSiam.md",
+    "Advanced Machine Learning/Self-Supervised Learning/SimCLR.md",
+    "Advanced Machine Learning/Self-Supervised Learning/Self-Supervised Learning.md",
+    "Advanced Machine Learning/Self-Supervised Learning/MoCo V1 & V2.md",
+    "Advanced Machine Learning/Self-Supervised Learning/Contrastive Learning.md",
+    "Advanced Machine Learning/images",
+    "Advanced Machine Learning/Visual Search",
+    "Advanced Machine Learning/Sequence Models",
+    "Advanced Machine Learning/Self-Supervised Learning",
+    "Advanced Machine Learning/Object Detection",
+    "Advanced Machine Learning",
+    "__obsidian/Advanced Machine Learning/images"
   ]
 }
