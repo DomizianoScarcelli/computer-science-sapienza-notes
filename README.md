@@ -4,8 +4,7 @@ The notes hosted here: [Domiziano's Computer Science Notes](https://domiziano-cs
 
 This repository includes the Markdown notes for some Computer Science courses from the University of Rome "La Sapienza".
 
-The notes were written using Obsidian.md, and deployed to Netlify using [Zola](https://github.com/ppeetteerrs/obsidian-zola). 
-
+The notes were written using Obsidian.md, and deployed to Netlify using [Quartz](https://github.com/jackyzha0/quartz) 
 
 Feel free to contribute by opening a Pull Request.
 
