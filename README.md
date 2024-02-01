@@ -1,4 +1,4 @@
-# computer-science-sapienza-notes
+# Computer Science Notes (University of Rome "La Sapienza")
 
 This repository includes the Markdown notes for some Computer Science courses from the University of Rome "La Sapienza".
 
