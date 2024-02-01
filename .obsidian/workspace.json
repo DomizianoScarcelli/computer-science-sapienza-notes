@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "71e52dc815f44995",
+        "id": "672ef9d3a208f449",
         "type": "tabs",
         "children": [
           {
-            "id": "92c71592ac799127",
+            "id": "e1c98b6a13bc0b8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index.md",
+                "file": "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index.md",
+                "file": "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index.md"
+                "file": "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md"
               }
             }
           }
@@ -146,9 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92c71592ac799127",
+  "active": "e1c98b6a13bc0b8e",
   "lastOpenFiles": [
+    "netlify.toml",
+    "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
     "Advanced Machine Learning/Index - Advanced Machine Learning.md",
-    "Index.md"
+    "Index.md",
+    "Untitled.md",
+    "Untitled",
+    "ignored",
+    "Blockchain and Distributed Ledger Technologies",
+    "Advanced Machine Learning/Convolutional Neural Networks.md",
+    "README.md"
   ]
 }

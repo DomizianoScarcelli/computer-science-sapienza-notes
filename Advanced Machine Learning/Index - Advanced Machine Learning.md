@@ -3,7 +3,7 @@
 **Course**: Advanced Machine Learning (2023-2024)
 **Sources**: Prof. Galasso Slides and Lectures, along with papers relative to each subject.
 
-**Disclaimer**: the notes may not be complete or correct, so that them as a reference and not as the only material for your study.
+**Disclaimer**: the notes may not be complete or correct, so take them as a reference and not as the only material for your study.
 # Table of Contents
 - [[Advanced Machine Learning/Convolutional Neural Networks|Convolutional Neural Networks]]
 - [[Activation Functions]]
