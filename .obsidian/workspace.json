@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "707e22215d11b41e",
+        "id": "9260903f46f10aae",
         "type": "tabs",
         "children": [
           {
-            "id": "650aba2c9838d951",
+            "id": "3b35a449c450b48d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -38,7 +34,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 360.5
   },
   "right": {
     "id": "044251a76a0f9b47",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,53 +138,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33ab8b656e440fce",
+  "active": "3b35a449c450b48d",
   "lastOpenFiles": [
-    "domiziano.netlify.app.md",
+    "Untitled 3.md",
+    "Untitled.md",
+    "Untitled 5.md",
+    "Untitled 6.md",
+    "Untitled 7.md",
     "index.md",
-    "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
-    "Blockchain and Distributed Ledger Technologies/ASICs.md",
-    "2024-02-01.md",
-    "Blockchain and Distributed Ledger Technologies/Basics of the Blockchain.md",
-    "Blockchain and Distributed Ledger Technologies/Different Types of Blockchain.md",
-    "Blockchain and Distributed Ledger Technologies/Ethereum/The Merge.md",
-    "Blockchain and Distributed Ledger Technologies/Ethereum/Proof of Stake.md",
-    "Blockchain and Distributed Ledger Technologies/Ethereum/Smart Contracts.md",
-    "Blockchain and Distributed Ledger Technologies/Ethereum/LMD-GHOST and FFG.md",
-    "Blockchain and Distributed Ledger Technologies/Ethereum/Ethereum.md",
-    "Blockchain and Distributed Ledger Technologies/Light Nodes vs Full Nodes.md",
-    "Blockchain and Distributed Ledger Technologies/Pseudonimity.md",
-    "Blockchain and Distributed Ledger Technologies/Hashing.md",
-    "Blockchain and Distributed Ledger Technologies/Double Spending.md",
-    "Blockchain and Distributed Ledger Technologies/Decentralized vs. Distributed.md",
-    "Blockchain and Distributed Ledger Technologies/Coinbase Transaction.md",
-    "Blockchain and Distributed Ledger Technologies/Bitcoin/Proof of Work.md",
-    "Blockchain and Distributed Ledger Technologies/Branching.md",
-    "Blockchain and Distributed Ledger Technologies/Blockchain Flow.md",
-    "Blockchain and Distributed Ledger Technologies/Availability, Consistency and Partition Tolerance.md",
-    "Blockchain and Distributed Ledger Technologies/images/Screenshot 2024-01-21 at 3.49.06 PM.png",
-    "Blockchain and Distributed Ledger Technologies/Algorand/Algorand.md",
-    "Blockchain and Distributed Ledger Technologies/images/Screenshot 2024-01-21 at 3.47.17 PM.png",
-    "Blockchain and Distributed Ledger Technologies/Algorand",
-    "Blockchain and Distributed Ledger Technologies/images/Screenshot 2023-10-03 at 5.15.21 PM.png",
-    "Blockchain and Distributed Ledger Technologies/images",
-    "Blockchain and Distributed Ledger Technologies/images/Screenshot 2024-01-21 at 12.39.09 PM.png",
-    "Blockchain and Distributed Ledger Technologies/images/Screenshot 2024-01-21 at 12.26.47 PM.png",
-    "Blockchain and Distributed Ledger Technologies/images/Screenshot 2024-01-21 at 11.58.01 AM.png",
-    "Blockchain and Distributed Ledger Technologies/images/Screenshot 2024-01-21 at 11.59.53 AM.png",
-    "Blockchain and Distributed Ledger Technologies/images/Screenshot 2024-01-21 at 11.54.28 AM.png",
-    "Blockchain and Distributed Ledger Technologies/images/Screenshot 2023-11-16 at 7.03.22 PM.png",
-    "Blockchain and Distributed Ledger Technologies/Bitcoin/Script.md",
-    "Blockchain and Distributed Ledger Technologies/Ethereum",
-    "Blockchain and Distributed Ledger Technologies/Bitcoin/Bitcoin Address Generation.md",
-    "Blockchain and Distributed Ledger Technologies/Bitcoin/Transaction Model and UTXOs.md",
-    "Blockchain and Distributed Ledger Technologies/Bitcoin",
-    "Blockchain and Distributed Ledger Technologies/images/Screenshot 2023-11-16 at 9.22.03 AM.png",
-    "computer-science-sapienza-notes/netlify.toml",
-    "computer-science-sapienza-notes/LICENSE",
-    "computer-science-sapienza-notes/Blockchain and Distributed Ledger Technologies",
-    "computer-science-sapienza-notes/Advanced Machine Learning/images",
-    "computer-science-sapienza-notes/Advanced Machine Learning/Visual Search",
-    "computer-science-sapienza-notes/Advanced Machine Learning/Sequence Models"
+    "Biometric Systems/Q&A for Oral Exam (in Italian).md",
+    "Biometric Systems/Index - Biometric Systems.md",
+    "Biometric Systems/Face Recognition/EBGM - Elastic Bunch Graph Matching.md",
+    "Biometric Systems/Face Recognition/Global (or holistic) methods vs Local methods.md",
+    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988.md",
+    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/Answers 7088ffcb6cf14246b6124fa8eb83c5f8.md",
+    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/BS Old Notes ae1b2487375b4f02b6df3e39d2a4af15.md",
+    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/BS Old Notes ae1b2487375b4f02b6df3e39d2a4af15/BS - 04 Oct 2022 d3ed78eb8fe54a01a72254ca76b50433.md",
+    "Biometric Systems/images/Screenshot_2022-11-15_at_12.10.06_PM.png",
+    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/List of Questions 52521d192b4944f096e8dabfab36b105.md",
+    "Biometric Systems/images/Orientation-of-the-head-in-terms-of-pitch-roll-and-yaw-movements-describing-the-three.png",
+    "Biometric Systems/images",
+    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/BS Old Notes ae1b2487375b4f02b6df3e39d2a4af15/BS - 5 Oct 2022 b4ab4c9683444dd7969f8dccba05eff1.md",
+    "Biometric Systems/Multibiometric Systems/Multibiometric systems.md",
+    "Biometric Systems/Fingerprint Recognition/Fingerprint Recognition.md",
+    "Biometric Systems/Multibiometric Systems",
+    "Biometric Systems/Iris Recognition/Iris Recognition.md",
+    "Biometric Systems/Fingerprint Recognition",
+    "Biometric Systems/Ear Recognition/Ear Recognition.md",
+    "Biometric Systems/Face Recognition/Problems with Face Recognition.md",
+    "Biometric Systems/Face Recognition/3D Face Recognition.md",
+    "Biometric Systems/Iris Recognition",
+    "Biometric Systems/Face Recognition/Anti-Spoofing Evaluation.md",
+    "Biometric Systems/Ear Recognition",
+    "Biometric Systems/Spoofing in Face Recognition.md",
+    "Biometric Systems/Face Recognition/Evaluation between systems in Face Recognition.md",
+    "Biometric Systems/Face Recognition/Possible spaces in which represent a face.md",
+    "Biometric Systems/Face Recognition/3D Face Recognition",
+    "Biometric Systems/Face Recognition",
+    "Biometric Systems/Performance Evaluation",
+    "Biometric Systems/Introduction to Biometric Systems",
+    "Biometric Systems/images/Screenshot_2023-01-25_at_1.08.08_PM.png",
+    "Biometric Systems/images/Screenshot_2023-01-07_at_11.02.23_AM.png",
+    "Biometric Systems/images/Screenshot_2023-01-03_at_7.52.05_PM.png",
+    "Biometric Systems/images/Screenshot_2023-01-03_at_6.15.13_PM.png",
+    "Biometric Systems/images/Screenshot_2023-01-03_at_6.05.40_PM.png",
+    "Biometric Systems/images/Screenshot_2022-12-28_at_12.33.00_PM.png",
+    "Biometric Systems/images/Screenshot_2022-11-28_at_8.23.57_AM.png",
+    "Biometric Systems/images/Screenshot_2022-11-20_at_7.05.00_PM.png",
+    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/BS Old Notes ae1b2487375b4f02b6df3e39d2a4af15"
   ]
 }
