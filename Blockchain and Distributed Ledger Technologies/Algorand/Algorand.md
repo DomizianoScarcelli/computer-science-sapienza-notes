@@ -17,10 +17,8 @@ The more ALGO the participant has at stake, the higher the probability of winnin
 
 The dice is a run of a verifiable random function. If the result fall in a certain range, you win.
 
-<aside> 💡 Unlike Ethereum, there is no minimum amount of stake, and the stake will not be freezed. The more ALGO an account has, the more the probability of proposing a new block.
-
-</aside>
-
+> [!Note]
+> Unlike Ethereum, there is no minimum amount of stake, and the stake will not be freezed. The more ALGO an account has, the more the probability of proposing a new block.
 ## How is this VRF used?
 1. Block proposal: the node that is selected by the VRF (the node that won) proposes the block and the VRF output, which can be used to prove that they’re a valid winner.
 2. Soft Vote:

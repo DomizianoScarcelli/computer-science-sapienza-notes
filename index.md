@@ -7,6 +7,8 @@ Hi, I'm [Domiziano](https://domiziano.netlify.app) and welcome to my notes!
 - [[Index - Advanced Machine Learning]]
 - [[Index - Blockchain and Distributed Ledger Technologies]]
 - [[Index - Biometric Systems]]
+- [[Distributed Systems]]
 
 I'm publishing my notes because during the course of my studies I found various notes published by many other people, which made my life infinitely easier. 
+
 If I helped you, make sure to star the [Repository](https://github.com/DomizianoScarcelli/computer-science-sapienza-notes) or if you're so rich you can even [Buy me a Coffee!](https://www.buymeacoffee.com/domizianoscarcelli)

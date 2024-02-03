@@ -41,7 +41,7 @@ In the many-to-many case, at each step an output is produced and the loss is upd
 
 ### Many to One
 
-![Untitled](Untitled.png)
+![Untitled](Advanced%20Machine%20Learning/images/Untitled.png)
 
 In the many-to-one case, just a single output is produced, and a single loss is computed at the end.
 

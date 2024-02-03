@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9260903f46f10aae",
+        "id": "be3ad4caf72cb481",
         "type": "tabs",
         "children": [
           {
-            "id": "3b35a449c450b48d",
+            "id": "b233168012ea304b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Distributed Systems/Distributed Systems.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "integral images",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 423.5
   },
   "right": {
     "id": "044251a76a0f9b47",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Distributed Systems/Distributed Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Distributed Systems/Distributed Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Distributed Systems/Distributed Systems.md"
+              }
             }
           }
         ]
@@ -138,53 +146,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b35a449c450b48d",
+  "active": "b233168012ea304b",
   "lastOpenFiles": [
-    "Untitled 3.md",
-    "Untitled.md",
-    "Untitled 5.md",
-    "Untitled 6.md",
-    "Untitled 7.md",
+    "Blockchain and Distributed Ledger Technologies/Algorand/Algorand.md",
+    "Distributed Systems/Distributed Systems.md",
+    "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
     "index.md",
-    "Biometric Systems/Q&A for Oral Exam (in Italian).md",
+    "Distributed Systems/images/photo1.png",
+    "Distributed Systems/images/paxows.png",
+    "Distributed Systems/images/n-failures.png",
+    "Distributed Systems/images/distributed-shapshot.png",
+    "Distributed Systems/images/Untitled.png",
+    "Distributed Systems/images/Untitled 8.png",
+    "Distributed Systems/images/Untitled 7.png",
+    "Distributed Systems/images/Untitled 6.png",
+    "Distributed Systems/images/Untitled 5.png",
+    "Distributed Systems/images/Untitled 4.png",
+    "Distributed Systems/images",
     "Biometric Systems/Index - Biometric Systems.md",
+    "Distributed Systems/Index - Distributed Systems.md",
+    "a5b32dc6-ce11-4c5d-8af9-ba279fb4ba07_Export-c52e6667-8240-4ae5-bf8c-8242266964f8/Distributed Systems 1ac6f9549851452e904d1578a14653fc",
+    "a5b32dc6-ce11-4c5d-8af9-ba279fb4ba07_Export-c52e6667-8240-4ae5-bf8c-8242266964f8",
+    "Biometric Systems/Q&A for Oral Exam (in Italian).md",
+    "Distributed Systems",
+    "Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988.md",
+    "Biometric Systems/Face Recognition/Face Localization - Viola Jones algorithm.md",
+    "Advanced Machine Learning/Visual Search/Deep Representations for Visual Search.md",
+    "Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/List of Questions 52521d192b4944f096e8dabfab36b105.md",
+    "Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988",
+    "Biometric Systems/Face Recognition/Face Localization - Hsu, Mottaleb and Jain algorithm.md",
+    "Biometric Systems/Face Recognition/Localization performance evaluation.md",
+    "Biometric Systems/Face Recognition/Popular Datasets.md",
+    "Biometric Systems/Face Recognition/Face Recognizer.md",
+    "Biometric Systems/Face Recognition/AdaBoost.md",
+    "Biometric Systems/Face Recognition/Haar features.md",
+    "Biometric Systems/Face Recognition/Face Representations.md",
     "Biometric Systems/Face Recognition/EBGM - Elastic Bunch Graph Matching.md",
     "Biometric Systems/Face Recognition/Global (or holistic) methods vs Local methods.md",
-    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988.md",
-    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/Answers 7088ffcb6cf14246b6124fa8eb83c5f8.md",
-    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/BS Old Notes ae1b2487375b4f02b6df3e39d2a4af15.md",
-    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/BS Old Notes ae1b2487375b4f02b6df3e39d2a4af15/BS - 04 Oct 2022 d3ed78eb8fe54a01a72254ca76b50433.md",
-    "Biometric Systems/images/Screenshot_2022-11-15_at_12.10.06_PM.png",
-    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/List of Questions 52521d192b4944f096e8dabfab36b105.md",
-    "Biometric Systems/images/Orientation-of-the-head-in-terms-of-pitch-roll-and-yaw-movements-describing-the-three.png",
-    "Biometric Systems/images",
-    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/BS Old Notes ae1b2487375b4f02b6df3e39d2a4af15/BS - 5 Oct 2022 b4ab4c9683444dd7969f8dccba05eff1.md",
-    "Biometric Systems/Multibiometric Systems/Multibiometric systems.md",
-    "Biometric Systems/Fingerprint Recognition/Fingerprint Recognition.md",
-    "Biometric Systems/Multibiometric Systems",
-    "Biometric Systems/Iris Recognition/Iris Recognition.md",
-    "Biometric Systems/Fingerprint Recognition",
-    "Biometric Systems/Ear Recognition/Ear Recognition.md",
-    "Biometric Systems/Face Recognition/Problems with Face Recognition.md",
-    "Biometric Systems/Face Recognition/3D Face Recognition.md",
-    "Biometric Systems/Iris Recognition",
-    "Biometric Systems/Face Recognition/Anti-Spoofing Evaluation.md",
-    "Biometric Systems/Ear Recognition",
-    "Biometric Systems/Spoofing in Face Recognition.md",
-    "Biometric Systems/Face Recognition/Evaluation between systems in Face Recognition.md",
     "Biometric Systems/Face Recognition/Possible spaces in which represent a face.md",
-    "Biometric Systems/Face Recognition/3D Face Recognition",
-    "Biometric Systems/Face Recognition",
-    "Biometric Systems/Performance Evaluation",
-    "Biometric Systems/Introduction to Biometric Systems",
-    "Biometric Systems/images/Screenshot_2023-01-25_at_1.08.08_PM.png",
-    "Biometric Systems/images/Screenshot_2023-01-07_at_11.02.23_AM.png",
-    "Biometric Systems/images/Screenshot_2023-01-03_at_7.52.05_PM.png",
-    "Biometric Systems/images/Screenshot_2023-01-03_at_6.15.13_PM.png",
-    "Biometric Systems/images/Screenshot_2023-01-03_at_6.05.40_PM.png",
-    "Biometric Systems/images/Screenshot_2022-12-28_at_12.33.00_PM.png",
-    "Biometric Systems/images/Screenshot_2022-11-28_at_8.23.57_AM.png",
-    "Biometric Systems/images/Screenshot_2022-11-20_at_7.05.00_PM.png",
-    "903e10fe-7e7b-481c-bce6-f96f53e25f83_Export-5661d4f5-fa02-46c7-8457-34569b8abe65/Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/BS Old Notes ae1b2487375b4f02b6df3e39d2a4af15"
+    "Biometric Systems/Face Recognition/Evaluation between systems in Face Recognition.md",
+    "Biometric Systems/Face Recognition/Anti-Spoofing Evaluation.md",
+    "Biometric Systems/Face Recognition/3D Face Recognition.md",
+    "Untitled 3.md",
+    "Untitled.md",
+    "Biometric Systems/images",
+    "Biometric Systems/Multibiometric Systems",
+    "Biometric Systems/Fingerprint Recognition",
+    "Biometric Systems/Iris Recognition",
+    "Biometric Systems/Ear Recognition"
   ]
 }
