@@ -8,6 +8,7 @@ Hi, I'm [Domiziano](https://domiziano.netlify.app) and welcome to my notes!
 - [[Index - Blockchain and Distributed Ledger Technologies]]
 - [[Index - Biometric Systems]]
 - [[Distributed Systems]]
+- [[Fundamentals of Data Science]]
 
 I'm publishing my notes because during the course of my studies I found various notes published by many other people, which made my life infinitely easier. 
 

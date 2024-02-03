@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "be3ad4caf72cb481",
+        "id": "c26fac476ad3159f",
         "type": "tabs",
         "children": [
           {
-            "id": "b233168012ea304b",
+            "id": "3d1cac39dabed044",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Distributed Systems/Distributed Systems.md",
+                "file": "Fundamentals of Data Science/Concepts for the Final quiz.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "3d5c5a04ae24faee",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Fundamentals of Data Science/images/Schermata 2022-09-09 alle 12.59.03.png"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributed Systems/Distributed Systems.md",
+                "file": "Fundamentals of Data Science/Concepts for the Final quiz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributed Systems/Distributed Systems.md",
+                "file": "Fundamentals of Data Science/Concepts for the Final quiz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distributed Systems/Distributed Systems.md"
+                "file": "Fundamentals of Data Science/Concepts for the Final quiz.md"
               }
             }
           }
@@ -146,22 +156,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b233168012ea304b",
+  "active": "3d1cac39dabed044",
   "lastOpenFiles": [
-    "Blockchain and Distributed Ledger Technologies/Algorand/Algorand.md",
-    "Distributed Systems/Distributed Systems.md",
-    "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
+    "Fundamentals of Data Science/Question list to repeat.md",
+    "Fundamentals of Data Science/Concepts for the Final quiz.md",
     "index.md",
-    "Distributed Systems/images/photo1.png",
-    "Distributed Systems/images/paxows.png",
-    "Distributed Systems/images/n-failures.png",
-    "Distributed Systems/images/distributed-shapshot.png",
-    "Distributed Systems/images/Untitled.png",
-    "Distributed Systems/images/Untitled 8.png",
-    "Distributed Systems/images/Untitled 7.png",
-    "Distributed Systems/images/Untitled 6.png",
-    "Distributed Systems/images/Untitled 5.png",
-    "Distributed Systems/images/Untitled 4.png",
+    "Fundamentals of Data Science/Fundamentals of Data Science.md",
+    "Fundamentals of Data Science/images/Schermata 2022-09-09 alle 12.59.03.png",
+    "d0368934-8fee-4a88-aa81-b561ecc3ec06_Export-6310dd58-d97c-4f06-bfe0-d64308c4bb0f/Fundamentals of Data Science 9fb7cb5b0fcf42e0b8926cc42ff09f73/Old stuff 54864f9de49c44118cfc542766e8bc98/FDS - 29 Sep 2022 fce05d1f0ca64f66a6ee96ee98147d86.md",
+    "d0368934-8fee-4a88-aa81-b561ecc3ec06_Export-6310dd58-d97c-4f06-bfe0-d64308c4bb0f/Fundamentals of Data Science 9fb7cb5b0fcf42e0b8926cc42ff09f73/Old stuff 54864f9de49c44118cfc542766e8bc98/FDS 22 September 765c6813fcbf40d6a72e130bcde6fc5f.md",
+    "d0368934-8fee-4a88-aa81-b561ecc3ec06_Export-6310dd58-d97c-4f06-bfe0-d64308c4bb0f/Fundamentals of Data Science 9fb7cb5b0fcf42e0b8926cc42ff09f73/Old stuff 54864f9de49c44118cfc542766e8bc98/First Assignment - 22 Sep → 20 Oct 5c2803c0e86f4cd1ac872d2561505e0a.md",
+    "README.md",
+    "Fundamentals of Data Science/images/Untitled.png",
+    "Fundamentals of Data Science/images/Screenshot_2022-12-28_at_11.23.20_AM.png",
+    "Fundamentals of Data Science/images/Screenshot_2022-12-27_at_7.59.28_PM.png",
+    "Fundamentals of Data Science/images/Screenshot_2022-12-27_at_7.04.39_PM.png",
+    "Fundamentals of Data Science/images/Screenshot_2022-12-27_at_4.58.33_PM.png",
+    "Fundamentals of Data Science/images/Screenshot_2022-12-27_at_4.41.46_PM.png",
+    "Fundamentals of Data Science/images/Screenshot_2022-11-23_at_2.06.02_PM.png",
+    "Fundamentals of Data Science/images/Screenshot_2022-12-02_at_4.24.34_PM.png",
+    "Fundamentals of Data Science/images/Screenshot_2022-11-23_at_1.58.04_PM.png",
+    "Fundamentals of Data Science/images/Old stuff 54864f9de49c44118cfc542766e8bc98.md",
+    "d0368934-8fee-4a88-aa81-b561ecc3ec06_Export-6310dd58-d97c-4f06-bfe0-d64308c4bb0f/Fundamentals of Data Science 9fb7cb5b0fcf42e0b8926cc42ff09f73/Old stuff 54864f9de49c44118cfc542766e8bc98",
+    "Fundamentals of Data Science/images",
+    "Fundamentals of Data Science",
+    "Distributed Systems/Distributed Systems.md",
+    "Blockchain and Distributed Ledger Technologies/Algorand/Algorand.md",
+    "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
     "Distributed Systems/images",
     "Biometric Systems/Index - Biometric Systems.md",
     "Distributed Systems/Index - Distributed Systems.md",
@@ -180,19 +201,7 @@
     "Biometric Systems/Face Recognition/Face Recognizer.md",
     "Biometric Systems/Face Recognition/AdaBoost.md",
     "Biometric Systems/Face Recognition/Haar features.md",
-    "Biometric Systems/Face Recognition/Face Representations.md",
-    "Biometric Systems/Face Recognition/EBGM - Elastic Bunch Graph Matching.md",
-    "Biometric Systems/Face Recognition/Global (or holistic) methods vs Local methods.md",
-    "Biometric Systems/Face Recognition/Possible spaces in which represent a face.md",
-    "Biometric Systems/Face Recognition/Evaluation between systems in Face Recognition.md",
-    "Biometric Systems/Face Recognition/Anti-Spoofing Evaluation.md",
-    "Biometric Systems/Face Recognition/3D Face Recognition.md",
-    "Untitled 3.md",
-    "Untitled.md",
     "Biometric Systems/images",
-    "Biometric Systems/Multibiometric Systems",
-    "Biometric Systems/Fingerprint Recognition",
-    "Biometric Systems/Iris Recognition",
-    "Biometric Systems/Ear Recognition"
+    "Biometric Systems/Multibiometric Systems"
   ]
 }
