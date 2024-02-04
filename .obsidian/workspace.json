@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fundamentals of Data Science/Concepts for the Final quiz.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "3d5c5a04ae24faee",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Fundamentals of Data Science/images/Schermata 2022-09-09 alle 12.59.03.png"
               }
             }
           }
@@ -58,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "integral images",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fundamentals of Data Science/Concepts for the Final quiz.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fundamentals of Data Science/Concepts for the Final quiz.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fundamentals of Data Science/Concepts for the Final quiz.md"
+                "file": "index.md"
               }
             }
           }
@@ -158,50 +148,52 @@
   },
   "active": "3d1cac39dabed044",
   "lastOpenFiles": [
-    "Fundamentals of Data Science/Question list to repeat.md",
-    "Fundamentals of Data Science/Concepts for the Final quiz.md",
-    "index.md",
-    "Fundamentals of Data Science/Fundamentals of Data Science.md",
-    "Fundamentals of Data Science/images/Schermata 2022-09-09 alle 12.59.03.png",
-    "d0368934-8fee-4a88-aa81-b561ecc3ec06_Export-6310dd58-d97c-4f06-bfe0-d64308c4bb0f/Fundamentals of Data Science 9fb7cb5b0fcf42e0b8926cc42ff09f73/Old stuff 54864f9de49c44118cfc542766e8bc98/FDS - 29 Sep 2022 fce05d1f0ca64f66a6ee96ee98147d86.md",
-    "d0368934-8fee-4a88-aa81-b561ecc3ec06_Export-6310dd58-d97c-4f06-bfe0-d64308c4bb0f/Fundamentals of Data Science 9fb7cb5b0fcf42e0b8926cc42ff09f73/Old stuff 54864f9de49c44118cfc542766e8bc98/FDS 22 September 765c6813fcbf40d6a72e130bcde6fc5f.md",
-    "d0368934-8fee-4a88-aa81-b561ecc3ec06_Export-6310dd58-d97c-4f06-bfe0-d64308c4bb0f/Fundamentals of Data Science 9fb7cb5b0fcf42e0b8926cc42ff09f73/Old stuff 54864f9de49c44118cfc542766e8bc98/First Assignment - 22 Sep → 20 Oct 5c2803c0e86f4cd1ac872d2561505e0a.md",
-    "README.md",
-    "Fundamentals of Data Science/images/Untitled.png",
-    "Fundamentals of Data Science/images/Screenshot_2022-12-28_at_11.23.20_AM.png",
-    "Fundamentals of Data Science/images/Screenshot_2022-12-27_at_7.59.28_PM.png",
-    "Fundamentals of Data Science/images/Screenshot_2022-12-27_at_7.04.39_PM.png",
-    "Fundamentals of Data Science/images/Screenshot_2022-12-27_at_4.58.33_PM.png",
-    "Fundamentals of Data Science/images/Screenshot_2022-12-27_at_4.41.46_PM.png",
-    "Fundamentals of Data Science/images/Screenshot_2022-11-23_at_2.06.02_PM.png",
-    "Fundamentals of Data Science/images/Screenshot_2022-12-02_at_4.24.34_PM.png",
-    "Fundamentals of Data Science/images/Screenshot_2022-11-23_at_1.58.04_PM.png",
-    "Fundamentals of Data Science/images/Old stuff 54864f9de49c44118cfc542766e8bc98.md",
-    "d0368934-8fee-4a88-aa81-b561ecc3ec06_Export-6310dd58-d97c-4f06-bfe0-d64308c4bb0f/Fundamentals of Data Science 9fb7cb5b0fcf42e0b8926cc42ff09f73/Old stuff 54864f9de49c44118cfc542766e8bc98",
-    "Fundamentals of Data Science/images",
-    "Fundamentals of Data Science",
-    "Distributed Systems/Distributed Systems.md",
-    "Blockchain and Distributed Ledger Technologies/Algorand/Algorand.md",
-    "Blockchain and Distributed Ledger Technologies/Index - Blockchain and Distributed Ledger Technologies.md",
-    "Distributed Systems/images",
-    "Biometric Systems/Index - Biometric Systems.md",
-    "Distributed Systems/Index - Distributed Systems.md",
-    "a5b32dc6-ce11-4c5d-8af9-ba279fb4ba07_Export-c52e6667-8240-4ae5-bf8c-8242266964f8/Distributed Systems 1ac6f9549851452e904d1578a14653fc",
-    "a5b32dc6-ce11-4c5d-8af9-ba279fb4ba07_Export-c52e6667-8240-4ae5-bf8c-8242266964f8",
-    "Biometric Systems/Q&A for Oral Exam (in Italian).md",
-    "Distributed Systems",
-    "Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988.md",
-    "Biometric Systems/Face Recognition/Face Localization - Viola Jones algorithm.md",
-    "Advanced Machine Learning/Visual Search/Deep Representations for Visual Search.md",
-    "Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988/List of Questions 52521d192b4944f096e8dabfab36b105.md",
-    "Biometric Systems e1633ea6ea264a02ae2a5248a9bd0988",
-    "Biometric Systems/Face Recognition/Face Localization - Hsu, Mottaleb and Jain algorithm.md",
-    "Biometric Systems/Face Recognition/Localization performance evaluation.md",
-    "Biometric Systems/Face Recognition/Popular Datasets.md",
-    "Biometric Systems/Face Recognition/Face Recognizer.md",
-    "Biometric Systems/Face Recognition/AdaBoost.md",
-    "Biometric Systems/Face Recognition/Haar features.md",
-    "Biometric Systems/images",
-    "Biometric Systems/Multibiometric Systems"
+    "Deep Learning  and Applied AI/Deep Learning.md",
+    "2024-02-04.md",
+    "Untitled.canvas",
+    "Biometric Systems/Face Recognition/Possible spaces in which represent a face.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Old notes 92002c3d54764968974b9b94fbfe6414.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/10 May 2023 - GAN 6a67361654c74850a2865b62f3854921.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Rabbit Holes 8edc7e5e118e48dbb0d060e40ca1a3c3.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Emails 915b3f2ca48f435f8c39a2cb8e23fd08.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Notebooks notes 2a877c27ad7b4df2b9c531da85621fbc.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/19 Apr 2023 - Generative 887882d5c0b54f77a7aaf01e80bffe7f.md",
+    "Deep Learning  and Applied AI/images/Screenshot_2023-03-01_at_6.15.54_PM.png",
+    "Deep Learning  and Applied AI/images/Screenshot_2023-03-22_at_4.34.55_PM.png",
+    "Deep Learning  and Applied AI/images/no_padding_no_strides.gif",
+    "Deep Learning  and Applied AI/images/Screenshot_2023-05-12_at_1.32.59_PM.png",
+    "Deep Learning  and Applied AI/images/merged.png",
+    "Deep Learning  and Applied AI/images/10 May 2023 - GAN 6a67361654c74850a2865b62f3854921/Screenshot_2023-05-10_at_1.14.48_PM.png",
+    "Deep Learning  and Applied AI/images/10 May 2023 - GAN 6a67361654c74850a2865b62f3854921/Screenshot_2023-05-10_at_1.05.55_PM.png",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Notes before work tracker 0823cf452a0a4a62b54d4f40789dc713.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Markov Chain c02658761f1a4ab996c7c4d72f5026a6.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/How to create the graphical model e86f9ce0bdb84d3fbc6b10fedc538ae2.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Evaluation 4b174d1f920c4d68904159b4e9b48945.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Rabbit Holes 8edc7e5e118e48dbb0d060e40ca1a3c3/Why initializing MLP weights to a constant isn’t a 2416934a684447f2983cfd54340d10a9.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Rabbit Holes 8edc7e5e118e48dbb0d060e40ca1a3c3/How to compute the number of parameters ee05a1685c894420a68a42bba222d274.md",
+    "Human Computer Interaction on the Web/images/Screenshot_2023-06-27_at_4.47.03_PM.png",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Markov Chain c02658761f1a4ab996c7c4d72f5026a6/Screenshot_2023-09-29_at_2.29.40_AM.png",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Markov Chain c02658761f1a4ab996c7c4d72f5026a6/Screenshot_2023-09-29_at_2.00.46_AM.png",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled e40764ca4d774a778b0e29dd97be1167.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled d270113260974416a61b5ab76bc61cbd.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled c4b69cbe88bc4ca49054faac7e68ae1d.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 910311ecb9294d8b976dfd74672c6be8.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 8c87b3624a804227914dd6dc85d5f364.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 825541fe307241758046b2bc55067feb.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 7d077ea915d24295bc7d4383448d5c26.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 6684aef804ad45f7acad4af987154a88.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 500cf752e3e4406aa11b4f3d9f8516d8.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 47568f2bdc974f219f1ccd4fde8eccbc.md",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Markov Chain c02658761f1a4ab996c7c4d72f5026a6",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf_all.csv",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf.csv",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Rabbit Holes 8edc7e5e118e48dbb0d060e40ca1a3c3",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180",
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Old notes 92002c3d54764968974b9b94fbfe6414",
+    "Deep Learning  and Applied AI/images/10 May 2023 - GAN 6a67361654c74850a2865b62f3854921",
+    "Deep Learning  and Applied AI/images",
+    "Deep Learning  and Applied AI"
   ]
 }

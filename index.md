@@ -1,4 +1,4 @@
-Hi, I'm [Domiziano](https://domiziano.netlify.app) and welcome to my notes!
+Hi, I'm [Domiziano](https://domiziano.netlify.app) and welcome to my notes for the Master's Course in Computer Science at University of Rome "La Sapienza".
 
 >[!Disclaimer]
 >The notes may not be complete or correct, so take them as a reference and not as the only material for your study.
@@ -7,8 +7,10 @@ Hi, I'm [Domiziano](https://domiziano.netlify.app) and welcome to my notes!
 - [[Index - Advanced Machine Learning]]
 - [[Index - Blockchain and Distributed Ledger Technologies]]
 - [[Index - Biometric Systems]]
+- [[Deep Learning]]
 - [[Distributed Systems]]
 - [[Fundamentals of Data Science]]
+- [[Human-Computer Interaction on the Web]] (only in Italian 🇮🇹)
 
 I'm publishing my notes because during the course of my studies I found various notes published by many other people, which made my life infinitely easier. 
 
