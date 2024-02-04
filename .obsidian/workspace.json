@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Deep Learning  and Applied AI/Deep Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Deep Learning  and Applied AI/Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Deep Learning  and Applied AI/Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Deep Learning  and Applied AI/Deep Learning.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "3d1cac39dabed044",
   "lastOpenFiles": [
+    "index.md",
     "Deep Learning  and Applied AI/Deep Learning.md",
     "2024-02-04.md",
     "Untitled.canvas",
@@ -184,7 +185,6 @@
     "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 7d077ea915d24295bc7d4383448d5c26.md",
     "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 6684aef804ad45f7acad4af987154a88.md",
     "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 500cf752e3e4406aa11b4f3d9f8516d8.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 47568f2bdc974f219f1ccd4fde8eccbc.md",
     "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Markov Chain c02658761f1a4ab996c7c4d72f5026a6",
     "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf_all.csv",
     "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf.csv",

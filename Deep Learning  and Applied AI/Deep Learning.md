@@ -882,27 +882,27 @@ Another way is to find the optimal $\alpha$ by a line search algorithm. This alg
 
 Since a big learning rate is good at the start in order to speed up the descent, but it’s bad when the point is near the minimum because of the risk of overshooting, a good idea could be to make the $\alpha$ dynamic.
 
-We call this type of $\alpha$ adaptive. This is done by decreasing it according to a decay parameter $\mathbb{R}ho$, which defines the rate of the decay.
+We call this type of $\alpha$ adaptive. This is done by decreasing it according to a decay parameter $\rho$, which defines the rate of the decay.
 
 Examples of functions used to implement the decay are:
 
 $$
-\alpha^{(t+1)}=\frac{\alpha^{(t)}}{1+\mathbb{R}ho t}
+\alpha^{(t+1)}=\frac{\alpha^{(t)}}{1+\rho_t}
 $$
 
-This function makes the learning rate decay according to an hyperbolic behaviour, because of the $\frac{1}{1 + \mathbb{R}ho t}$ factor.
+This function makes the learning rate decay according to an hyperbolic behaviour, because of the $\frac{1}{1 + \rho t}$ factor.
 
 $$
-\alpha^{(t+1)}=\alpha^{(0)} e^{-\mathbb{R}ho t}
+\alpha^{(t+1)}=\alpha^{(0)} e^{-\rho_t}
 $$
 
 With this function the learning rate decreases exponentially.
 
 $$
-\alpha^{(t+1)}=\left(1-\frac{t}{\mathbb{R}ho}\right) \alpha^{(0)}+\frac{t}{\mathbb{R}ho} \alpha^{(\mathbb{R}ho)}
+\alpha^{(t+1)}=\left(1-\frac{t}{\rho}\right) \alpha^{(0)}+\frac{t}{\rho} \alpha^{(\rho)}
 $$
 
-This function linearly scales the learning rate starting from $\alpha^{(0)}$ to $\alpha^{(\mathbb{R}ho)}$ when the iterations increase.
+This function linearly scales the learning rate starting from $\alpha^{(0)}$ to $\alpha^{(\rho)}$ when the iterations increase.
 
 ## Momentum
 
@@ -1034,18 +1034,18 @@ Let $n$ be the number of training examples and $d$ the number of parameters (dim
 
 Let also $\kappa$ and $\nu$ be two costants related to the *conditioning* of the problem.
 
-Let also $\mathbb{R}ho$ be the accuracy of the approximation with respect to the true value of the loss with the optimal minimizer:
+Let also $\rho$ be the accuracy of the approximation with respect to the true value of the loss with the optimal minimizer:
 
 $$
-|\underbrace{\ell\left(f_{\Theta}\right)}_{\text {GD/SGD }}-\underbrace{\ell\left(f^*\right)}_{\text {true }}|<\underbrace{\mathbb{R}ho}_{\text {accuracy }}
+|\underbrace{\ell\left(f_{\Theta}\right)}_{\text {GD/SGD }}-\underbrace{\ell\left(f^*\right)}_{\text {true }}|<\underbrace{\rho}_{\text {accuracy }}
 $$
 
 We can prove that the computational cost of the SGD and the GD is the following:
 
-|  | Cost per iteration | Iteration to reach $\mathbb{R}ho$ |
+|  | Cost per iteration | Iteration to reach $\rho$ |
 | --- | --- | --- |
-| GD | $O(nd)$ | $O(\kappa \log \frac{1}{\mathbb{R}ho})$ |
-| SGD | $O(d)$ | $\frac{\nu \kappa^2}{\mathbb{R}ho} + O(\frac{1}{\mathbb{R}ho})$ |
+| GD | $O(nd)$ | $O(\kappa \log \frac{1}{\rho})$ |
+| SGD | $O(d)$ | $\frac{\nu \kappa^2}{\rho} + O(\frac{1}{\rho})$ |
 
 From this table we can see that SGD is better than standard GD because of many reasons:
 
@@ -1634,7 +1634,7 @@ Regularization is a mechanism that reduces overfitting, and so improves generali
 ## Weight Penalties
 
 $$
-\underbrace{\ell(\Theta)}_\text{loss} + \lambda\underbrace{\mathbb{R}ho(\Theta)}_\text{regularizer}
+\underbrace{\ell(\Theta)}_\text{loss} + \lambda\underbrace{\rho(\Theta)}_\text{regularizer}
 $$
 
 The idea behind weight penalties is to add a regularizer, that is a function weighted by the factor $\lambda$, that increases the loss when the parameters don’t have certain properties.
@@ -1646,7 +1646,7 @@ $\lambda$ controls the trade-off between data fidelitity (that is the part of th
 In this case:
 
 $$
-\mathbb{R}ho(\Theta) = \|\Theta\|_2 = \sum\theta^2
+\rho(\Theta) = \|\Theta\|_2 = \sum\theta^2
 $$
 
 ![Each bin represent the amount of parameters having that particular value](Screenshot_2023-04-12_at_4.43.13_PM.png)
@@ -1664,7 +1664,7 @@ On the other hand, for values between $-1$ and $1$, the value squared will be sm
 In this case:
 
 $$
-\mathbb{R}ho(\Theta) = \|\Theta\|_1 = \sum|\theta|
+\rho(\Theta) = \|\Theta\|_1 = \sum|\theta|
 $$
 
 ![Screenshot 2023-04-12 at 4.46.13 PM.png](Screenshot_2023-04-12_at_4.46.13_PM.png)
@@ -2278,7 +2278,7 @@ In matrix notation, we want the $\mathbb{W}$ matrix to have all the elements tha
 Until now we were just considering the ordering of the tokens, but not their exact position. This can be very informative. Permutation equivariant in this case is not desired. In order to let the model consider this, we can use different approaches:
 
 - Position embedding: for each position, the model learns a vector embedding and it sums it to the token embedding.
-- Position encoding: passes the vector embedding to a mathematical formula that has some position information. Let $\mathbb{R}ho$ be the function, we transform each vector by applying $\mathbb{R}ho(\text{embedding})$. (The most used).
+- Position encoding: passes the vector embedding to a mathematical formula that has some position information. Let $\rho$ be the function, we transform each vector by applying $\rho(\text{embedding})$. (The most used).
 - Relative positions: we embed the position that a token has relative to another token instead than its absolute position (not so used).
 
 # Transformers
