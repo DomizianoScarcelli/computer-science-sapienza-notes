@@ -1,11 +1,7 @@
-# Old stuff
-
-[FDS 22 September](Old%20stuff%2054864f9de49c44118cfc542766e8bc98/FDS%2022%20September%20765c6813fcbf40d6a72e130bcde6fc5f.md)
-
-[FDS - 29 Sep 2022](Old%20stuff%2054864f9de49c44118cfc542766e8bc98/FDS%20-%2029%20Sep%202022%20fce05d1f0ca64f66a6ee96ee98147d86.md)
-
-# Support Vector Machines (NO NEED TO STUDY THIS)
-
+---
+Exam:
+  - Fundamentals of Data Science
+---
 Support Vector Machines are another classifier that allows to build a non linear decision boundary much like multinomial logistic regression, but without having to manually choose the variations of the features ($x^2, \sqrt{x}, x^2 \sqrt[3]{x}$ etc.).
 
 The main concepts behind how a SVM work are Optimal Margin Classifiers and Kernels.

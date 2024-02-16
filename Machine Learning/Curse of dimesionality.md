@@ -26,3 +26,18 @@ This is the curse of dimensionality, which is a phenomenon where as the dimensio
 To overcome this, it’s possible to represent the data with less dimension, using dimensionality reductions methods as PCA; or add more data. The first one being better than the second.
 
 Another important concept is orthogonality. This happens when the inner product between two vector is $0$. In a sparse space, it’s much more probable that two random points are orthogonal between each other than not, since if they’re not it means that they’re very close to each other.
+## Optimal dimensionality
+
+Even just discovering the intrinsic dimensionality is a challenge.
+
+>[!Note]
+Manifold learning is a field of machine learning that aims to solve this problem.
+
+This problem is so difficult that today the procedure usually is to fix one dimensionality and try to find the rest of the unknowns. If everything works well than it’s ok, otherwise we try again with another dimensionality.
+
+![Screenshot 2023-03-01 at 6.15.54 PM.png](Screenshot_2023-03-01_at_6.15.54_PM.png)
+
+This phenomenon describes how increasing the dimensionality of the data, the model performs better, until a certain peaking point. (Each line is a different model, that can be seen as a different $\sigma$).
+
+> [!Note]
+The double ascent phenomenon, seen for the first time just a couple of years ago, states that there will eventually exists another peak if the dimensions continue to increase, but this is very computationally expensive.

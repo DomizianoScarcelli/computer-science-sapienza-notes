@@ -4,35 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "c26fac476ad3159f",
+        "id": "10688e69125d1d15",
         "type": "tabs",
         "children": [
           {
-            "id": "3d1cac39dabed044",
+            "id": "cde4deff72a53fd7",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Embeddings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8e197cdbe56b9cb",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Need to be divided in multiple parts/Deep Learning.md",
                 "mode": "source",
                 "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "7f8f6cb58446db2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Backpropagation.md",
+                "mode": "source",
+                "source": false
               }
+            }
+          },
+          {
+            "id": "fedcb39d63c06579",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Need to be divided in multiple parts/Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Need to be divided in multiple parts/Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,17 +145,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Need to be divided in multiple parts/Deep Learning.md"
-              }
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,35 +166,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8e197cdbe56b9cb",
+  "active": "fedcb39d63c06579",
   "lastOpenFiles": [
-    "Machine Learning/Embeddings.md",
+    "Machine Learning/Backpropagation.md",
+    "WIP/Deep Learning.md",
+    "Machine Learning/Linear Regression.md",
+    "Machine Learning/Gradient.md",
+    "Machine Learning/Jensen’s inequality.md",
+    "Machine Learning/Non-Linear Models.md",
+    "Machine Learning/Polynomial Regression.md",
+    "Machine Learning/Overfitting and Underfitting.md",
+    "Machine Learning/The Stone-Weierstrass theorem.md",
+    "Machine Learning/Logistic Regression.md",
+    "Machine Learning/Gradient Descent.md",
     "Need to be divided in multiple parts/Deep Learning.md",
-    "Biometric Systems/Multibiometric systems.md",
-    "Machine Learning/Curse of dimesionality.md",
-    "Need to be divided in multiple parts/Human-Computer Interaction on the Web.md",
-    "index.md",
-    "Machine Learning/Data in Machine Learning.md",
-    "2024-02-16.md",
-    "Machine Learning/Prior Knowledge.md",
-    "Machine Learning/Activation Functions.md",
-    "Linear Algebra",
-    "Machine Learning/AdaBoost.md",
-    "Machine Learning/PCA - Principal Component Analysis.md",
-    "Machine Learning/LDA - Linear Discriminant Analysis.md",
-    "Machine Learning/Selective Search.md",
-    "Distributed Systems/Algorand.md",
+    "Machine Learning/Neural Network.md",
+    "Linear Algebra/Matrix.md",
     "Indexes/Index - Advanced Machine Learning.md",
-    "Machine Learning/Convolutional Neural Networks.md",
-    "Machine Learning/Embodied AI.md",
-    "Machine Learning/Distillation.md",
-    "Machine Learning/Graph Neural Networks.md",
-    "Machine Learning/Hyperbolic Deep Learning.md",
-    "Machine Learning/Meta-Learning.md",
-    "Machine Learning/Faster R-CNN.md",
-    "Machine Learning/MoCo V1 & V2.md",
-    "Machine Learning/Mask R-CNN.md",
-    "Machine Learning/Fast R-CNN.md",
+    "Indexes/Index - Blockchain and Distributed Ledger Technologies.md",
+    "Indexes/Index - Biometric Systems.md",
+    "Indexes/Index - Linear Algebra.md",
+    "Linear Algebra/Vector Space.md",
+    "Linear Algebra/Linear Maps.md",
+    "Machine Learning/Data in Machine Learning.md",
+    "Machine Learning/Curse of dimesionality.md",
+    "Machine Learning/Embeddings.md",
+    "Machine Learning/Support Vector Machines.md",
+    "WIP",
+    "Biometric Systems/Multibiometric systems.md",
+    "Need to be divided in multiple parts/Human-Computer Interaction on the Web.md",
+    "Linear Algebra",
     "Indexes",
     "Need to be divided in multiple parts",
     "assets/Schermata_2022-09-09_alle_13.06.36.png",
@@ -206,7 +214,6 @@
     "Q&A",
     "Other Concepts",
     "Machine Learning",
-    "Distributed Systems",
     "Untitled.canvas"
   ]
 }
