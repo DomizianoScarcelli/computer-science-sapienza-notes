@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "preview",
+                "file": "Machine Learning/Embeddings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8e197cdbe56b9cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Need to be divided in multiple parts/Deep Learning.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[Exam: Biometric Systems]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Need to be divided in multiple parts/Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Need to be divided in multiple parts/Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +128,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -125,16 +138,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Need to be divided in multiple parts/Deep Learning.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,10 +159,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d1cac39dabed044",
+  "active": "b8e197cdbe56b9cb",
   "lastOpenFiles": [
-    "Indexes/Index - Advanced Machine Learning.md",
+    "Machine Learning/Embeddings.md",
+    "Need to be divided in multiple parts/Deep Learning.md",
+    "Biometric Systems/Multibiometric systems.md",
+    "Machine Learning/Curse of dimesionality.md",
+    "Need to be divided in multiple parts/Human-Computer Interaction on the Web.md",
     "index.md",
+    "Machine Learning/Data in Machine Learning.md",
+    "2024-02-16.md",
+    "Machine Learning/Prior Knowledge.md",
+    "Machine Learning/Activation Functions.md",
+    "Linear Algebra",
+    "Machine Learning/AdaBoost.md",
+    "Machine Learning/PCA - Principal Component Analysis.md",
+    "Machine Learning/LDA - Linear Discriminant Analysis.md",
+    "Machine Learning/Selective Search.md",
+    "Distributed Systems/Algorand.md",
+    "Indexes/Index - Advanced Machine Learning.md",
     "Machine Learning/Convolutional Neural Networks.md",
     "Machine Learning/Embodied AI.md",
     "Machine Learning/Distillation.md",
@@ -160,20 +188,6 @@
     "Machine Learning/MoCo V1 & V2.md",
     "Machine Learning/Mask R-CNN.md",
     "Machine Learning/Fast R-CNN.md",
-    "Machine Learning/R-CNN.md",
-    "Machine Learning/Object Detection.md",
-    "Machine Learning/Regularization, Hyperparameter tuning and Transfer Learning.md",
-    "Machine Learning/Pose Forecasting.md",
-    "Machine Learning/Single Stage Object Detectors.md",
-    "Machine Learning/Contrastive Learning.md",
-    "Machine Learning/BYOL.md",
-    "Machine Learning/Self-Supervised Learning.md",
-    "Machine Learning/Semantic Segmentation.md",
-    "Machine Learning/SimSiam.md",
-    "Machine Learning/SimCLR.md",
-    "Machine Learning/Long Short Term Memory (LSTMs).md",
-    "Machine Learning/Examples of Sequence Modelling Problems.md",
-    "Machine Learning/Sequence Models.md",
     "Indexes",
     "Need to be divided in multiple parts",
     "assets/Schermata_2022-09-09_alle_13.06.36.png",
@@ -193,7 +207,6 @@
     "Other Concepts",
     "Machine Learning",
     "Distributed Systems",
-    "Biometric Systems",
     "Untitled.canvas"
   ]
 }

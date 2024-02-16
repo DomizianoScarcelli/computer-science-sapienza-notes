@@ -1,7 +1,8 @@
 ---
 Exam:
-    - Advanced Machine Learning
-    - Deep Learning
+  - Advanced Machine Learning
+  - Deep Learning
+  - Fundamentals of Data Science
 ---
 
 All activation function are used to introduce some non-linearity in the network, but depending on the network, some function are able to mitigate some other problems and make the learning process more stable.

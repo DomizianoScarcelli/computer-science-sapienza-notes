@@ -1,31 +1,5 @@
 >[!TODO]
 >This has to be divided in different pages
-# Data
-
-Machine learning means learning from the data, so that’s the most important part. The first thing that has to be done is to look at the data, since it can be structured or not.
-
-If we don’t look at the data, it may happen that we miss the underlying structure and so we don’t understand the results, or we can make some mistakes. 
-
-![Screenshot 2023-02-28 at 6.07.21 PM.png](Screenshot_2023-02-28_at_6.07.21_PM.png)
-
-In this example we can see that all the quadrants but $I$ has some structure, but the statistics are exactly the same for every dataset. This shouldn’t be the case since they have very different structures, so statistics alone cannot be trusted.
-
-Sometimes data cannot be visualized because of the highly dimentional space in which it’s defined, or because there isn’t a physical access to it.
-
-Learning means describing the process (or the model) that yields a given output from a given input.
-
-### Prior knowledge
-
-The prior knowledge is the knowledge that is known a priori, before the learning. This can make the data representation and the model construction easier.
-
-Some forms of prior knowledge is:
-
-- Data distribution
-- Energy function
-- Constraints (for example if the data is defined in a certain range)
-- Invariances
-- Input-output examples: this is called data prior. The data is a prior knowledge and sometimes is the only prior knowledge we have.
-
 ### Functions vs Parameter curve
 
 Data sometimes can be described as a function. For example a line can be described as $y = ax+b$. In the case of machine learning, the input and output $x$ and $y$ are known, and the unknown are the parameters (or weights) $a$ and $b$. This means that, given the $x$ and $y$, we want to find the $f$ that describes the data.
@@ -56,76 +30,6 @@ The weights in this case are $2$ for the function representation, and $4$ for th
 This is useful since sometimes data cannot be represented with a function of the coordinates. Sometimes both representation are possible, and we need to make trade-off between the number of weights and the simplicity of the representation.
 
 In a nutshell, building a machine learning model (or a neural networks) means choosing a certain function from an infinite number of functions and solve it for the parameters. Most of the times defining a function that describes the data can be challenging.
-
-<aside>
-💡 In the slide 02_data, from page 21 is possible to find how the first image of the black hole was constructed using machine learning techniques.
-
-</aside>
-
-### Reliability of the prior and fairness
-
-The data provided by human can be highly biased. For example the AI that’s responsible to assign a score to each resume that a certain popular company receives can be biased and assign scores that are not based on the actual potential of the person, but may be on the gender or the ethnicity. This means that the model is not *fair*.
-
-Sometimes is the observation that is biased. For example if a certain zone of the earth is monitored for crimes more than other, it can seem like in that area more crimes are commited, when in fact it’s just monitored more and so more crimes are detected, but it doesn’t mean that they happen more frequently. In this case, the data is not reliable. 
-
-### Curse of Dimensionality
-
-An image can be represented as a grid of pixels, as an histogram of pixel’s frequency etc. It can also be seen as a point in a $d$-dimensional space, where $d$ is the total number of pixels of the image.
-
-In this space, there are all the possible images with that numbers of pixels. In case of a $1$ megapixel image, the number of pixels (and so dimensions) is $1$ million.
-
-In this highly dimensional space, the number of images to cover all the space is $2^{1.000.000}$ that is a huge number.
-
-This is the curse of dimensionality, which is a phenomenon where as the dimensions increases, the number of datapoints to cover the space increases in a quadratic way. This makes the space sparse, meaning that the probability of two random points being close to each other is very very low. This is a problem since it makes machine learning models struggle to fit the data.
-
-To overcome this, it’s possible to represent the data with less dimension, using dimensionality reductions methods as PCA; or add more data. The first one being better than the second.
-
-Another important concept is orthogonality. This happens when the inner product between two vector is $0$. In a sparse space, it’s much more probable that two random points are orthogonal between each other than not, since if they’re not it means that they’re very close to each other.
-
-## Features
-
-We assume that each data point $x$ is the result of a process $\sigma$ that takes in input a set of features $F$ (feature space) and composes them to form the data point $x$.
-
-$$
-\sigma:F \to x
-$$
-
-Both $\sigma$ and $F$ are unknown.
-
-### Example of $\sigma$ for image representation
-
-![Screenshot 2023-03-01 at 6.38.46 PM.png](Screenshot_2023-03-01_at_6.38.46_PM.png)
-
-In this case the image is the data point, and each pixel $x$ is a feature. The $\sigma$ function just scales each pixel by a certain factor (all the pixels here have the same value) and then sums everything up to obtain the final image.
-
-The representation in this case is very inefficient, since the image has as many dimensions as pixels. Ideally we want the features to depend only on the semantic of the image, and not on the number of pixels.
-
-In this case $F$ is a vector space, and $\sigma$ is linear. Generally, the transformation $\sigma$ gets in input much less features and non-linearly transforms them in order to obtain the image.
-
-Features are *task-driven*, meaning that a certain representation may make sense only if it makes sense in that particular task.
-For example it’s useless to represent a certain card with the rank and the color if the rank it’s not important for the task.
-
-### Embeddings
-
-The output of $\sigma$  is called an embedding of the data point. In general, multiple embeddings are possible for each data point.
-
-**Example:**
-
-A sheet can be embedded as a 2D sheet, and so it will live in $\mathbb{R}^2$, but it may be represented with other 3D shapes, and will live in $\mathbb{R}^3$.
-
-![Screenshot 2023-03-01 at 6.05.07 PM.png](Screenshot_2023-03-01_at_6.05.07_PM.png)
-
-In this case three different embeddings are representing the same intrinsic object. In this particular case, it’s possible to prove that the intrisic object underneath the embedding is the same because it mantains some intrinsic properties, for example the distance between each pair of points. This property is called isometry.
-
-The challenge here is to discover which are the intrisic properties that are preserved, since those are the properties that characterize the data.
-
-Most of the time we have only access to the embedding, and not the intrinsic object (for example a photo of a dog can be an embedding, but the instrinsic idea of a dog is not so clear).
-
-### Latent Features
-
-Features are not always localized in space, nor evident in the embedding. These type of features are called latent features. 
-
-An exemple can be the directional illumination on a certain object, that can be expressed with only 4 parameters (3 for the coordinates and 1 for the intensity).
 
 ## Optimal dimensionality
 
