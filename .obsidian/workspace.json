@@ -11,12 +11,8 @@
             "id": "3d1cac39dabed044",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep Learning  and Applied AI/Deep Learning.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.5
+    "width": 265.5
   },
   "right": {
     "id": "044251a76a0f9b47",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning  and Applied AI/Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning  and Applied AI/Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Deep Learning  and Applied AI/Deep Learning.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,52 +140,52 @@
   },
   "active": "3d1cac39dabed044",
   "lastOpenFiles": [
-    "index.md",
-    "Deep Learning  and Applied AI/Deep Learning.md",
-    "2024-02-04.md",
+    "thoughts/Convolutional Neural Networks.md",
+    "thoughts/ROC, DET and AUC.md",
+    "thoughts/Smart Contracts.md",
+    "thoughts/Face Representations.md",
+    "thoughts/Embodied AI.md",
+    "thoughts/Spoofing in Face Recognition.md",
+    "thoughts/Face Recognizer.md",
+    "thoughts/MoCo V1 & V2.md",
+    "thoughts/Index - Biometric Systems.md",
+    "thoughts/Regularization, Hyperparameter tuning and Transfer Learning.md",
+    "thoughts/Evaluation between systems in Face Recognition.md",
+    "thoughts/The Blockchain Technology.md",
+    "thoughts/Equal Error Rate.md",
+    "thoughts/Semantic Segmentation.md",
+    "thoughts/EBGM - Elastic Bunch Graph Matching.md",
+    "thoughts/Pseudonimity.md",
+    "thoughts/Human-Computer Interaction on the Web.md",
+    "thoughts/Biometric traits requirements.md",
+    "thoughts/Faster R-CNN.md",
+    "thoughts/Reliability of an Identification System.md",
+    "thoughts/Person Search.md",
+    "thoughts/Transaction Model and UTXOs.md",
+    "thoughts/Selective Search.md",
+    "thoughts/False Acceptance Rate and False Rejection Rate.md",
+    "thoughts/Fundamentals of Data Science.md",
+    "thoughts/CAP Theorem.md",
+    "assets/Schermata_2022-09-09_alle_13.06.36.png",
+    "assets/Screenshot_2022-10-08_at_7.50.53_PM.png",
+    "assets/Screenshot_2024-01-11_at_9.01.11_PM.png",
+    "assets/Schermata 2022-09-09 alle 12.59.03.png",
+    "assets/Screenshot_2023-04-05_at_3.49.34_PM.png",
+    "assets/Screenshot_2023-03-22_at_5.09.39_PM.png",
+    "assets/Screenshot_2022-11-04_at_12.49.36_PM.png",
+    "assets/0-failures.png",
+    "assets/Screenshot_2023-04-12_at_5.01.07_PM.png",
+    "assets/photo1.png",
+    "netlify.toml",
+    "LICENSE",
+    "thoughts",
+    "Q&A",
+    "Other Concepts",
+    "Machine Learning",
+    "Distributed Systems",
+    "Biometric Systems",
+    "assets",
     "Untitled.canvas",
-    "Biometric Systems/Face Recognition/Possible spaces in which represent a face.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Old notes 92002c3d54764968974b9b94fbfe6414.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/10 May 2023 - GAN 6a67361654c74850a2865b62f3854921.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Rabbit Holes 8edc7e5e118e48dbb0d060e40ca1a3c3.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Emails 915b3f2ca48f435f8c39a2cb8e23fd08.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Notebooks notes 2a877c27ad7b4df2b9c531da85621fbc.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/19 Apr 2023 - Generative 887882d5c0b54f77a7aaf01e80bffe7f.md",
-    "Deep Learning  and Applied AI/images/Screenshot_2023-03-01_at_6.15.54_PM.png",
-    "Deep Learning  and Applied AI/images/Screenshot_2023-03-22_at_4.34.55_PM.png",
-    "Deep Learning  and Applied AI/images/no_padding_no_strides.gif",
-    "Deep Learning  and Applied AI/images/Screenshot_2023-05-12_at_1.32.59_PM.png",
-    "Deep Learning  and Applied AI/images/merged.png",
-    "Deep Learning  and Applied AI/images/10 May 2023 - GAN 6a67361654c74850a2865b62f3854921/Screenshot_2023-05-10_at_1.14.48_PM.png",
-    "Deep Learning  and Applied AI/images/10 May 2023 - GAN 6a67361654c74850a2865b62f3854921/Screenshot_2023-05-10_at_1.05.55_PM.png",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Notes before work tracker 0823cf452a0a4a62b54d4f40789dc713.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Markov Chain c02658761f1a4ab996c7c4d72f5026a6.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/How to create the graphical model e86f9ce0bdb84d3fbc6b10fedc538ae2.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Evaluation 4b174d1f920c4d68904159b4e9b48945.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Rabbit Holes 8edc7e5e118e48dbb0d060e40ca1a3c3/Why initializing MLP weights to a constant isn’t a 2416934a684447f2983cfd54340d10a9.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Rabbit Holes 8edc7e5e118e48dbb0d060e40ca1a3c3/How to compute the number of parameters ee05a1685c894420a68a42bba222d274.md",
-    "Human Computer Interaction on the Web/images/Screenshot_2023-06-27_at_4.47.03_PM.png",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Markov Chain c02658761f1a4ab996c7c4d72f5026a6/Screenshot_2023-09-29_at_2.29.40_AM.png",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Markov Chain c02658761f1a4ab996c7c4d72f5026a6/Screenshot_2023-09-29_at_2.00.46_AM.png",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled e40764ca4d774a778b0e29dd97be1167.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled d270113260974416a61b5ab76bc61cbd.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled c4b69cbe88bc4ca49054faac7e68ae1d.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 910311ecb9294d8b976dfd74672c6be8.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 8c87b3624a804227914dd6dc85d5f364.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 825541fe307241758046b2bc55067feb.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 7d077ea915d24295bc7d4383448d5c26.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 6684aef804ad45f7acad4af987154a88.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf/Untitled 500cf752e3e4406aa11b4f3d9f8516d8.md",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Markov Chain c02658761f1a4ab996c7c4d72f5026a6",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf_all.csv",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf.csv",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/DL Work Tracker cf775e07fc5b4ccf87eb6edc6d8991bf",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Rabbit Holes 8edc7e5e118e48dbb0d060e40ca1a3c3",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180",
-    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Old notes 92002c3d54764968974b9b94fbfe6414",
-    "Deep Learning  and Applied AI/images/10 May 2023 - GAN 6a67361654c74850a2865b62f3854921",
-    "Deep Learning  and Applied AI/images",
-    "Deep Learning  and Applied AI"
+    "Deep Learning  and Applied AI/Deep Learning c9538c140f834463a22501ef5a7ab515/Project 95a43b858fd147cfaebdef9b9c02c180/Markov Chain c02658761f1a4ab996c7c4d72f5026a6"
   ]
 }
