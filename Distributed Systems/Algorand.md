@@ -6,10 +6,10 @@ Exam:
 The most important problem with [[Proof of Work]] is the high environmental impact.
 
 On the other hand, the problem with the two types of Proof of Stake are:
-- Bonded [[proof of stake]]: validators bind their stake to show the commitment they have to the system, misbehaviours are punished with slashes.
+- Bonded [[Proof of Stake]]: validators bind their stake to show the commitment they have to the system, misbehaviours are punished with slashes.
 	- The participants cannot use the stake
 	- The initial stake is very high, creating an economic barrier for entrance
-- Delegated [[proof of stake]]: users delegate the validation of new blocks to a fixed committee, through weighted voting based on their stakes.
+- Delegated [[Proof of Stake]]: users delegate the validation of new blocks to a fixed committee, through weighted voting based on their stakes.
 	- The committee is known, and so exposed to DDoS attacks. Because the committee is a small group of nodes, there is centralization of governance.
 
 # Pure Proof of Stake
