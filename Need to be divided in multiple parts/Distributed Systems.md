@@ -1,34 +1,3 @@
-
-## Space-Time Diagram
-
-During the processes, events occur, and we model these events with the space-time diagram.
-
-![Untitled](assets/Untitled.png)
-
-## Some terminology: History, Run, Local State, Global state, and Cut
-
-- History of a certain process $P_1$: $h_1 = e_1^1 e_1^2 e_1^3...$ the sequence of events that occur inside that process;
-- Run or computation is a sequence of events $R = e_1^1 e_2^2 e_2^3 e_1^3$.
-A run can be **legal** or **consistent** if it can actually be run in the system, **illegal** or **not consistent** otherwise;
-- **Local state** $\sigma_i^k$ is the state of the process $i$ after the execution of the first $k$ events. (first $k$ events are $h^k = e_h^1…e_h^k$);
-- **Global state**: the execution of the first $n$ local states ($\sigma_1^k, \sigma_2^k, …, \sigma_n^k$). A global state is consistent if $e \rightarrow e' \land e \in S \Rightarrow e' \in S$;
-- **Cut**: a subset of the history of the computation (subset of $h_1^{k_1}, h_2^{k_2}, …, h_n^{k_n}$);
-
-We say that an event “happened before” with the notation $→$ (this operator is transitive)
-
-- $e_i^l → e_i^k$ if $l<k$ ($i$ is the same so we’re in the same process)
-- $e_i → e_j$ if $e_1$ is sending the message $m$ and $e_j$ is receiving the same message $m$
-
-**Consistent cut**: a cut $C$ is consistent if and only if: $e→e’ \land e’ \in C ⇒ e\in C$. If a cut is consistent, a consistent run surely exists. 
-
-### Some questions
-
-**Question**: Does $e_1^1$ happen before $e_2^1$? It cannot be said, because the question has no meaning. The order depends on the run. 
-
-**Question**: Does $e_1^1$ happen before $e_1^2$? Yes, since these two events happen in the same process, so there is an order. That’s because $e_1^1$ can influence the following events.
-
-**Question**: Does $e_1^3$ happen before $e_2^2$? Yes because since $e_1^3$ sends a message to $e_2^2$, the second process depends on the first one and since it has to happen after.  
-
 ## Deadlock
 
 Every time I ask for information I have to wait some time for a response. A deadlock is a situation where some devices are in a waiting loop because they’re waiting for each other.

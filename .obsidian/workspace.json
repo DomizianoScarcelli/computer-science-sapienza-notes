@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "10688e69125d1d15",
+        "id": "ec8ebedcdf2d3018",
         "type": "tabs",
         "children": [
           {
-            "id": "4ee3d4d2249de16a",
+            "id": "6c9743bd995c075a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Need to be divided in multiple parts/Distributed Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bca654f5b5dbd6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distributed System.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a14ab539fc09bc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Sequence Models.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7ede14d995f6947",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Convolutional Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e50263d947936312",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Transformers.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "044251a76a0f9b47",
@@ -135,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributed System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributed System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Distributed System.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -196,19 +138,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bca654f5b5dbd6f",
+  "active": "6c9743bd995c075a",
   "lastOpenFiles": [
+    "Indexes/Index - Deep Learning.md",
+    "Indexes/Index - Distributed Systems.md",
+    "Indexes/Index - Blockchain and Distributed Ledger Technologies.md",
+    "Indexes/Index - Biometric Systems.md",
+    "Indexes/Index - Linear Algebra.md",
+    "Machine Learning/Convolutional Neural Networks.md",
     "Machine Learning/Sequence Models.md",
-    "Distributed System.md",
     "Need to be divided in multiple parts/Distributed Systems.md",
+    "Distributed Systems/Space-Time Diagram.md",
+    "Distributed Systems/Terminology - History, Run, Local State, Global state, and Cut.md",
+    "WIP/Adversarial Attacks on GANs.md",
+    "Distributed Systems/Distributed System.md",
     "WIP/Manifold Hypothesis.md",
     "WIP/Generative Adversarial Networks.md",
-    "WIP/Adversarial Attacks on GANs.md",
-    "Indexes/Index - Deep Learning.md",
     "Machine Learning/Deep Learning.md",
     "Need to be divided in multiple parts/Deep Learning.md",
     "Machine Learning/Transformers.md",
-    "Machine Learning/Convolutional Neural Networks.md",
     "Machine Learning/Geometric Deep Learning.md",
     "Machine Learning/Overfitting and Underfitting.md",
     "Machine Learning/Early Stopping.md",
@@ -218,12 +166,6 @@
     "Machine Learning/Kullback-Leibler divergence.md",
     "Machine Learning/Generative Models.md",
     "Machine Learning/Dropout.md",
-    "Machine Learning/Autoencoders.md",
-    "Machine Learning/Hyperparameter tuning and Transfer Learning.md",
-    "Machine Learning/Regularization.md",
-    "Machine Learning/Meta-Learning.md",
-    "index.md",
-    "Machine Learning/SimSiam.md",
     "WIP",
     "Linear Algebra",
     "Indexes",
