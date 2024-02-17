@@ -7,7 +7,7 @@ Hi, I'm [Domiziano](https://domiziano.netlify.app) and welcome to my notes for t
 - [[Index - Advanced Machine Learning]]
 - [[Index - Blockchain and Distributed Ledger Technologies]]
 - [[Index - Biometric Systems]]
-- [[Need to be divided in multiple parts/Deep Learning]]
+- [[Index - Deep Learning]]
 - [[Distributed Systems]]
 - [[Fundamentals of Data Science]]
 - [[Human-Computer Interaction on the Web]] (only in Italian 🇮🇹)

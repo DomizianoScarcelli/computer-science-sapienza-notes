@@ -142,3 +142,191 @@ The process is done by performing the same operations as the Convnet, but in rev
 ![Screenshot 2023-12-05 at 12.33.45 PM.png](Screenshot_2023-12-05_at_12.33.45_PM.png)
 
 In this image we can see how the learned filters at the 4th layer actually recognize higher level objects in the input image. The features will be at an higher level the deeper the layer in the network (beacuse of the higher receptive field).
+# Deep Learning Course Definition
+>[!TODO]
+>This has to be merged with the above content
+# Convolutional Neural Networks
+
+What makes Convolutional Neural Networks (CNN) interesting is the fact that they exploit data priors in order to obtain great results with much less parameters than MLP.
+
+# Priors
+
+Since deep neural networks can be very complex, have a huge number of parameters and so can be difficult to optimize, we need additional priors as a partial remedy. 
+
+For each piece of data that we want to learn, we assume that it has a structure underneath that has to be learned.
+
+Images that are completely random don’t have a structure, and so there is nothing to learn. In real world examples images always have some structure, so this can be considered as a prior: structure in terms of repeating patterns, compositionality, locality and more.
+
+<aside>
+💡 For example, if we want to solve a small-piece jigsaw puzzle, where an image is tassellated and each piece is in a random position, we can just rearrange the pieces in order for them to be close to the ones that have the lower jump in color. By doing this, we will obtain the original image.
+
+![Result.png](Result.png)
+
+</aside>
+
+This of course is valid not only for images, but for every type of data.
+
+## Self-Similarity
+
+![Screenshot 2023-04-05 at 3.19.49 PM.png](Screenshot_2023-04-05_at_3.19.49_PM.png)
+
+Data tends to be self-similar across the domain. For example in the image above, we can see that patches of pixels, even if they semantically represent different things, are very similar between each other.
+
+This is also true at different scales, meaning that the phenomenon will appear even if we consider larger or smaller patches of pixels.
+
+### An example: PatchMatch
+
+![three.png](three.png)
+
+Here we can see an example on applied self similarity. The purpose of the algorithm is to remove the eagle from the image. It works by letting an user drawing a mask that represent the region where the eagle is, and then replacing each region of the mask with the patch (taken from within the image) that is the most similar to the borders of the mask.
+# Convolution
+
+Given two functions $f, g:[-\pi, \pi] \to \mathbb{R}$, their convolution is defined as:
+
+$$
+\underbrace{(f \star g)(x)}_\text{feature map} = \int_{-\pi}^\pi f(t)\underbrace{g(x-t)}_\text{filter}dt
+$$
+
+![Screenshot 2023-04-05 at 3.49.34 PM.png](Screenshot_2023-04-05_at_3.49.34_PM.png)
+
+>[!Note]
+The convolutional filter $g$ is also called convolutional kernel in the calculus terminology.
+
+We can image this operation as taking the function $g$, flipping it to obtain $g(-t)$, and then adding $x$ for each possible $x$, that is equal to sliding the function over the function $f$, and taking the element-wise product between the two.
+
+<aside>
+💡 We have $\pi$ in this definition because in case of $f$ and $g$ are signals, we assume that they have a period of $\pi$, but this only in the definition.
+
+</aside>
+
+### Commutativity
+
+Note that convolution is symmetric, meaning that the convolution operator is commutative, so the order of the function doesn’t change the final result.
+
+$$
+(f \star g)(x)=\int_{-\pi}^\pi f(t) g(x-t) d t \stackrel{z:=x-t}{=} \int_{-\pi}^\pi f(x-z) g(z) d z=(g \star f)(x)
+$$
+### Linearity
+
+We can see convolution as the application of a linear operator $\mathcal{G}$, and so we can define it as:
+
+$$
+\mathcal{G} f(x)=(f \star g)(x)=\int_{-\pi}^\pi f(t) \underbrace{g(x-t)}_{\text {filter }} d t
+$$
+
+It’s easy to show that $\mathcal{G}$ is linear:
+
+- **Homogeneity**:
+
+$$
+\mathcal{G}(\alpha f(x))=\alpha \int_{-\pi}^\pi f(t) g(x-t) d t=\alpha \mathcal{G} f(x)
+$$
+
+- **Additivity**:
+
+$$
+\begin{align*}
+\mathcal{G}(f+h)(x)= \\ \int_{-\pi}^\pi f(t) g(x-t) d t+\int_{-\pi}^\pi h(t) g(x-t) d t \\=\mathcal{G} f(x)+\mathcal{G} h(x)
+\end{align*}
+$$
+
+And translation-equivariance can be phrased as:
+
+$$
+\mathcal{G}(\mathcal{T}f) = \mathcal{T}(\mathcal{G} f)
+$$
+
+# Discrete Convolution
+
+Since we have to implement the convolution operation, we need to change the setting from continuous to discrete. We define the convolution as:
+
+$$
+(\mathbf{f} \star \mathbf{g})[n]=\sum_{k=-\infty}^{\infty} \mathbf{f}[k] \mathbf{g}[n-k]
+$$
+
+Where $\mathbb{f}$ and $\mathbb{g}$ are two vectors, and $\mathbb{g}$ is the kernel.
+
+## 2D Discrete Convolution
+
+On 2D domains, for example in the case we are working with RGB images, for each channel the convolution is defined as:
+
+$$
+(\mathbf{f} \star \mathbf{g})[m, n]=\sum_k \sum_{\ell} \mathbf{f}[k, \ell] \mathbf{g}[m-k, n-\ell]
+$$
+
+We can interpret the convolution as a window (kernel) that slides on each discrete point of the image, and computes the summation as a result.
+
+In matrix notation:
+
+Let:
+
+- $\mathbb{F}$  be the input matrix of size $M \times N$.
+- $\mathbb{G}$  be the kernel (filter) matrix of size $*K \times L*$.
+- $\mathbb{H}$  be the output (convolved) matrix of size $(M−K+1)\times(N−L+1)$.
+
+## Padding and stride
+
+### No padding (no strides)
+
+![no_padding_no_strides.gif](no_padding_no_strides.gif)
+
+In case the image is not padded, meaning no values are added on the border, the convolutional kernel is directly applied on the image, and so the result will be smaller, since the kernel can’t go out of the borders of the image.
+
+### Full zero-padding (no strides)
+
+![full_padding_no_strides.gif](full_padding_no_strides.gif)
+
+In this case the image is padded with zeros in order to compute each single summation, meaning the kernel center point overlaps on each point of the image. This inevitably produces a larger image.
+
+### Arbitrary zero-padding with stride
+
+![padding_strides.gif](padding_strides.gif)
+
+In this case we have just a single “layer” of zero-padding, but we also have a stride of 2, meaning that each time the kernel is moved, we skip one pixel.
+# CNN vs MLP
+
+Introducing CNNs, we are replacing the large matrices inside of MLPs with small local filters, that are the convolutional filters.
+
+Since we are solving by the numbers inside the convolutional filters, meaning they are the weight that will change according to the loss function, we have much less parameters compared to the MLP.
+
+<aside>
+💡 Because of the fact that the filters change according to the loss function, if the problem is of classifying images that contains eyes to the one that don’t, the filters will probably be very similar to eyes.
+
+This is due also because of the fact that the convolution between the patch and the image is the same as taking the inner product, so if the two matrices are aligned (pointing in the same direction in the space they’re represented, meaning they’re very similar) the inner product will be higher; if they are orthogonal it will be 0; and if they are aligned but with opposite direction, the inner product will be very negative.
+
+So when the kernel, that’s similar to an eye, is convolved on a patch that contains an eye, it will have an high value, and that indicates that that feature is present.
+
+</aside>
+
+Furthermore, the weights of the convolutional kernels are shared, meaning that they’re present only in the filter, and they’re the same when the filter is convolved with different patches of the image.
+
+The number of parameters also doesn’t depend on the input size, differently from an MLP, since the first linear map has to be the size of the input.
+
+![MLP fully connected layer](Screenshot_2023-04-05_at_4.32.00_PM.png)
+
+MLP fully connected layer
+
+In a MLP fully connected layer, we have that each input dimension contributes to each output dimension, and so each ouput dimension has a contribute to each input dimensions. Each edge is a different weight, which represent the matrix that we apply at a certain level.
+
+![Convolutional layer](Screenshot_2023-04-05_at_4.33.18_PM.png)
+
+Convolutional layer
+
+In a convolutional layer there are less weights. In this case the kernel size is $3 \times 3$, and so each input dimension contributes only to $3$ output dimension. The weight are shared, meaning that the three arrow that exits from each dimension are always the same.
+
+So in this case we have 25 parameters for the MLP and only 3 for the CNN.
+# Pooling
+
+Since deeper we go into the network, more higher level are the features (meaning they’re closer to the final output), it means that there is some scaling process in the middle.
+
+The scaling process is the pooling operator, which takes non-overlapping patches of the image, and produces another smaller image.
+
+Max pooling for example takes only the max for each patch. This is sensible to noise, since if there is a peak, only the peak will be considered.
+
+Another type of pooling is the average pooling, that returns the average value of the patch.
+
+![Screenshot 2023-04-05 at 4.37.50 PM.png](Screenshot_2023-04-05_at_4.37.50_PM.png)
+
+Pooling allows to capture higher and higher features deeper in the network.
+
+![Screenshot 2023-04-05 at 4.38.24 PM.png](Screenshot_2023-04-05_at_4.38.24_PM.png)

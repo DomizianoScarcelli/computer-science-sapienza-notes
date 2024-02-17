@@ -68,3 +68,66 @@ The most similar face will have the $\text{Proj}(x')$ and calculate the distance
 ### PCA problems
 
 The main problem of PCA is that it very sensitive to intra-class variations. Meaning that if there are multiple faces of the same subject in the gallery, maybe in different poses (PIE variations), it will be less precise, meaning it may be not able to recognize the same invidivual under different conditions, and lead to false rejections.  
+
+# Deep Learning Course Definition
+> [!TODO]
+> This has to be merged with the content above
+# PCA - Principal Component Analysis
+
+As we already know, PCA is a dimensionality reduction technique that aims to represent the data points with the first $k$ principal components, where principal components are ordered by the amount of variance they describe.
+
+In matrix notation we represent the $n$ $d$-dimensional data points with the matrix $\mathbb{X}$, the $d$ $k$-dimensional principal components with the matrix $\mathbb{W}$, and the new $n$ $k$-dimensional points, that are the projection of the original points onto the principal components, with the matrix $\mathbb{Z}$.
+
+$$
+\overbrace{\underbrace{\left(\begin{array}{ccc}
+- & \mathbf{x}_1^{\top} & - \\ &
+\vdots & \\
+- & \mathbf{x}_n^{\top} & -
+\end{array}\right)}_{n \times d}}^\mathbb{X}
+
+\overbrace{\underbrace{\left(\begin{array}{ccc}
+| & & \mid \\
+\mathbf{w}_1 & \cdots & \mathbf{w}_k \\
+| & & \mid
+\end{array}\right)}_{d \times k}}^{\mathbb{W}}
+
+=
+
+\overbrace{\underbrace{\left(\begin{array}{ccc}
+- & \mathbf{z}_1^{\top} & - \\ &
+\vdots \\
+- & \mathbf{z}_n^{\top} & -
+\end{array}\right)}_{n \times k}}^{\mathbb{Z}}
+$$
+
+Assuming $\mathbb{W}^T\mathbb{W} = \mathbb{I}$, for $k < d$ we have:
+
+- **Projection**: we generate the $\mathbb{Z}$ matrix by projecting the data points onto the principal components.
+
+$$
+\underbrace{\mathbb{X}^T\mathbb{W}}_\text{projection} = \mathbb{Z}^T
+$$
+
+- **Reconstruction**: starting from the reduced representations $\mathbb{Z}$, we want to obtain the original data points $\mathbb{X}$. Of course we won’t exactly get the same $\mathbb{X}$ since we have lost some information.
+    
+    $$
+    \mathbb{X} \approx \underbrace{\mathbb{W}\mathbb{Z}}_\text{reconstruction}
+    $$
+    
+
+PCA finds the principal components (rows of $\mathbb{W}$) by maximising the sum of orthogonal projections of the data points, that is the same as maximising the variance.
+
+> [!Note]
+Note that this is fundamentally different from how logistic regression finds the line of best fit, and that the two like won’t be the same most of the time.
+>
+> With linear regression we measure the error along the $y$ coordinate, with PCA we measure the error orthogonal to the principal direction.
+>
+![LR vs PCA.png](LR_vs_PCA.png)
+
+## PCA as a generative model
+
+We can use PCA as a generative model by sampling a $\mathbb{z_{\text{new}} \in \mathbb{R}^k}$ (for example we can take the average of two $\mathbb{z_1},\mathbb{z_2} \in \mathbb{R}^k$) and using reconstruction in order to obtain the $\mathbb{x_{\text{new}}}$ associated.
+
+![Screenshot 2023-04-19 at 4.43.19 PM.png](Screenshot_2023-04-19_at_4.43.19_PM.png)
+
+PCA alone is completely linear, since both the projection and reconstruction operations are linear, so in order to generalize this idea and generate more accurate or complex representations, we will replace the projection and reconstruction operations with two (highly non-linear) neural networks.
