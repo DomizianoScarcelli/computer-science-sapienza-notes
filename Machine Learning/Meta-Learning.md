@@ -2,7 +2,7 @@
 Exam:
   - Advanced Machine Learning
 ---
-Meta-Learning is the branch of machine learning that focuses to learn how a model learns. It studies one-shot learning, few-shot learning, [[Regularization, Hyperparameter tuning and Transfer Learning|transfer learning]] etc.
+Meta-Learning is the branch of machine learning that focuses to learn how a model learns. It studies one-shot learning, few-shot learning, [[Hyperparameter tuning and Transfer Learning|transfer learning]] etc.
 
 Few-shot learning, meaning learning something with very few data, is done using prior knowledge (just like human do).
 

@@ -1,6 +1,7 @@
 ---
 Exam:
   - Advanced Machine Learning
+  - Deep Learning
 ---
 The *Vanilla* neural networks that we’ve seen until now work on static data. They can be classified as one-to-one models, since given that piece of static data they output another single piece of static data, such as an image (in the case of generative networks) a string or a number (in the case of classification or regression).
 

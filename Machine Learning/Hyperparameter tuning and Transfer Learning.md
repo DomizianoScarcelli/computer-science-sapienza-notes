@@ -19,29 +19,6 @@ The weight initialization in deep networks is a major part during training. If t
 
 A good initialization is the Xavier initialization.
 
-## Regularization
-
-Regularization is a set of techniques with the aim of reducing overfitting.
-
-### Penalty Term
-
-A common regularization technique is to add a penalty term to the loss in order to promote the network to keep the weights small.
-
-The most famous penalty terms are:
-
-- L2 (Weight Decay)
-- L1
-- Elastic net: weighted average between L1 and L2.
-
-### Dropout
-
-Dropout tried to reduce co-adaptation by zeroing-out a random subset of neurons. A neuron is deactivated with probability $p$. Doing this is equivalent to training an ensamble of models that share the same parameters. Each set of chosen subset of neurons can be interpreted as a different model.
-
-At test time the dropping is simulated by leaving all the neurons on, but multiply each of their output by the value $p$. If we don't want to touch the weights at test time, we can divide the train weights by $p$ instead of multiplying the test weights by the same number.  This is actually the recommended implementation of dropout.
-
-### Batch Normalization
-> [!TODO]
-> This part is still work in progress, in the meantime you can see another definition here [Batch Normalization](https://www.notion.so/Batch-Normalization-140cbe9f55c54169b98085258a6fbf14?pvs=21) 
 ### Data Augmentation
 
 Data Augmentation is the operation of producing new training images by applying random transformations. This allows the network to have more data to train with, and can introduce some properties, like rotation and translation invariance in the case of CNNs.

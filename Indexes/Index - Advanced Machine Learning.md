@@ -7,7 +7,9 @@
 # Table of Contents
 - [[Convolutional Neural Networks|Convolutional Neural Networks]]
 - [[Activation Functions]]
-- [[Regularization, Hyperparameter tuning and Transfer Learning]]
+- [[Regularization]]
+	- [[Dropout]]
+- [[Hyperparameter tuning and Transfer Learning]]
 - [[Sequence Models]]
 	- [[Temporal Convolutional Networks (TCN)]]
 	- [[Recurrent Neural Networks (RNN)]]

@@ -8,17 +8,51 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cde4deff72a53fd7",
+            "id": "4ee3d4d2249de16a",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Need to be divided in multiple parts/Deep Learning.md",
+                "file": "Indexes/Index - Deep Learning.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
+            }
+          },
+          {
+            "id": "2a14ab539fc09bc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Sequence Models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7ede14d995f6947",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Convolutional Neural Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e50263d947936312",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Transformers.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -50,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[Exam: Biometric Systems]",
+                "query": "cnn vs mlp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Need to be divided in multiple parts/Deep Learning.md",
+                "file": "Indexes/Index - Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Need to be divided in multiple parts/Deep Learning.md",
+                "file": "Indexes/Index - Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,17 +161,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Need to be divided in multiple parts/Deep Learning.md"
+                "file": "Indexes/Index - Deep Learning.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,34 +181,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cde4deff72a53fd7",
+  "active": "4ee3d4d2249de16a",
   "lastOpenFiles": [
-    "index.md",
+    "Machine Learning/Deep Learning.md",
     "Indexes/Index - Deep Learning.md",
     "Need to be divided in multiple parts/Deep Learning.md",
-    "Machine Learning/Invariances and Equivariances.md",
-    "WIP/Autoencoders.md",
-    "Machine Learning/PCA - Principal Component Analysis.md",
-    "WIP/Manifold Hypothesis.md",
-    "Machine Learning/Batch Normalization.md",
+    "Machine Learning/Transformers.md",
+    "Machine Learning/Sequence Models.md",
+    "WIP/Adversarial Attacks on GANs.md",
     "Machine Learning/Convolutional Neural Networks.md",
-    "Machine Learning/Deep ReLU Networks.md",
-    "Machine Learning/Multi Layer Perceptron.md",
-    "WIP/Deep Learning.md",
-    "Machine Learning/Classification.md",
-    "Machine Learning/Activation Functions.md",
-    "Linear Algebra/Vector Lengths and Distances.md",
-    "Machine Learning/Backpropagation.md",
-    "Machine Learning/Linear Regression.md",
-    "Machine Learning/Gradient.md",
-    "Machine Learning/Jensen’s inequality.md",
-    "Machine Learning/Non-Linear Models.md",
-    "Machine Learning/Polynomial Regression.md",
+    "WIP/Generative Adversarial Networks.md",
+    "Machine Learning/Geometric Deep Learning.md",
     "Machine Learning/Overfitting and Underfitting.md",
-    "Machine Learning/The Stone-Weierstrass theorem.md",
-    "Machine Learning/Logistic Regression.md",
-    "Machine Learning/Gradient Descent.md",
-    "Machine Learning/Neural Network.md",
+    "WIP/Manifold Hypothesis.md",
+    "Machine Learning/Early Stopping.md",
+    "Machine Learning/Double Descent.md",
+    "Indexes/Index - Advanced Machine Learning.md",
+    "Machine Learning/Entropy.md",
+    "Machine Learning/Kullback-Leibler divergence.md",
+    "Machine Learning/Generative Models.md",
+    "Machine Learning/Dropout.md",
+    "Machine Learning/Autoencoders.md",
+    "Machine Learning/Hyperparameter tuning and Transfer Learning.md",
+    "Machine Learning/Regularization.md",
+    "Machine Learning/Meta-Learning.md",
+    "index.md",
+    "Machine Learning/SimSiam.md",
+    "Machine Learning/MoCo V1 & V2.md",
+    "Distributed Systems/Algorand.md",
     "WIP",
     "Linear Algebra",
     "Indexes",

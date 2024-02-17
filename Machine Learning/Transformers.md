@@ -1,6 +1,7 @@
 ---
 Exam:
   - Advanced Machine Learning
+  - Deep Learning
 ---
 ### Useful Resources
 - [Attention Is All You Need - Paper Explained](https://www.youtube.com/watch?v=XowwKOAWYoQ)

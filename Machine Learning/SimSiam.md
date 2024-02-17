@@ -2,7 +2,7 @@
 Exam:
   - Advanced Machine Learning
 ---
-SimSiam is a modification of the BYOL architecture, where they replace the momentum projector and the momentum encoder with the same projector and encoder from the left branch, but add a stop gradient technique (you don’t back propagate on the right branch).
+SimSiam is a modification of the [[BYOL]] architecture, where they replace the momentum projector and the momentum encoder with the same projector and encoder from the left branch, but add a stop gradient technique (you don’t back propagate on the right branch).
 
 ![Screenshot 2024-01-13 at 3.16.16 PM.png](Screenshot_2024-01-13_at_3.16.16_PM.png)
 
