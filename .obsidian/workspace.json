@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indexes/Index - Deep Learning.md",
+                "file": "Need to be divided in multiple parts/Distributed Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bca654f5b5dbd6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distributed System.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 265.5,
+    "collapsed": true
   },
   "right": {
     "id": "044251a76a0f9b47",
@@ -121,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indexes/Index - Deep Learning.md",
+                "file": "Distributed System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indexes/Index - Deep Learning.md",
+                "file": "Distributed System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indexes/Index - Deep Learning.md"
+                "file": "Distributed System.md"
               }
             }
           }
@@ -169,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,19 +196,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ee3d4d2249de16a",
+  "active": "0bca654f5b5dbd6f",
   "lastOpenFiles": [
-    "Machine Learning/Deep Learning.md",
+    "Machine Learning/Sequence Models.md",
+    "Distributed System.md",
+    "Need to be divided in multiple parts/Distributed Systems.md",
+    "WIP/Manifold Hypothesis.md",
+    "WIP/Generative Adversarial Networks.md",
+    "WIP/Adversarial Attacks on GANs.md",
     "Indexes/Index - Deep Learning.md",
+    "Machine Learning/Deep Learning.md",
     "Need to be divided in multiple parts/Deep Learning.md",
     "Machine Learning/Transformers.md",
-    "Machine Learning/Sequence Models.md",
-    "WIP/Adversarial Attacks on GANs.md",
     "Machine Learning/Convolutional Neural Networks.md",
-    "WIP/Generative Adversarial Networks.md",
     "Machine Learning/Geometric Deep Learning.md",
     "Machine Learning/Overfitting and Underfitting.md",
-    "WIP/Manifold Hypothesis.md",
     "Machine Learning/Early Stopping.md",
     "Machine Learning/Double Descent.md",
     "Indexes/Index - Advanced Machine Learning.md",
@@ -207,8 +224,6 @@
     "Machine Learning/Meta-Learning.md",
     "index.md",
     "Machine Learning/SimSiam.md",
-    "Machine Learning/MoCo V1 & V2.md",
-    "Distributed Systems/Algorand.md",
     "WIP",
     "Linear Algebra",
     "Indexes",
