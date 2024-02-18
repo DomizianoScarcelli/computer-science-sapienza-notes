@@ -133,3 +133,111 @@ In Algorand, a smart contract can have three different type of storages:
 - **Local Storage**: it’s allocated when an account opts in to an app (it does that by sending a transaction), and can include up to 16 key-value pairs. It can be read by any app/account call that has the app ID in its foreign apps/accounts array. Any app can write on it, but it can be deleted only by the owner. Deleting the app doesn't affect the local storage, they have to explicitly clear the app to recover the minimum balance.
 - **Global Storage**: it can include up to 64 key-value pairs. Can be read by any app call that has the specified app’s ID in its foreign apps array, but can be written only by the app itself. It’s deleted when the app is deleted, and cannot be deallocated in any other way.
 - **Box Storage**: an app can allocate as many boxes as it needs. This is dynamically allocated. A box can be of any size, from 0 to 32K bytes. Only the app that creates the box can read and write on it. Each app can delete its own boxes, but if the app id deleted, the boxes are not affected, and they remain on the blockchain forever.
+
+# Distributed Systems Definition
+>[!TODO]
+>This has to be merged with the above
+# Algorand
+If you want a more in-detail description, check out [[Algorand|Blockchain and Distributed Ledger Technologies - Algorand]]
+
+---
+Algorand is a cryptocurrency that was founded to solve the “blockchain trilemma”, that claims that any blockchain can have at most two out of the three desirable properties: decentralization, scalability and security.
+
+Most blockchain based on proof of stake use delegated proof of stake. This is a variation of the pure PoS in which only a certain subset of validators can decide a new block, and each node in the network delegates its power to the validator. This technique is faster than the classic PoS, but decreases the decentralization of the system.
+
+Algorand uses pure proof of stake. The nodes in the network communicate using the gossip protocol.
+
+In order to solve the problem of pure PoS being slow, Algorand uses relay nodes.
+
+A relay node is a very fast computer with a very fast network hosted in some trust entity. The purpose of those relay nodes is to forward the information to all the other nodes in the neighborhood. The relays are distributed in a logical way all around the globe.
+
+Algorand uses another optimization technique, introducing the archival nodes. All the nodes only stores a part of the blockchain (e.g. 1000 blocks). Only the archival nodes store the whole blockchain. They can be either relays or participant, and they're logically geographical distributed too.
+
+For reasons regarding decentralization and security, not all nodes can partecipate to the consensus protocol.
+
+For example relays shouldn’t partecipate to the consensus protocol since they are much more powerful than all the other nodes.
+
+Archival nodes also shouldn’t partecipate to the consensus protocol. 
+
+| Relay? | Archivial? | Partecipates? | Comment |
+| --- | --- | --- | --- |
+| Relay | Archivial | Partecipation | It’s not secure. |
+| Relay | Archivial | Non patecipant | It’s the normal configuration for a relay |
+| Relay | Non archivial | * | Impossible |
+| Non relay | Archivial | parecipation | It’s discouraged, since nodes that partecipate to the consensus shouln’t be archivial |
+| Non relay | Archivial | Non parecipant | Normal configuration for an archivial node |
+| Non relay | Non archivial  | Partecipant | Normal configuration for a partecipant node |
+| Non relay | Non archivial  | Non partecipant | Normal configuration for a node that is used to submit transaction to the blockchain and access the current state, but not the historical state. |
+
+Algorand needs $2 \over 3$ of the majority, instead of the $\frac{1}{2}$ used by Bitcoin.
+
+## Consensus protocol
+
+Algorand uses a decentralized Byzantine Agreement protocol, in which it’s possible to achieve consensus without a central authority and malicious users are tolerated as long as the supermajority ($2 \over 3$) of the stake is non-malicious.
+
+Algorand’s consensus protocol is divided in three phases:
+
+1. Sortition (or block proposal)
+2. Vote casting (or soft vote)
+3. Agreement (or certify vote)
+
+Before going deeper into the three phases, it’s important to define what’s a verifiable random function VRF.
+
+### VRF - Verifiable Random Function
+
+Since the nodes have to be chosen at random, it should be impossible in advance to know who are the members of the committee. The nodes also must have the possibility to randomly choose themselves.
+
+A verifiable random function is a function that takes in input the secret key $sk$ of the node, the random seed, the role from which to choose a node (Proposers or Committee) and outputs a pseudo-random Hash and a proof.
+
+$$
+VRF_{sk}(\text{seed}|\text{role}) = (\text{hash}, \text{proof})
+$$
+
+The proof is used to verify that the generated hash is truly random. We can do this by applying another function:
+
+$$
+\text{Verify}VRF_{pk}(\text{hash}, \text{proof}, \text{seed}) = \text{true|false}
+$$
+
+where $pk$ is the public key.
+
+### Sortition
+
+We need to form a set of proposers, committee and observers. 
+
+Each ALGO has a set of $\langle sk, pk \rangle$ keys, and every node runs the function of every ALGO it owns. As result, we’ll have the same numbers of $\langle \text{hash}, \text{proof}\rangle$.
+
+The algorithms then divides the domain in an $[0,1]$ interval by dividing every hash by $2^{\text{hash}}$. 
+
+Given a threshold value $t \in [0,1]$, a node is member of the group only if it’s hash is lower than $t$. This procedure is done for every role, and in the interval there are only the hashes of the same role.
+
+The threshold $t$ is set in order to have the right number of proposers and committee (in the case of committee the number is around 1000).
+
+This is done since Algorand uses PBFT, and this protocol cannot be execute with a large number of nodes.
+
+### Vote casting
+The purpose of this phase is to filter the number of votes that go around the network, in order to prevent an eccessive flooding.
+
+Every node can have more than one ALGOs, so it can be multiple proposers at the same time. We want the node to cast only the vote, that will be the one with the highest priority.
+
+In order to determine the vote’s priority, we compute the hash of the result of the $VRF$, concatenated with the algo index, for every algo.
+
+$$
+H(VRF|ALGO_{\text{index}}) = \text{hash}
+$$
+
+The node will broadcast only the hash with the highest numeric value.
+
+When a node receives an hash from another node, it sorts the hashes it has received, and only broadcasts the hash with the highest value.
+
+If a node gets partially disconnected because some errors, and doesn’t receive any vote for the other nodes. After a certain timeout It broacasts an Empty value.
+
+### Agreement
+
+In this phase, the proposer have to agree on the same proposed value, or on the empty value.
+
+The consensus on the next block is then chosen with PBFT between the nodes. (?) and once the block is decided by the committee, the information is broadcasted to the rest of the network.
+
+From Algorand Website:
+
+> A new committee checks the block proposal that was voted on in the soft vote stage for overspending, double-spending, or any other problems. If valid, the new committee votes again to certify the block. This is done in a similar manner as the soft vote where each node iterates through its managed accounts to select a committee and to send votes. These votes are collected and validated by each node until a quorum is reached, triggering an end to the round and prompting the node to create a certificate for the block and write it to the ledger. At that point, a new round is initiated and the process starts over.

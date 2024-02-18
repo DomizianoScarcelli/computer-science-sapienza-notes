@@ -43,3 +43,27 @@ Choosing the longer branch as the primary branch is not always a good idea, sinc
 A good idea is to choose the chain that has the highest cumulative work, meaning the highest number of expected hashing attempts needed to find a valid nonce for that block. This value is computed as following:
 
 $$ \frac{2 ^{256}}{\text{target} + 1} $$
+
+
+# Distributed System Course Definition
+>[!TODO]
+>This has to be merged with the above
+### Proof of Work
+
+There is a property that tells us that a valid block have an hash $H$ with the $k$ least significant bits set to zero.
+
+Every new proposed block has to be valid.
+
+Every block has also a Nonce, that’s a value that has some arbitrary value that makes the hash satisfy the property. The only way to find this value is by brute-forcing all the values, so it’s a computational hard operation. 
+
+A node that tries to compute this value in order to try to add a new block into the blockchain is called a miner (the process is called mining).
+
+The number $k$ of lest significant bits that have to be set to zero is changed every few weeks in order that a new value is found every 10 minutes by one of the nodes in the system.
+
+When a node find a valid block, it can propose it to all other nodes in the network, and since the only way to discover a nonce that make the block valid is through work, this is called Proof of Work.
+
+Let’s assume that $k=32$, in I have to do $2^{32}$ tries. The typical server has to do $2^{32} \sim \text{4 billion}$ hashes in order to make the block valid, and send it to other servers.
+
+All the transactions that are made in between the computations are inserted into a pool, and inserted in the block whenever is possible.
+
+Only the most powerful and luckiest computers in the network can extend the blockchain with a new block. Every time a node insert a new block, it gets a reward of about 6.25 BTC.

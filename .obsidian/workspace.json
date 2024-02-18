@@ -10,12 +10,31 @@
           {
             "id": "6c9743bd995c075a",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Distributed Systems/Deadlock.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0d67efcfb02f2542",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Indexes/Index - Distributed Systems.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cnn vs mlp",
+                "query": "availability",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Indexes/Index - Distributed Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Indexes/Index - Distributed Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Indexes/Index - Distributed Systems.md"
+              }
             }
           }
         ]
@@ -138,34 +161,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c9743bd995c075a",
+  "active": "0d67efcfb02f2542",
   "lastOpenFiles": [
-    "Indexes/Index - Deep Learning.md",
-    "Indexes/Index - Distributed Systems.md",
-    "Indexes/Index - Blockchain and Distributed Ledger Technologies.md",
-    "Indexes/Index - Biometric Systems.md",
-    "Indexes/Index - Linear Algebra.md",
-    "Machine Learning/Convolutional Neural Networks.md",
-    "Machine Learning/Sequence Models.md",
+    "Distributed Systems/Deadlock.md",
     "Need to be divided in multiple parts/Distributed Systems.md",
-    "Distributed Systems/Space-Time Diagram.md",
-    "Distributed Systems/Terminology - History, Run, Local State, Global state, and Cut.md",
+    "Distributed Systems/Lower Bounds in Consensus.md",
+    "Distributed Systems/GPDR.md",
+    "Distributed Systems/Pump and Dump.md",
+    "WIP/Byzantine Faults.md",
+    "Indexes/Index - Distributed Systems.md",
+    "Distributed Systems/CAP Theorem.md",
+    "Distributed Systems/Akamai.md",
+    "Distributed Systems/Peer to Peer.md",
+    "Distributed Systems/Failure Detector.md",
+    "Distributed Systems/TOR - The Onion Router.md",
+    "Distributed Systems/Diffie Hellman protocol.md",
+    "Distributed Systems/Dark Web.md",
+    "Distributed Systems/The Blockchain Technology.md",
+    "Distributed Systems/Algorand.md",
+    "Distributed Systems/Proof of Stake.md",
+    "Distributed Systems/Anonymity on the Internet.md",
     "WIP/Adversarial Attacks on GANs.md",
-    "Distributed Systems/Distributed System.md",
-    "WIP/Manifold Hypothesis.md",
-    "WIP/Generative Adversarial Networks.md",
-    "Machine Learning/Deep Learning.md",
-    "Need to be divided in multiple parts/Deep Learning.md",
-    "Machine Learning/Transformers.md",
-    "Machine Learning/Geometric Deep Learning.md",
-    "Machine Learning/Overfitting and Underfitting.md",
-    "Machine Learning/Early Stopping.md",
-    "Machine Learning/Double Descent.md",
-    "Indexes/Index - Advanced Machine Learning.md",
-    "Machine Learning/Entropy.md",
-    "Machine Learning/Kullback-Leibler divergence.md",
-    "Machine Learning/Generative Models.md",
-    "Machine Learning/Dropout.md",
+    "Distributed Systems/Fork (in Blockchain).md",
+    "Distributed Systems/Proof of Work.md",
+    "Distributed Systems/Bitcoin.md",
+    "Distributed Systems/Hash Function.md",
+    "Distributed Systems/Hashing on the Blockchain.md",
+    "Distributed Systems/Public Key Cryptography.md",
+    "Distributed Systems/Paxos.md",
     "WIP",
     "Linear Algebra",
     "Indexes",

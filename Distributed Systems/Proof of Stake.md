@@ -22,3 +22,18 @@ Those rules are:
 These are some basic rules, there are more and they can vary over time.
 
 The condition of slashing can only be verified if another node reports the misbehaving node. Because of this, a special reward is given to those kind of nodes, which are called whistleblowers, and to the proposers who include the whistleblowing message in the block.
+
+# Distributed Course Definition 
+>[!TODO]
+>This has to be merged with the above
+### Proof of Stake
+
+The problem of Proof of Work is that it takes long to commit a transaction.
+
+On average a new block is inserted every 10 minutes, but you don’t ever know when your transaction will be inserted in the new block. You need to wait at least 60 minutes to be sure that you're not on a dead branch (you should have 6 blocks more in the blockchain after the transaction), but the transaction coul be inserted in the pool everytime a new block is proposed.
+
+Proof of Stake solves this problem and the problem of forking. This becase the new block don’t need to have the hash property that the miners brute-forced to obtain, but the server that can push a new block is chosen probabilistically from all the servers that have some quantity of coin in their wallet.
+
+In a more detailed way, every coin is like a lottery ticket, and more coins a server has, more probability of being chosen. 
+
+Proof of stake requires less energy and transactions are committed faster.

@@ -2,7 +2,7 @@
 Exam:
   - Blockchain and Distributed Ledger Technologies
 ---
-Bitcoin uses SHA2-256 as a hashing function, while Ethereum uses Keccak-256. The more bits in the digest, the stronger the hashing function, and the less the probability of a collision.
+Bitcoin uses SHA2-256 as [[Hash Function]], while Ethereum uses Keccak-256. The more bits in the digest, the stronger the hashing function, and the less the probability of a collision.
 ### Merkle Trees
 Just like indexes in databases, which allows you to find an item in a constant time instead of having to linearly search it, a Merkle Tree allows you to find a transaction in a constant time. This is useful for light nodes ([[Light Nodes vs Full Nodes]]) which don't want to search over all the transactions.
 
@@ -26,40 +26,3 @@ I force use a single transaction to produce more hashes in order to be able to b
 In Ethereum they use Patricia Merkle Radix Trees to produce the header. What differs from the simple Merkle Tree is the fact that this other approach allows also to search for transaction data in an efficient way. Patricia trees aren’t balanced.
 
 Patricia and Merkle trees are used for Verification.
-
-## Properties of Hashing functions
-
-In order for a function $h$ to be a valid hashing function, it must have some properties:
-
-- _Preimage resistance_: given an hash $k$, it should be difficult to find any message $m$ such that $k = h(m)$;
-- _Second-preimage resistance_ (or weak collision resistance): given an input $m_1$, it should be difficult to find another input $m_2 \neq m_1$ such that $h(m_1) = h(m_2)$
-- (Strong) _Collision resistance_: It should be difficult to find a tuple of messages $m_1$ and $m_2$ such that $m_2 \neq m_1$ and $h(m_1) = h(m_2)$. The pair $(m_1, m_2)$ is called a cryptographic hash collision.
-
-## SHA-1 Operations and Functions
-
-SHA-1 is a didactic example which algorithm is based on bitwise operations in order to mix the bits of the original message.
-
-The used operations are:
-
-- Bitwise AND
-- Bitwsie OR
-- Bitwise XOR
-- Bitwise Complement
-- Addition modulo $2^w$
-- Left and right shift operation
-- Rotate left operation
-
-ASICs optimize those operations, that’ why they are very fast at mining.
-
-The SHA-1 functions are:
-![[Screenshot 2024-01-21 at 12.26.47 PM.png]]
-
-The SHA-1 constants are four and they are 230 times the square roots of 2, 3, 5 and 10. These constants are used in order to avoid the reverse engineering of the algorithm (nothing up my sleeve).
-
-We use padding in order for the length of the message to be a multiple of 512 bits.
-
-The message are parsed into $N$ blocks each one of 512 bits. Each block is parsed into 16 32-bits words.
-
-The full algorithm is summarized in the following image.
-
-![[Screenshot 2024-01-21 at 12.39.09 PM.png]]

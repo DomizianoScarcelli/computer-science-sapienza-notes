@@ -7,7 +7,9 @@ The blockchain is a platform which is based on a distributed ledger, a strictly 
 
 The [[Hashing on the Blockchain|hash]] inside of the block header can be seen as a fingerprint of the whole blockchain up to that node.
 
-The blockchain platform is different from the blockchain protocol. Examples of the latter are Bitcoin and Ethereum.
+The blockchain platform is different from the blockchain protocol. Examples of the latter are [[Bitcoin]] and [[Ethereum]].
+
+In order to decide which block will be added as the next block in the ledger, mechanisms such as [[Proof of Work]] and [[Proof of Stake]] are used.
 
 Each transaction in the ledger has a unique id.
 
