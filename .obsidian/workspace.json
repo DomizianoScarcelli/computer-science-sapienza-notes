@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ec8ebedcdf2d3018",
+        "id": "2b5c5f615d2a089a",
         "type": "tabs",
         "children": [
           {
-            "id": "6c9743bd995c075a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Distributed Systems/Deadlock.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "0d67efcfb02f2542",
+            "id": "68d7d1df0119f57d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indexes/Index - Distributed Systems.md",
+                "file": "Machine Learning/Convolutional Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "availability",
+                "query": "12.33",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 200
   },
   "right": {
     "id": "044251a76a0f9b47",
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indexes/Index - Distributed Systems.md",
+                "file": "Machine Learning/Convolutional Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indexes/Index - Distributed Systems.md",
+                "file": "Machine Learning/Convolutional Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indexes/Index - Distributed Systems.md"
+                "file": "Machine Learning/Convolutional Neural Networks.md"
               }
             }
           }
@@ -161,15 +147,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d67efcfb02f2542",
+  "active": "68d7d1df0119f57d",
   "lastOpenFiles": [
+    "assets/Screenshot_2023-12-05_at_12.33.45_PM.jpeg",
+    "Need to be divided in multiple parts/Fundamentals of Data Science.md",
+    "assets/Screenshot_2023-03-22_at_5.36.59_PM.png",
+    "assets/Screenshot_2022-12-27_at_4.58.33_PM.png",
+    "Biometric Systems/Multibiometric systems.md",
+    "assets/Screenshot_2024-01-09_at_2.50.04_PM.png",
+    "Untitled.md",
+    "Games Theory/Energy Games.md",
+    "Untitled.canvas",
+    "WIP/Manifold Hypothesis.md",
+    "Games Theory",
+    "WIP/Generative Adversarial Networks.md",
+    "WIP/Adversarial Attacks on GANs.md",
+    "Indexes/Index - Distributed Systems.md",
     "Distributed Systems/Deadlock.md",
+    "Indexes/Index - Deep Learning.md",
     "Need to be divided in multiple parts/Distributed Systems.md",
     "Distributed Systems/Lower Bounds in Consensus.md",
     "Distributed Systems/GPDR.md",
     "Distributed Systems/Pump and Dump.md",
     "WIP/Byzantine Faults.md",
-    "Indexes/Index - Distributed Systems.md",
     "Distributed Systems/CAP Theorem.md",
     "Distributed Systems/Akamai.md",
     "Distributed Systems/Peer to Peer.md",
@@ -180,15 +180,6 @@
     "Distributed Systems/The Blockchain Technology.md",
     "Distributed Systems/Algorand.md",
     "Distributed Systems/Proof of Stake.md",
-    "Distributed Systems/Anonymity on the Internet.md",
-    "WIP/Adversarial Attacks on GANs.md",
-    "Distributed Systems/Fork (in Blockchain).md",
-    "Distributed Systems/Proof of Work.md",
-    "Distributed Systems/Bitcoin.md",
-    "Distributed Systems/Hash Function.md",
-    "Distributed Systems/Hashing on the Blockchain.md",
-    "Distributed Systems/Public Key Cryptography.md",
-    "Distributed Systems/Paxos.md",
     "WIP",
     "Linear Algebra",
     "Indexes",
@@ -200,15 +191,10 @@
     "assets/Screenshot_2023-04-05_at_3.49.34_PM.png",
     "assets/Screenshot_2023-03-22_at_5.09.39_PM.png",
     "assets/Screenshot_2022-11-04_at_12.49.36_PM.png",
-    "assets/0-failures.png",
-    "assets/Screenshot_2023-04-12_at_5.01.07_PM.png",
-    "assets/photo1.png",
     "netlify.toml",
     "LICENSE",
     "thoughts",
     "Q&A",
-    "Other Concepts",
-    "Machine Learning",
-    "Untitled.canvas"
+    "Other Concepts"
   ]
 }

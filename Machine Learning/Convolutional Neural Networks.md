@@ -139,7 +139,7 @@ Regarding ConvNets, Zeiler et al. proposed a method to map activations at higher
 
 The process is done by performing the same operations as the Convnet, but in reverse (unpool feature maps and deconvolve unpooled maps). The convnet reverse is called a Deconvnet.
 
-![Screenshot 2023-12-05 at 12.33.45 PM.png](Screenshot_2023-12-05_at_12.33.45_PM.png)
+![Screenshot 2023-12-05 at 12.33.45 PM.png](Screenshot_2023-12-05_at_12.33.45_PM.jpeg)
 
 In this image we can see how the learned filters at the 4th layer actually recognize higher level objects in the input image. The features will be at an higher level the deeper the layer in the network (beacuse of the higher receptive field).
 # Deep Learning Course Definition
@@ -155,16 +155,12 @@ Since deep neural networks can be very complex, have a huge number of parameters
 
 For each piece of data that we want to learn, we assume that it has a structure underneath that has to be learned.
 
-Images that are completely random don’t have a structure, and so there is nothing to learn. In real world examples images always have some structure, so this can be considered as a prior: structure in terms of repeating patterns, compositionality, locality and more.
+Images that are completely random do!n’t have a structure, and so there is nothing to learn. In real world examples images always have some structure, so this can be considered as a prior: structure in terms of repeating patterns, compositionality, locality and more.
 
-<aside>
-💡 For example, if we want to solve a small-piece jigsaw puzzle, where an image is tassellated and each piece is in a random position, we can just rearrange the pieces in order for them to be close to the ones that have the lower jump in color. By doing this, we will obtain the original image.
-
-![Result.png](Result.png)
-
-</aside>
-
-This of course is valid not only for images, but for every type of data.
+> [!Note]
+For example, if we want to solve a small-piece jigsaw puzzle, where an image is tassellated and each piece is in a random position, we can just rearrange the pieces in order for them to be close to the ones that have the lower jump in color. By doing this, we will obtain the original image.
+> ![[Result.jpeg]]
+> This of course is valid not only for images, but for every type of data.
 
 ## Self-Similarity
 
