@@ -11,7 +11,7 @@ However, for deep nets this comes at a high computational cost.
 
 The main idea behind dropout is to randomly drop some units in each layer (dropping means to set their value to $0$) and see if the result is better.
 
-![Screenshot 2023-04-16 at 1.54.24 PM.png](Screenshot_2023-04-16_at_1.54.24_PM.png)
+![Screenshot 2023-04-16 at 1.54.24 PM.png](Screenshot_2023-04-16_at_1.54.24_PM.jpeg)
 
 Note that this can be seen like an ensemble, because each time dropout is applied, we have a kind of different network, but the crucial part is that the weights are shared.
 
@@ -29,7 +29,7 @@ This works because if a node has probability of staying very low, then it was al
 
 On the other hand, if $p$ is near the maximum value $1$, the node contribution will be considered more, since it should be more important.
 
-![Screenshot 2023-04-16 at 2.02.54 PM.png](Screenshot_2023-04-16_at_2.02.54_PM.png)
+![Screenshot 2023-04-16 at 2.02.54 PM.png](Screenshot_2023-04-16_at_2.02.54_PM.jpeg)
 
 Note that $p$ is different at each layer.
 
@@ -48,7 +48,7 @@ Some properties of dropout as a regularizer:
 
 In conclusion, dropout is a simple and efficient way to improve the result of a neural network and reduce the overfitting.
 
-![Screenshot 2023-04-16 at 2.11.17 PM.png](Screenshot_2023-04-16_at_2.11.17_PM.png)
+![Screenshot 2023-04-16 at 2.11.17 PM.png](Screenshot_2023-04-16_at_2.11.17_PM.jpeg)
 
 ### Monte Carlo Dropout
 >[!TODO]

@@ -93,7 +93,7 @@ I dispositivi nell’IoT si basano su una serie di principi, uno dei quali è l�
 
 [Interusability: IoT User Experience Beyond The Level Of A Single Device | SpinDance](https://spindance.com/2018/09/07/interusability-iot-user-experience-beyond-level-single-device/)
 
-![Screenshot 2023-06-27 at 4.47.03 PM.png](Screenshot_2023-06-27_at_4.47.03_PM.png)
+![Screenshot 2023-06-27 at 4.47.03 PM.png](Screenshot_2023-06-27_at_4.47.03_PM.jpeg)
 
 Questo è lo stack di progettazione per dispositivi IoT, analizziamo le singole componenti:
 

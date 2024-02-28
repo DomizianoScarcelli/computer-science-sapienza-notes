@@ -8,7 +8,7 @@ If there are multiple regions that overlap the same object, during the detection
 
 R-CNN modelled in this way is faster than previous approaches, but it’s still pretty slow, since we have to do 2000 (if $K = 2000$) independent forward passes for each image. The network is still not re-using the features that are shared between regions.
 
-![Screenshot 2024-01-30 at 2.28.54 PM.png](Screenshot_2024-01-30_at_2.28.54_PM.png)
+![Screenshot 2024-01-30 at 2.28.54 PM.png](Screenshot_2024-01-30_at_2.28.54_PM.jpeg)
 
 Note that since the CNN wants images of fixed size, and the region proposal are of different sizes, the regions will be warped before input into the CNN.
 

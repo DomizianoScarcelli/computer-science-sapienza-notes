@@ -14,7 +14,7 @@ We achieve this by first meta-training the model to learn the algorithm $A$, and
 
 During the meta-training there are some episodes of train and test, where the model is shown some images in the training phase, and some other images in the testing phase, which are the images that it should recognize.
 
-![Screenshot 2024-01-29 at 7.06.29 PM.png](Screenshot_2024-01-29_at_7.06.29_PM.png)
+![Screenshot 2024-01-29 at 7.06.29 PM.png](Screenshot_2024-01-29_at_7.06.29_PM.jpeg)
 
 The same process is done in the meta-testing phase, where again there is a train and test phase inside, in order to test the learned algorithm $A$.
 

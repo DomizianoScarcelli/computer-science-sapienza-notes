@@ -15,7 +15,7 @@ $$
 \sigma(x) = \frac{1}{1 + e^{-x}}
 $$
 
-![Screenshot 2023-12-05 at 1.11.30 PM.png](Screenshot_2023-12-05_at_1.11.30_PM.png)
+![Screenshot 2023-12-05 at 1.11.30 PM.png](Screenshot_2023-12-05_at_1.11.30_PM.jpeg)
 
 The function squashes the input $x$ into a range of $[0,1]$.
 
@@ -36,7 +36,7 @@ The sigmoid has $3$ problems:
 
 Tanh is similar to the sigmoid and it resolves the two problems apart from vanishing gradients.
 
-![Screenshot 2023-12-05 at 1.18.28 PM.png](Screenshot_2023-12-05_at_1.18.28_PM.png)
+![Screenshot 2023-12-05 at 1.18.28 PM.png](Screenshot_2023-12-05_at_1.18.28_PM.jpeg)
 
 ### ReLU (and its variants)
 

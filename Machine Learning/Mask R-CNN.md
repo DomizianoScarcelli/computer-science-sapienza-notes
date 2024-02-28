@@ -6,7 +6,7 @@ Mask R-CNN is a [[Faster R-CNN]] with the addition of a Mask prediction in order
 
 Since we have $C$ classes, we actually predict $C$ masks, one for each class, at each step.
 
-![Screenshot 2024-01-09 at 2.16.00 PM.png](Screenshot_2024-01-09_at_2.16.00_PM.png)
+![Screenshot 2024-01-09 at 2.16.00 PM.png](Screenshot_2024-01-09_at_2.16.00_PM.jpeg)
 
 Mask R-CNN works very well at instance segmentation. Cluttered scenes, small objects and occluded are still problematic for most of the detectors.
 

@@ -14,7 +14,7 @@ Both $\sigma$ and $F$ are unknown.
 
 ### Example of $\sigma$ for image representation
 
-![Screenshot 2023-03-01 at 6.38.46 PM.png](Screenshot_2023-03-01_at_6.38.46_PM.png)
+![Screenshot 2023-03-01 at 6.38.46 PM.png](Screenshot_2023-03-01_at_6.38.46_PM.jpeg)
 
 In this case the image is the data point, and each pixel $x$ is a feature. The $\sigma$ function just scales each pixel by a certain factor (all the pixels here have the same value) and then sums everything up to obtain the final image.
 
@@ -33,7 +33,7 @@ The output of $\sigma$  is called an embedding of the data point. In general, mu
 
 A sheet can be embedded as a 2D sheet, and so it will live in $\mathbb{R}^2$, but it may be represented with other 3D shapes, and will live in $\mathbb{R}^3$.
 
-![Screenshot 2023-03-01 at 6.05.07 PM.png](Screenshot_2023-03-01_at_6.05.07_PM.png)
+![Screenshot 2023-03-01 at 6.05.07 PM.png](Screenshot_2023-03-01_at_6.05.07_PM.jpeg)
 
 In this case three different embeddings are representing the same intrinsic object. In this particular case, it’s possible to prove that the intrisic object underneath the embedding is the same because it mantains some intrinsic properties, for example the distance between each pair of points. This property is called isometry.
 

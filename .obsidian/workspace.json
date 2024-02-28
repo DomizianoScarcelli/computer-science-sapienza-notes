@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Convolutional Neural Networks.md",
+                "file": "Need to be divided in multiple parts/Fundamentals of Data Science.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "12.33",
+                "query": ".png",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Convolutional Neural Networks.md",
+                "file": "Need to be divided in multiple parts/Fundamentals of Data Science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Convolutional Neural Networks.md",
+                "file": "Need to be divided in multiple parts/Fundamentals of Data Science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Convolutional Neural Networks.md"
+                "file": "Need to be divided in multiple parts/Fundamentals of Data Science.md"
               }
             }
           }
@@ -149,12 +148,19 @@
   },
   "active": "68d7d1df0119f57d",
   "lastOpenFiles": [
-    "assets/Screenshot_2023-12-05_at_12.33.45_PM.jpeg",
+    "Machine Learning/Convolutional Neural Networks.md",
+    "assets/Untitled.jpeg",
+    "assets/Untitled-2023-12-08-1233_(6).jpeg",
+    "assets/Untitled-2023-12-08-1233_(5).jpeg",
+    "assets/Untitled 10.jpeg",
+    "assets/Untitled 9.jpeg",
+    "assets/Untitled 8.jpeg",
+    "assets/Untitled 7.jpeg",
+    "assets/Untitled 6.jpeg",
+    "assets/Untitled 5.jpeg",
+    "assets/Untitled 4.jpeg",
     "Need to be divided in multiple parts/Fundamentals of Data Science.md",
-    "assets/Screenshot_2023-03-22_at_5.36.59_PM.png",
-    "assets/Screenshot_2022-12-27_at_4.58.33_PM.png",
     "Biometric Systems/Multibiometric systems.md",
-    "assets/Screenshot_2024-01-09_at_2.50.04_PM.png",
     "Untitled.md",
     "Games Theory/Energy Games.md",
     "Untitled.canvas",
@@ -184,13 +190,6 @@
     "Linear Algebra",
     "Indexes",
     "Need to be divided in multiple parts",
-    "assets/Schermata_2022-09-09_alle_13.06.36.png",
-    "assets/Screenshot_2022-10-08_at_7.50.53_PM.png",
-    "assets/Screenshot_2024-01-11_at_9.01.11_PM.png",
-    "assets/Schermata 2022-09-09 alle 12.59.03.png",
-    "assets/Screenshot_2023-04-05_at_3.49.34_PM.png",
-    "assets/Screenshot_2023-03-22_at_5.09.39_PM.png",
-    "assets/Screenshot_2022-11-04_at_12.49.36_PM.png",
     "netlify.toml",
     "LICENSE",
     "thoughts",

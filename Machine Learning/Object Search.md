@@ -6,7 +6,7 @@ Early approaches for object search was to use some global low-level features suc
 
 The main problem with object search is the different variations that an object can be subject to. Variations can be occlusion, different viewpoints and illumination and a different scale. All things that make the object less recognizable.
 
-![Screenshot 2024-01-13 at 10.33.07 AM.png](Screenshot_2024-01-13_at_10.33.07_AM.png)
+![Screenshot 2024-01-13 at 10.33.07 AM.png](Screenshot_2024-01-13_at_10.33.07_AM.jpeg)
 
 While global representation may be not suited for the problem, local representations have been state of the art for a long time before the advent of deep learning. The most famous local representation is the [[SIFT Descriptor]].
 ## Evaluating Object Search

@@ -27,7 +27,7 @@ $$
 f(x) = \log x + \sqrt{\log x}
 $$
 
-![Screenshot 2023-03-31 at 10.46.51 AM.png](Screenshot_2023-03-31_at_10.46.51_AM.png)
+![Screenshot 2023-03-31 at 10.46.51 AM.png](Screenshot_2023-03-31_at_10.46.51_AM.jpeg)
 
 If you would write a program that solves that equation, you will store intermediate results (for example $\log x$) into a variable ($y$ in the graph) in order to reuse it later. What’s a computational graph does is exactly the same things, keeping also track of what’s the variables that produced that specific result.
 
@@ -41,7 +41,7 @@ $$
 
 GIF animation of the computational graph
 
-![Final computational graph](Screenshot_2023-03-31_at_10.51.12_AM.png)
+![Final computational graph](Screenshot_2023-03-31_at_10.51.12_AM.jpeg)
 
 Final computational graph
 
@@ -66,7 +66,7 @@ We want to use the computational graph not only to evaluate $f(x)$, but also to 
 
 Let’s see how we can compute the $\frac{\partial f}{\partial x}$ by doing the forward-pass on the computational graph of the function $f(x) = \log x + \sqrt{\log x}$.
 
-![Screenshot 2023-03-31 at 10.46.51 AM.png](Screenshot_2023-03-31_at_10.46.51_AM.png)
+![Screenshot 2023-03-31 at 10.46.51 AM.png](Screenshot_2023-03-31_at_10.46.51_AM.jpeg)
 
 $$
 \begin{aligned}& \frac{\partial x}{\partial x}=1 \\& \frac{\partial y}{\partial x}=\frac{\partial y}{\partial x} \frac{\partial x}{\partial x}=\frac{\partial \log x}{\partial x} \frac{\partial x}{\partial x}=\frac{1}{x} \frac{\partial x}{\partial x} \\& \frac{\partial z}{\partial x}=\frac{\partial z}{\partial y} \frac{\partial y}{\partial x}=\frac{\partial \sqrt{y}}{\partial y} \frac{\partial y}{\partial x}=\frac{1}{2 \sqrt{y}} \frac{\partial y}{\partial x} \\& \frac{\partial f}{\partial x}=\frac{\partial f}{\partial y} \frac{\partial y}{\partial x}+\frac{\partial f}{\partial z} \frac{\partial z}{\partial x}=\frac{\partial(y+z)}{\partial y} \frac{\partial y}{\partial x}+\frac{\partial(y+z)}{\partial z} \frac{\partial z}{\partial x}=\frac{\partial y}{\partial x}+\frac{\partial z}{\partial x}\end{aligned}
@@ -89,7 +89,7 @@ The solution to compute the gradient of $f$ in an efficient way that doesn't dep
 
 Let’s again see how we can compute $\frac{\partial f}{\partial x}$ of the same function $f$, but this time traversing the graph in the reverse order:
 
-![Screenshot 2023-03-31 at 11.22.07 AM.png](Screenshot_2023-03-31_at_11.22.07_AM.png)
+![Screenshot 2023-03-31 at 11.22.07 AM.png](Screenshot_2023-03-31_at_11.22.07_AM.jpeg)
 
 $$
 \begin{aligned}& \frac{\partial f}{\partial f}=1 \\& \frac{\partial f}{\partial z}=\frac{\partial f}{\partial f} \frac{\partial f}{\partial z}=\frac{\partial f}{\partial f} \frac{\partial(y+z)}{\partial z}=\frac{\partial f}{\partial f} \\& \frac{\partial f}{\partial y}=\frac{\partial f}{\partial z} \frac{\partial z}{\partial y}+\frac{\partial f}{\partial f} \frac{\partial f}{\partial y}=\frac{\partial f}{\partial z} \frac{\partial \sqrt{y}}{\partial y}+\frac{\partial f}{\partial f} \frac{\partial(y+z)}{\partial y}=\frac{\partial f}{\partial z} \frac{1}{2 \sqrt{y}}+\frac{\partial f}{\partial f} \\& \frac{\partial f}{\partial x}=\frac{\partial f}{\partial y} \frac{\partial y}{\partial x}=\frac{\partial f}{\partial y} \frac{\partial \log x}{\partial x}=\frac{\partial f}{\partial y} \frac{1}{x}\end{aligned}

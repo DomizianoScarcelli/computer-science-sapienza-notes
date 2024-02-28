@@ -15,7 +15,7 @@ This is difficult to fix since because, even if there is some symmetry in the ce
 - **Yaw**: the rotation acround the $z$ axis.
 This cannot be alway corrected because an image with a large rotation over the $z$ axis means that we loose information about the face.
 
-![Orientation-of-the-head-in-terms-of-pitch-roll-and-yaw-movements-describing-the-three.png](Orientation-of-the-head-in-terms-of-pitch-roll-and-yaw-movements-describing-the-three.png)
+![Orientation-of-the-head-in-terms-of-pitch-roll-and-yaw-movements-describing-the-three.png](Orientation-of-the-head-in-terms-of-pitch-roll-and-yaw-movements-describing-the-three.jpeg)
 
 ### Score Pose
 

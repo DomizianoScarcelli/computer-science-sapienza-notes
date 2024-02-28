@@ -13,20 +13,20 @@ When a client connects to the server, maybe it’s an ATM and it has to decice i
 
 ### System synchronous and no failures
 
-![0-failures.png](0-failures.png)
+![0-failures.png](0-failures.jpeg)
 
 This is the simplest case, since all the nodes broadcast their decision to all the other nodes. Since there are no failures, all nodes know all the votes, and so they commit only if all the votes are yes, otherwise they abort. 
 
 ### System synchronous and 1 failure
 
-![1-failures.png](1-failures.png)
+![1-failures.png](1-failures.jpeg)
 
 > [!TODO]
 SEE AGAIN THIS PART: How can a single node know that an error has occurred?
 
 ### System synchronous and $n$ failures
 
-![n-failures.png](n-failures.png)
+![n-failures.png](n-failures.jpeg)
 
 ## 2-Phase Commit
 
@@ -45,7 +45,7 @@ The protocol works like this:
     - Otherwise, it sends an “abort” message to the participants.
 - When the participant receives the “commit” or “abort” message from the coordinator, they do the action.
 
-![Senza titolo-2022-10-11-1322.png](Senza_titolo-2022-10-11-1322.png)
+![Senza titolo-2022-10-11-1322.png](Senza_titolo-2022-10-11-1322.jpeg)
 
 The protocol has to be tolerant to failures. Let’s assume there could be a lost message or a process crash.
 

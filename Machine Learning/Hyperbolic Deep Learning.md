@@ -8,7 +8,7 @@ The problem with the euclidean space is that they are not suitable for represent
 
 We can observe what causes this by drawing a tree on a 2D plane, and a circle around the tree.
 
-![Screenshot 2024-01-17 at 6.36.04 PM.png](Screenshot_2024-01-17_at_6.36.04_PM.png)
+![Screenshot 2024-01-17 at 6.36.04 PM.png](Screenshot_2024-01-17_at_6.36.04_PM.jpeg)
 
 For example, in the provided drawing, the pink and green nodes have a small Euclidean distance, even though they come from two different subtrees.
 
@@ -22,7 +22,7 @@ $$
 
 Where $\operatorname{arcosh}$ is a function that grows exponentially.
 
-![Screenshot 2024-01-29 at 7.40.00 PM.png](Screenshot_2024-01-29_at_7.40.00_PM.png)
+![Screenshot 2024-01-29 at 7.40.00 PM.png](Screenshot_2024-01-29_at_7.40.00_PM.jpeg)
 
 By embedding points into the hyperbolic space we are able to better represent hierarchies with minimal distortion.
 
@@ -42,6 +42,6 @@ Hyperbolic is not a standard yet for many reasons:
 
 It’s possible to add an Exponential mapping, which maps the embeddings to the Poincaré ball, in order to transform an euclidean network into an hyperbolic network.
 
-![Screenshot 2024-01-29 at 7.45.59 PM.png](Screenshot_2024-01-29_at_7.45.59_PM.png)
+![Screenshot 2024-01-29 at 7.45.59 PM.png](Screenshot_2024-01-29_at_7.45.59_PM.jpeg)
 
 Also the loss will be based on hyperbolic distance, in order to be able to encode hierarchies or the uncertainty.

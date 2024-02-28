@@ -32,13 +32,13 @@ An iso-line (or level curve) is the line of the function projected into the plan
 
 This is useful since we can see the gradient as a vector field in a 2D surface.
 
-![The 2D function and some of its iso-lines](Screenshot_2023-03-22_at_4.15.39_PM.png)
+![The 2D function and some of its iso-lines](Screenshot_2023-03-22_at_4.15.39_PM.jpeg)
 
 The 2D function and some of its iso-lines
 
 We can zoom on the iso-lines in order to better inpect the negative gradient.
 
-![Screenshot 2023-03-22 at 4.15.54 PM.png](Screenshot_2023-03-22_at_4.15.54_PM.png)
+![Screenshot 2023-03-22 at 4.15.54 PM.png](Screenshot_2023-03-22_at_4.15.54_PM.jpeg)
 
 From this image we can see that the vector field is smooth, that’s because the function is smooth. Also we can notice that the arrows points towards a lower zone of the function, that’s because we are dealing with the negative gradient.
 
@@ -46,7 +46,7 @@ The gradient in each point has different direction and magniture.
 
 This representation is also valid for 3D functions, meaning $f: \mathbb{R}^3 \to \mathbb{R}$. In this case the projection of the function will be a surface, and so they will be called iso-surfaces (or level surfaces).
 
-![Screenshot 2023-03-22 at 4.34.55 PM.png](Screenshot_2023-03-22_at_4.34.55_PM.png)
+![Screenshot 2023-03-22 at 4.34.55 PM.png](Screenshot_2023-03-22_at_4.34.55_PM.jpeg)
 
 ### Orthogonality of the gradient
 
@@ -58,7 +58,7 @@ This because in a 1D function we can only compute the derivative in two directio
 
 The directional derivative of the function $f$ with respect of the vector $\mathbb{v}$ is written as $\frac{\partial f}{\partial \mathbb{v}}$, and it’s equal to the inner product $\langle \nabla f, \mathbb{v}\mathbb{R}angle$ between the gradient and the vector.
 
-![Screenshot 2023-03-22 at 4.40.22 PM.png](Screenshot_2023-03-22_at_4.40.22_PM.png)
+![Screenshot 2023-03-22 at 4.40.22 PM.png](Screenshot_2023-03-22_at_4.40.22_PM.jpeg)
 
 The directional derivative will be a vector tangent to the iso-line, and by definition the iso-line is made out of the points in which the function has the same value, and so in that direction the value won’t change. This means that the derivative is zero, and so the inner product also is zero.
 
@@ -82,7 +82,7 @@ Gradient descent will always end up in a stationary point, which stationary poin
 
 In general we don’t want to find the global minimum of the function, since this would lead to bad performances (overfitting), but if you really want to optimize a function you can perform gradient descent with a lot of different initialization point, get to the same amount of minima, and then get the minimum of those minima.
 
-![Screenshot 2023-03-22 at 4.59.08 PM.png](Screenshot_2023-03-22_at_4.59.08_PM.png)
+![Screenshot 2023-03-22 at 4.59.08 PM.png](Screenshot_2023-03-22_at_4.59.08_PM.jpeg)
 
 ### Learning Rate
 
@@ -94,7 +94,7 @@ A large $\alpha$ means that we take big steps, which means that we might arrive 
 
 Another way is to find the optimal $\alpha$ by a line search algorithm. This algorithm uses the fact that we can fix a direction and then solve the equation of the gradient in that direction, that would be 1D, in order to find the best $\alpha$. Formally we want to find $\text{argmin}_\alpha f(x^{(t)} - \alpha \nabla f(x^{(t)})$.
 
-![Screenshot 2023-03-22 at 5.09.39 PM.png](Screenshot_2023-03-22_at_5.09.39_PM.png)
+![Screenshot 2023-03-22 at 5.09.39 PM.png](Screenshot_2023-03-22_at_5.09.39_PM.jpeg)
 
 ### Decay
 
@@ -165,7 +165,7 @@ Momentum is useful because it allows to speed up the descent in case the directi
 
 This because, as a ball will surpass a small bump, the same will happen with a point that goes in a not so deep minimum. In case the point will go on a deeper minimum and doesn’t have too much momentum, it will stay there and stabilize after some time.
 
-![Difference between GD with a fixed number of iterations with and without momentum.](Screenshot_2023-03-22_at_5.36.59_PM.png)
+![Difference between GD with a fixed number of iterations with and without momentum.](Screenshot_2023-03-22_at_5.36.59_PM.jpeg)
 
 Difference between GD with a fixed number of iterations with and without momentum.
 
@@ -260,10 +260,10 @@ $$
 
 We can prove that the computational cost of the SGD and the GD is the following:
 
-|  | Cost per iteration | Iteration to reach $\rho$ |
-| --- | --- | --- |
-| GD | $O(nd)$ | $O(\kappa \log \frac{1}{\rho})$ |
-| SGD | $O(d)$ | $\frac{\nu \kappa^2}{\rho} + O(\frac{1}{\rho})$ |
+|     | Cost per iteration | Iteration to reach $\rho$                       |
+| --- | ------------------ | ----------------------------------------------- |
+| GD  | $O(nd)$            | $O(\kappa \log \frac{1}{\rho})$                 |
+| SGD | $O(d)$             | $\frac{\nu \kappa^2}{\rho} + O(\frac{1}{\rho})$ |
 
 From this table we can see that SGD is better than standard GD because of many reasons:
 

@@ -11,6 +11,6 @@ Here's how it works:
 3. This process is repeated for all surrounding pixels, and the resulting binary values are concatenated to form a binary pattern.
 4. This value of 8 bits is the converted to a decimal number, and the process is repeated for each pixel in the image.
 
-![Screenshot 2023-01-25 at 1.08.08 PM.png](Screenshot_2023-01-25_at_1.08.08_PM.png)
+![Screenshot 2023-01-25 at 1.08.08 PM.png](Screenshot_2023-01-25_at_1.08.08_PM.jpeg)
 
 The good thing about this operator is that is invariant to illumination, since if a certain zone is more illuminated, all the neighbor pixels have an higher value. On the other hand, it’s sensible to pose and image rotation variations.

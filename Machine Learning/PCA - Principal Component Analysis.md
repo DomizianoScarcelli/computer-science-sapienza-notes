@@ -122,12 +122,12 @@ Note that this is fundamentally different from how logistic regression finds the
 >
 > With linear regression we measure the error along the $y$ coordinate, with PCA we measure the error orthogonal to the principal direction.
 >
-![LR vs PCA.png](LR_vs_PCA.png)
+![LR vs PCA.png](LR_vs_PCA.jpeg)
 
 ## PCA as a generative model
 
 We can use PCA as a generative model by sampling a $\mathbb{z_{\text{new}} \in \mathbb{R}^k}$ (for example we can take the average of two $\mathbb{z_1},\mathbb{z_2} \in \mathbb{R}^k$) and using reconstruction in order to obtain the $\mathbb{x_{\text{new}}}$ associated.
 
-![Screenshot 2023-04-19 at 4.43.19 PM.png](Screenshot_2023-04-19_at_4.43.19_PM.png)
+![Screenshot 2023-04-19 at 4.43.19 PM.png](Screenshot_2023-04-19_at_4.43.19_PM.jpeg)
 
 PCA alone is completely linear, since both the projection and reconstruction operations are linear, so in order to generalize this idea and generate more accurate or complex representations, we will replace the projection and reconstruction operations with two (highly non-linear) neural networks.

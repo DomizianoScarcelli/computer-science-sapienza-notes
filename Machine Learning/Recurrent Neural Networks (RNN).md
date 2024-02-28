@@ -4,7 +4,7 @@ Exam:
 ---
 RNN is an architecture based on an internal state, which gets updated as the sequence is processed.
 
-![Untitled-2023-12-08-1233 (2).png](Untitled-2023-12-08-1233_(2).png)
+![Untitled-2023-12-08-1233 (2).png](Untitled-2023-12-08-1233_(2).jpeg)
 
 The output $y$ is a function of not only the input $x$ but also of the recurrent module. 
 
@@ -39,19 +39,19 @@ We can use RNNs for all the types of sequence problems we’ve seen so far.
 
 ### Many to Many
 
-![Untitled-2023-12-08-1233 (5).png](Untitled-2023-12-08-1233_(5).png)
+![Untitled-2023-12-08-1233 (5).png](Untitled-2023-12-08-1233_(5).jpeg)
 
 In the many-to-many case, at each step an output is produced and the loss is updated.
 
 ### Many to One
 
-![Untitled](Untitled%2010.png)
+![Untitled](Untitled%2010.jpeg)
 
 In the many-to-one case, just a single output is produced, and a single loss is computed at the end.
 
 ### One to Many
 
-![Untitled-2023-12-08-1233 (6).png](Untitled-2023-12-08-1233_(6).png)
+![Untitled-2023-12-08-1233 (6).png](Untitled-2023-12-08-1233_(6).jpeg)
 
 In the one-to-many case, we just have a single input $x$. The problem is that we have to insert an input for all the other steps. Here we have two solutions:
 
@@ -64,7 +64,7 @@ If we want to do a Many to Many, we can also first encode the input sequence in 
 
 ## Example: Character-level Language Model Sampling
 
-![Screenshot 2023-12-08 at 2.14.27 PM.png](Screenshot_2023-12-08_at_2.14.27_PM.png)
+![Screenshot 2023-12-08 at 2.14.27 PM.png](Screenshot_2023-12-08_at_2.14.27_PM.jpeg)
 
 Most of the times the input goes first into an embedding layer, which produces an embedding, which then is passed to the hidden layer to produce an output. This is an autoregressive modelling, since each time we predict a new character from the current character and the current hidden state, and then feed the produces character to the next input.
 
@@ -89,12 +89,12 @@ We’ve seen how in a Vanilla many-to-many RNN each output contributes to the sa
 
 A solution to this problem is *truncated backpropagation*, where the forward pass is done as usual, but the backpropagation is done only for a smaller number of steps in the past. This operation will produce a gradient for each segment. Note that the gradient refers to the same $W$.
 
-![Screenshot 2023-12-08 at 2.29.34 PM.png](Screenshot_2023-12-08_at_2.29.34_PM.png)
+![Screenshot 2023-12-08 at 2.29.34 PM.png](Screenshot_2023-12-08_at_2.29.34_PM.jpeg)
 ## Multilayer RNNs
 
 It’s possible to have multiple layers of a RNN
 
-![Screenshot 2024-01-25 at 1.01.29 PM.png](Screenshot_2024-01-25_at_1.01.29_PM.png)
+![Screenshot 2024-01-25 at 1.01.29 PM.png](Screenshot_2024-01-25_at_1.01.29_PM.jpeg)
 
 ## RNN Gradient Flow and long-term dependencies
 

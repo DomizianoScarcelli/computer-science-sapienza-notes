@@ -12,7 +12,7 @@ Regarding the temporal relations between poses, we can encode them using CNNs, [
 
 The encoder is the most difficult part of the problem. We can use a simple TCN as a decoder.
 
-![Screenshot 2024-01-25 at 4.01.28 PM.png](Screenshot_2024-01-25_at_4.01.28_PM.png)
+![Screenshot 2024-01-25 at 4.01.28 PM.png](Screenshot_2024-01-25_at_4.01.28_PM.jpeg)
 
 Since the model is predicting the future sequence, this is self-supervised (you split the sequence into train and validation).
 

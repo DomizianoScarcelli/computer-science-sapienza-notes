@@ -12,7 +12,7 @@ Object detection with just a fixed number of objects in an image can be seen as 
 
 We can treat the localization problem as a regression problem, meaning we can use the L2 loss for the bounding box coordinates, and then optimize the sum of the classification (optimized using cross entropy loss) and localization loss.
 
-![Screenshot 2024-01-30 at 1.26.55 PM.png](Screenshot_2024-01-30_at_1.26.55_PM.png)
+![Screenshot 2024-01-30 at 1.26.55 PM.png](Screenshot_2024-01-30_at_1.26.55_PM.jpeg)
 
 Because it’s a multi task loss, we need to insert a scaling factor in order to give one loss more importance over the other. This scaling factor is an hyperparameter.
 

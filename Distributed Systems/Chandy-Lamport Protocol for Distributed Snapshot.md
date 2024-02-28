@@ -23,6 +23,6 @@ Both the cuts taken from the protocol are consistent.
 
 Let’s rememeber that a cut $C$ is consistent if $\forall e, e' : e \rightarrow e' \land e' \in C \Rightarrow e \in C$.
 
-![C is the cut taken by the protocol, C’ is the cut when the protocol has finished](distributed-shapshot.png)
+![C is the cut taken by the protocol, C’ is the cut when the protocol has finished](distributed-shapshot.jpeg)
 
 C is the cut taken by the protocol, C’ is the cut when the protocol has finished

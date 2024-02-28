@@ -10,7 +10,7 @@ $$
 
 Meaning that taking two points $(x, f(x))$ and $(y, f(y))$ of a convex function, every point on their linear convex combinations (meaning the set of all points on the line that crosses the two points) is bigger than the point at that coordinate taken on the actual curve.
 
-![Visual representation of Jensen’s inequality](Screenshot_2023-03-15_at_4.58.03_PM.png)
+![Visual representation of Jensen’s inequality](Screenshot_2023-03-15_at_4.58.03_PM.jpeg)
 
 Visual representation of Jensen’s inequality
 

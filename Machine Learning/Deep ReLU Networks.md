@@ -14,7 +14,7 @@ We can see that $\mathbb{y}$ is expressed as a big linear combination combinatio
 
 For example let’s imagine a deep network that has 2-layers and for each 2D point returns a real scalar. The output of the network will be something like this:
 
-![Output of $\mathbb{y}$. On the right there is the above view.](Screenshot_2023-03-31_at_10.12.14_AM.png)
+![Output of $\mathbb{y}$. On the right there is the above view.](Screenshot_2023-03-31_at_10.12.14_AM.jpeg)
 
 Output of $\boldsymbol{y}$. On the right there is the above view.
 

@@ -4,7 +4,7 @@ Exam:
 ---
 Visual Search means training a model in order for it to be able to, given a new unseen dataset of images and a new unseen query image, find other images that are relevant to the query.
 
-![Screenshot 2024-01-11 at 9.01.11 PM.png](Screenshot_2024-01-11_at_9.01.11_PM.png)
+![Screenshot 2024-01-11 at 9.01.11 PM.png](Screenshot_2024-01-11_at_9.01.11_PM.jpeg)
 
 Now let’s say we have a dataset of monuments, we can tackle this problem with a simple classification. The model will be able to learn which monuments are which, and then when provided with an unseen image of a monument will be able to classify it. 
 

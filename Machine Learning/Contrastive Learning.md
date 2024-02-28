@@ -16,13 +16,13 @@ $$
 \text{score}(f(x), f(x^+)) >> \text{score}(f(x), f(x^-))
 $$
 
-![Screenshot 2024-01-13 at 12.51.10 PM.png](Screenshot_2024-01-13_at_12.51.10_PM.png)
+![Screenshot 2024-01-13 at 12.51.10 PM.png](Screenshot_2024-01-13_at_12.51.10_PM.jpeg)
 
 Which means to maximise the similarity between the original object and the augmented object, and minimize the similarity between the original object and the negative object.
 
 The loss for contrastive learning is called InfoNCE loss, which is a variation of the Cross Entropy loss.
 
-![Screenshot 2024-01-13 at 12.51.36 PM.png](Screenshot_2024-01-13_at_12.51.36_PM.png)
+![Screenshot 2024-01-13 at 12.51.36 PM.png](Screenshot_2024-01-13_at_12.51.36_PM.jpeg)
 
 ### Ranking Loss
 

@@ -13,7 +13,7 @@ Nodes in a graph have no ordering, but they can have some attributes, such as th
 
 We want to encode a graph in order to take a decision of some sort. To encode a graph, we need to encode both the node with its attributes, and their connectivities.
 
-![Screenshot 2024-01-23 at 6.33.24 PM.png](Screenshot_2024-01-23_at_6.33.24_PM.png)
+![Screenshot 2024-01-23 at 6.33.24 PM.png](Screenshot_2024-01-23_at_6.33.24_PM.jpeg)
 
 This is the GCN Encoder, which should yield a representation of all the input nodes, in such a way that we can use it to make some prediction. As decoder, we can use whatever fits best, for example a Temporal Convolutional Network if we want to do something like forecast human motion.
 
@@ -32,7 +32,7 @@ This is exactly what we want to model with a graph, meaning I want to create a r
 
 The main difference between image and graph convolution is that a graph doesn't have an orientation, meaning that the convolutional kernels in an image have specific coefficients for specific pixels (on the right, on the top etc.), while in a graph this doesn’t make sense, and so we need a kernel that works for all the orientations.
 
-![Screenshot 2023-12-13 at 7.23.06 PM.png](Screenshot_2023-12-13_at_7.23.06_PM.png)
+![Screenshot 2023-12-13 at 7.23.06 PM.png](Screenshot_2023-12-13_at_7.23.06_PM.jpeg)
 
 As said before, in order to generate the node embedding for each node, we need a transformation of the local information and an aggregation. The transformation is the multiplication with a learned matrix $W$, while the aggregation is the sum. In particular we:
 
@@ -114,7 +114,7 @@ The approach is agnostic to the implementation of $a$, meaning we can use a simp
 
 A suggestion for a starting point for a GNN layer in practise is the following:
 
-![Screenshot 2024-01-08 at 7.44.35 PM.png](Screenshot_2024-01-08_at_7.44.35_PM.png)
+![Screenshot 2024-01-08 at 7.44.35 PM.png](Screenshot_2024-01-08_at_7.44.35_PM.jpeg)
 
 The weights of $a$ are trained in conjunction with the parameters of the neural net $W$.
 
@@ -127,13 +127,13 @@ The approach is also efficient since the computation of attention coefficient ca
 
 The GNNs are stacked in order to be connected. We can also add some skip connections.
 
-![Screenshot 2024-01-08 at 7.45.37 PM.png](Screenshot_2024-01-08_at_7.45.37_PM.png)
+![Screenshot 2024-01-08 at 7.45.37 PM.png](Screenshot_2024-01-08_at_7.45.37_PM.jpeg)
 
 The over-smoothing problem happens when stacking GNN layers like that, since for too many layers the receptive field of each node becomes the whole graph, which means that each node is influenced by all the other nodes and so they all converge to the same value.
 
 In particular, in a $K$-layer GNN, each node has a receptive field of $K$-hop neighbourhood.
 
-![Screenshot 2024-01-08 at 7.47.44 PM.png](Screenshot_2024-01-08_at_7.47.44_PM.png)
+![Screenshot 2024-01-08 at 7.47.44 PM.png](Screenshot_2024-01-08_at_7.47.44_PM.jpeg)
 
 We can solve this problem in different ways:
 

@@ -28,7 +28,7 @@ The task is to spawn a certain number of robots in an area, and each one of them
 
 In order to evaluate a robot social navigation algorithm, researchers have defined some basic principles:
 
-![Screenshot 2024-01-16 at 6.59.09 PM.png](Screenshot_2024-01-16_at_6.59.09_PM.png)
+![Screenshot 2024-01-16 at 6.59.09 PM.png](Screenshot_2024-01-16_at_6.59.09_PM.jpeg)
 
 Legibility means that the actions the robots do should be understood by other entities. In the picture the robots announces that it’s going through a sharp edge to tell the person that it's coming on the other side.
 
@@ -36,6 +36,6 @@ The policy is what we train for. We can also inject a risk value in the architec
 
 HM3D-S is a large scale dataset which contains 3D scans of houses. The evaluation metrics are:
 
-![Screenshot 2024-01-16 at 7.17.41 PM.png](Screenshot_2024-01-16_at_7.17.41_PM.png)
+![Screenshot 2024-01-16 at 7.17.41 PM.png](Screenshot_2024-01-16_at_7.17.41_PM.jpeg)
 
 SPL: difference between the optimal path and the one taken by the robot.

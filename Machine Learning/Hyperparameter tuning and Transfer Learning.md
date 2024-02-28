@@ -5,7 +5,7 @@ Exam:
 ---
 ## Data Preprocessing
 
-![Screenshot 2023-12-05 at 1.36.37 PM.png](Screenshot_2023-12-05_at_1.36.37_PM.png)
+![Screenshot 2023-12-05 at 1.36.37 PM.png](Screenshot_2023-12-05_at_1.36.37_PM.jpeg)
 
 A good practice as data preprocessing is to zero-center and normalize the data.
 

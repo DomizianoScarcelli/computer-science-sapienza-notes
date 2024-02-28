@@ -11,7 +11,7 @@ The decoder will take the code $\mathbb{z}$ and return the $\mathbb{x}$ that is 
 
 An architecture like this, in which encoder and decoder put together generate an output $\mathbb{x}$ that is the most similar to the input. (If this doesn’t happen, then it’s just an encoder-decoder architecture).
 
-![Screenshot 2023-04-19 at 4.52.19 PM.png](Screenshot_2023-04-19_at_4.52.19_PM.png)
+![Screenshot 2023-04-19 at 4.52.19 PM.png](Screenshot_2023-04-19_at_4.52.19_PM.jpeg)
 
 In order to enforce the Autoencoder to learn the encoder and decoder such that it will output a vector that is very similar to the input, we have to enforce it into the loss function:
 
@@ -37,7 +37,7 @@ The bottleneck in the architecture, meaning the fact that $k < d$ is important i
 
 When dealing with simple autoencoders, we can have some regions of the space space in which the codes are immersed that have blanks, and so when we sample out of that blank and then decode the result, we won’t obtain an image that is natural. This because there aren’t enough points near that point.
 
-![Screenshot 2023-04-19 at 5.28.03 PM.png](Screenshot_2023-04-19_at_5.28.03_PM.png)
+![Screenshot 2023-04-19 at 5.28.03 PM.png](Screenshot_2023-04-19_at_5.28.03_PM.jpeg)
 
 The idea to resolve this problem is to enforce the latent space to be packed within a smaller area, and so to be dense, in order to avoid blanks.
 

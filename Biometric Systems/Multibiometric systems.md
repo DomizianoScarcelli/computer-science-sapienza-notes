@@ -37,7 +37,7 @@ The possible problems with this approach are:
 - A more complex matcher may be required due to the augmented complexity of the feature vector;
 - Combined vectors may include noisy or redunant data.
     
-    ![Screenshot 2023-01-03 at 6.05.40 PM.png](Screenshot_2023-01-03_at_6.05.40_PM.png)
+    ![Screenshot 2023-01-03 at 6.05.40 PM.png](Screenshot_2023-01-03_at_6.05.40_PM.jpeg)
     
 
 **How to do it:**
@@ -58,7 +58,7 @@ This is the most flexible and most popular approach.
 
 In this case, each biometric trait is processed by a different subsystem, with a different algorithm and the fusion happens after matching, in this case the multiple scores are combined into a single score. The problem here is to find a good matching strategy.
 
-![Screenshot 2023-01-03 at 6.15.13 PM.png](Screenshot_2023-01-03_at_6.15.13_PM.png)
+![Screenshot 2023-01-03 at 6.15.13 PM.png](Screenshot_2023-01-03_at_6.15.13_PM.jpeg)
 
 From here, two different approaches can be taken:
 
@@ -73,7 +73,7 @@ There are multiple rules that can be followed in order to fuse scores.
 - **Rank**: In case the classifier returns a raking of candidates. Ranking are converted in a sum of scores and the classifier with the highest score is selected. This method is called borda count.
     - Borda count example
         
-        ![Screenshot 2023-01-07 at 11.02.23 AM.png](Screenshot_2023-01-07_at_11.02.23_AM.png)
+        ![Screenshot 2023-01-07 at 11.02.23 AM.png](Screenshot_2023-01-07_at_11.02.23_AM.jpeg)
         
 - **Measurement:** In case the classifier returns the score that compares the pattern with each class, we can combine all the arrays by summing them, or getting the mean, or the product, or the max etc.
 
@@ -81,7 +81,7 @@ There are multiple rules that can be followed in order to fuse scores.
 
 This is the last possible level of fusion, where the fusion happens after the decision of each single susystem that is responsible for the decision on a certain biometric trait.
 
-![Screenshot 2023-01-03 at 7.52.05 PM.png](Screenshot_2023-01-03_at_7.52.05_PM.png)
+![Screenshot 2023-01-03 at 7.52.05 PM.png](Screenshot_2023-01-03_at_7.52.05_PM.jpeg)
 
 The simple fusion rule is to apply a logical combination on the results, by getting the AND (every classifier has to decide YES) or by getting the OR (the user is authenticated even if only one classifier outputs a YES).
 

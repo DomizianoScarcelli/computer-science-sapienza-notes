@@ -30,7 +30,7 @@ Every round is associated with one and only one proposer. A round is structured 
 
 If the cycles goes though, then the value `value` is decided. 
 
-![paxows.png](paxows.png)
+![paxows.png](paxows.jpeg)
 
 ### Paxos (not) liveness
 

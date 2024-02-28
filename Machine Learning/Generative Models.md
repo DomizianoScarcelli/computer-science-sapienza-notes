@@ -9,7 +9,7 @@ For instance if I sample an image from the space of all possible images in $\mat
 
 Learning a distribution means that natural images will have more probability to be sampled with respect to noisy images that do not make sense in the real world.
 
-![Screenshot 2023-04-19 at 4.12.55 PM.png](Screenshot_2023-04-19_at_4.12.55_PM.png)
+![Screenshot 2023-04-19 at 4.12.55 PM.png](Screenshot_2023-04-19_at_4.12.55_PM.jpeg)
 Examples of generative models are:
 - [[PCA - Principal Component Analysis]]
 - [[Autoencoders]]

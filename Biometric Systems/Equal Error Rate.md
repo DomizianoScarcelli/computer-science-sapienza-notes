@@ -8,7 +8,7 @@ FAR and FRR have opposite trends with respect to the threshold.
 
 The equal error rate (ERR) is the error rate when the two distributions (FAR and FRR) have the same value. 
 
-![Screenshot 2022-11-28 at 8.23.57 AM.png](Screenshot_2022-11-28_at_8.23.57_AM.png)
+![Screenshot 2022-11-28 at 8.23.57 AM.png](Screenshot_2022-11-28_at_8.23.57_AM.jpeg)
 
 ## ZeroFRR and ZeroFAR
 

@@ -46,7 +46,7 @@ In the paper, the authors extend integral images in order to efficiently perform
 >[!Note]
 Integral images are a way of representing images in order to make the summation of different sub-regions very efficient.
 
-![Screenshot 2024-01-24 at 5.03.29 PM.png](Screenshot_2024-01-24_at_5.03.29_PM.png)
+![Screenshot 2024-01-24 at 5.03.29 PM.png](Screenshot_2024-01-24_at_5.03.29_PM.jpeg)
 
 ### R-MAC revisited
 
@@ -60,7 +60,7 @@ The second contribution they made consists in learning the pooling mechanism of 
 
 Representations of two different images can be compared using the dot-product. This methods outperforms all previous approaches and consolidates the sate of the art performances.
 
-![Screenshot 2024-01-24 at 2.49.35 PM.png](Screenshot_2024-01-24_at_2.49.35_PM.png)
+![Screenshot 2024-01-24 at 2.49.35 PM.png](Screenshot_2024-01-24_at_2.49.35_PM.jpeg)
 
 In particular, the network is trained in a contrastive-learning manner using three images:
 

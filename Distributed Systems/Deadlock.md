@@ -16,10 +16,10 @@ Since the system is asynchronous, a message sent from $P_0$ can arrive sometime 
 
 As we can see from the picture, $P_0$ is getting a snapshot of the situation at different times from different processes (it's gathering information of the processes at different points in time), since the time that a message spends to arrive is different from a process to another.
 
-![Untitled](Untitled%201.png)
+![Untitled](Untitled%201.jpeg)
 
 In this example, $P_0$ detects a deadlock where there isn’t. This particular case is called a **ghost deadlock** 
 
-![$e_1$ is in the future and sends a message to $e_2$ that’s in the past, so this cut isn’t consistent.](Screenshot_2022-10-11_at_1.24.30_PM.png)
+![$e_1$ is in the future and sends a message to $e_2$ that’s in the past, so this cut isn’t consistent.](Screenshot_2022-10-11_at_1.24.30_PM.jpeg)
 
 $e_1$ is in the future and sends a message to $e_2$ that’s in the past, so this cut isn’t consistent.

@@ -95,7 +95,7 @@ $$
 
 Where $\oplus$ defines the dilation opeator and $\ominus$ the erosion operator.
 
-![Eyes Detection flow](Screenshot_2022-11-15_at_12.10.06_PM.png)
+![Eyes Detection flow](Screenshot_2022-11-15_at_12.10.06_PM.jpeg)
 
 Eyes Detection flow
 

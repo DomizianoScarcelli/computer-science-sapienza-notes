@@ -4,7 +4,7 @@ Exam:
 ---
 During the processes, events occur, and we model these events with the space-time diagram.
 
-![Untitled](assets/Untitled.png)
+![Untitled](assets/Untitled.jpeg)
 
 ### Some questions
 

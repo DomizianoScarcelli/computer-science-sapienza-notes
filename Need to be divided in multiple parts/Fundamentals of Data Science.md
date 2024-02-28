@@ -36,7 +36,7 @@ A computer program is said to learn from an experience $E$ with respect to some 
 - The task $T$ is modelled by the the activity recognition
 - The performance measure $P$ is the accuracy of the prediction/solution
 
-![Schermata 2022-09-09 alle 13.06.36.png](Schermata_2022-09-09_alle_13.06.36.png)
+![Schermata 2022-09-09 alle 13.06.36.png](Schermata_2022-09-09_alle_13.06.36.jpeg)
 
 ## Computer vision
 
@@ -59,7 +59,7 @@ Once the object is recognized, there are two other operations:
  For example, mark all the pixels that belong to a person inside of an image.
 - **Localization** or **Detection**: detecting the position of the object in the scene, such as orientation, scale, size and 3d position.
 
-![An example of classification](Schermata_2022-09-09_alle_15.03.06.png)
+![An example of classification](Schermata_2022-09-09_alle_15.03.06.jpeg)
 
 An example of classification
 
@@ -95,7 +95,7 @@ $$
 
 $I[m-k, n-l]$ is the same to applying $I[m+k, n+l]$ with the mirrored filter. 
 
-![Schermata 2022-09-09 alle 15.31.05.png](Schermata_2022-09-09_alle_15.31.05.png)
+![Schermata 2022-09-09 alle 15.31.05.png](Schermata_2022-09-09_alle_15.31.05.jpeg)
 
 We can also have a one dimension filtering, meaning it will be represented as $g[k]$.
 
@@ -171,7 +171,7 @@ $$
 G(x)=\frac{1}{\sqrt{2\pi}\sigma}\exp(-\frac{x^2}{2\sigma^2})
 $$
 
-![Differences between Gaussian and Box filtering](Screenshot_2022-10-08_at_7.12.24_PM.png)
+![Differences between Gaussian and Box filtering](Screenshot_2022-10-08_at_7.12.24_PM.jpeg)
 
 Differences between Gaussian and Box filtering
 
@@ -210,7 +210,7 @@ Sharpening filtering can be achieved by doubling all the values of the image mat
 
 A sharpened photo enhances the changes in the color intensity. 
 
-![An example of sharpening](Screenshot_2022-10-08_at_7.11.15_PM.png)
+![An example of sharpening](Screenshot_2022-10-08_at_7.11.15_PM.jpeg)
 
 An example of sharpening
 
@@ -220,7 +220,7 @@ Multi-scale image representation refers to a method that implies having to repre
 
 This is useful since a single template of an object we want to find can be used throughout all the images in the various scales.
 
-![Schermata 2022-09-09 alle 16.15.11.png](Schermata_2022-09-09_alle_16.15.11.png)
+![Schermata 2022-09-09 alle 16.15.11.png](Schermata_2022-09-09_alle_16.15.11.jpeg)
 
 ## Gaussian Pyramid
 
@@ -233,7 +233,7 @@ It’s computationally convenient to blur the image with a small sigma gaussian 
 
 During a Gaussian pyramid procedure the average of pixels is preserved, but the higher frequencies are lost. 
 
-![An example of the Gaussian pyramid procedure](Schermata_2022-09-09_alle_16.16.40.png)
+![An example of the Gaussian pyramid procedure](Schermata_2022-09-09_alle_16.16.40.jpeg)
 
 An example of the Gaussian pyramid procedure
 
@@ -241,7 +241,7 @@ Different edges at different scales represent different information.
 
 For example in the following picture, we can see how in the bigger scale image we ca see the hair on the zebra’s nose; in the smaller images we see the stripes and in the smallest image we only see the animal’s nose. 
 
-![Screenshot 2022-10-08 at 7.40.26 PM.png](Screenshot_2022-10-08_at_7.40.26_PM.png)
+![Screenshot 2022-10-08 at 7.40.26 PM.png](Screenshot_2022-10-08_at_7.40.26_PM.jpeg)
 
 # Edge Detection
 
@@ -253,7 +253,7 @@ An edge is a more or less sudden change in the intensity of the pixels.
 
 There are 4 types of edges:
 
-![Screenshot 2022-10-08 at 7.50.53 PM.png](Screenshot_2022-10-08_at_7.50.53_PM.png)
+![Screenshot 2022-10-08 at 7.50.53 PM.png](Screenshot_2022-10-08_at_7.50.53_PM.jpeg)
 
 ## Edge detection based on the 1st derivative
 
@@ -271,7 +271,7 @@ $$
 [-1,1] \text{ or } [-1,0,1]
 $$
 
-![The process of edge detection using the first derivative](Screenshot_2022-10-08_at_8.00.40_PM.png)
+![The process of edge detection using the first derivative](Screenshot_2022-10-08_at_8.00.40_PM.jpeg)
 
 The process of edge detection using the first derivative
 
@@ -421,7 +421,7 @@ $$
 L_i = G_i - \text{expand}(G_{i+1})
 $$
 
-![Untitled](Untitled%209.png)
+![Untitled](Untitled%209.jpeg)
 
 The $L_i$ difference is approximately equivalent to the convolution between the image and laplacian of the Gaussian kernel ($\nabla^2 G \otimes f$). 
 
@@ -466,7 +466,7 @@ The luminance histogram is an histogram which values on the $x$ go from 0 to 255
 
 The $y$ axis of the histogram tells how many pixels are present of $x$ intensity. It could also be normalized, so the $y$ axis will always be a value betwenn 0 and 1, and it will represent the percentage of the pixels of $x$ intensity inside the whole image.
 
-![Screenshot 2022-10-14 at 8.28.43 PM.png](Screenshot_2022-10-14_at_8.28.43_PM.png)
+![Screenshot 2022-10-14 at 8.28.43 PM.png](Screenshot_2022-10-14_at_8.28.43_PM.jpeg)
 
 ### Color histogram
 
@@ -480,7 +480,7 @@ The cube (three dimensional array) is constructed in a way that in the coordinat
 
 The value of $(r,g,b)$ can be normalized by dividing each component by the sum of the three, in order to have $r + g + b =1$.
 
-![Screenshot 2022-10-14 at 8.32.21 PM.png](Screenshot_2022-10-14_at_8.32.21_PM.png)
+![Screenshot 2022-10-14 at 8.32.21 PM.png](Screenshot_2022-10-14_at_8.32.21_PM.jpeg)
 
 3D color histograms are very robust in case of partial occlusion or rotation of the object, unless the oclcusion occlude an entire color of an image that may be distinctive.
 
@@ -537,7 +537,7 @@ Simple algorithm to get the list of the most similar images of a query image.
 
 Performance evaluation is the process which purpose is to evaluate the system, in order to say that a certain method A is better than another method B.
 
-![FDS_Slides02_cvbasics (1)_183.png](FDS_Slides02_cvbasics_(1)_183.png)
+![FDS_Slides02_cvbasics (1)_183.png](FDS_Slides02_cvbasics_(1)_183.jpeg)
 
 In this image, we can see the result of the machine-learning algorithm. Every point is the result of an image. The green points are images that contain a positive example, and the blanks are images that contain a negative example.
 
@@ -557,16 +557,16 @@ In this picture, we can see how the results divide in case of a threshold of 0.5
 
 If the probability outputted by the model is higher than 0.5, we consider the image contains a dog.
 
-![FDS_Slides02_cvbasics (1)_184.png](FDS_Slides02_cvbasics_(1)_184.png)
+![FDS_Slides02_cvbasics (1)_184.png](FDS_Slides02_cvbasics_(1)_184.jpeg)
 
 ## Confusion Matrix
 
 A confusion matrix is a table that allows the visualization of the performance of a model.
 
-|  | Label Positive | Label Negative |
-| --- | --- | --- |
-| Predicted Positive | TP | FP |
-| Predicted Negative | FN | TN |
+|                    | Label Positive | Label Negative |
+| ------------------ | -------------- | -------------- |
+| Predicted Positive | TP             | FP             |
+| Predicted Negative | FN             | TN             |
 
 ## TP, TN, FP, FN
 
@@ -596,7 +596,7 @@ In the case of an area of 0.5, the classifier is just guessing. A perfect classi
 
 In the case of an area under 0.5, the classifier is worst than guessing, so the solution would be just to invert the result to have a better classifier.
 
-![Screenshot 2022-10-16 at 2.20.45 PM.png](Screenshot_2022-10-16_at_2.20.45_PM.png)
+![Screenshot 2022-10-16 at 2.20.45 PM.png](Screenshot_2022-10-16_at_2.20.45_PM.jpeg)
 
 The AUC is useful to set the best threshold since the recall and the other evaluation metrics change depending on the threshold. 
 
@@ -604,7 +604,7 @@ The AUC is useful to set the best threshold since the recall and the other evalu
 
 These types of metrics don’t give any weight to the confidence that a model can have.
 
-![FDS_Slides02_cvbasics (1)_211.png](FDS_Slides02_cvbasics_(1)_211.png)
+![FDS_Slides02_cvbasics (1)_211.png](FDS_Slides02_cvbasics_(1)_211.jpeg)
 
 For example here the two models, with a threshold $t = 50$ have the same values. But the Model B has more confidence since when it says something is successful, it says it with a higher percentage.
 
@@ -621,11 +621,11 @@ Other assumptions are the Homogeneity of variance, the independence of observati
 Let’s suppose we have this dataset
 
 | Size in feet$^2$($x$) | Price in 1000$ ($y$) |
-| --- | --- |
-| 2104 | 460 |
-| 1416 | 232 |
-| 1534 | 315 |
-| 852 | 178 |
+| --------------------- | -------------------- |
+| 2104                  | 460                  |
+| 1416                  | 232                  |
+| 1534                  | 315                  |
+| 852                   | 178                  |
 
 ### Notation
 
@@ -646,11 +646,11 @@ $$
 Let’s assume we have a dataset like this:
 
 | Size (feet$^2$) | Number of bedrooms | Number of floors | Age of home (years) | Price ($1000) |
-| --- | --- | --- | --- | --- |
-| 2104 | 5 | 1 | 45 | 460 |
-| 1416 | 3 | 2 | 40 | 232 |
-| 1534 | 3 | 2 | 30 | 315 |
-| 852 | 2 | 1 | 36 | 178 |
+| --------------- | ------------------ | ---------------- | ------------------- | ------------- |
+| 2104            | 5                  | 1                | 45                  | 460           |
+| 1416            | 3                  | 2                | 40                  | 232           |
+| 1534            | 3                  | 2                | 30                  | 315           |
+| 852             | 2                  | 1                | 36                  | 178           |
 
 In this case, we have more than one input variable:
 
@@ -687,11 +687,11 @@ The goal of linear regression is to minimize $J(\theta_0, \theta_1)$ for the cho
 
 Since $J$ maps every pair of $(\theta_0, \theta_1)$ to a cost, it can be represented in a contour plot.
 
-![FDS_Slides03_LinearRegression_23.png](FDS_Slides03_LinearRegression_23.png)
+![FDS_Slides03_LinearRegression_23.png](FDS_Slides03_LinearRegression_23.jpeg)
 
 Or in two dimensions:
 
-![FDS_Slides03_LinearRegression_24.png](FDS_Slides03_LinearRegression_24.png)
+![FDS_Slides03_LinearRegression_24.png](FDS_Slides03_LinearRegression_24.jpeg)
 
 In this case, the third dimension is represented by color. So the bluer the line, the lower the cost; the redder the line, the higher the cost.
 
@@ -722,7 +722,7 @@ Gradient descent is an optimization algorithm to find a local minimum of a certa
 
 The idea is that we have the cost function $J(\theta_0, \theta_1)$. We start with some random values for $(\theta_0, \theta_1)$, and then we keep changing them to progressively reduce $J$.
 
-![FDS_Slides03_LinearRegression_31.png](FDS_Slides03_LinearRegression_31.png)
+![FDS_Slides03_LinearRegression_31.png](FDS_Slides03_LinearRegression_31.jpeg)
 
 The formal algorithm is the following:
 
@@ -846,7 +846,7 @@ In the classic linear or polynomial regression, all the samples have the same we
 
 In case of locally weightet regression, we assume that the set of data between the new data I want to test it’s more related to it than the further data, so the model weights it more.
 
-![Screenshot 2022-10-23 at 5.37.09 PM.png](Screenshot_2022-10-23_at_5.37.09_PM.png)
+![Screenshot 2022-10-23 at 5.37.09 PM.png](Screenshot_2022-10-23_at_5.37.09_PM.jpeg)
 
 We calculate the weight 
 
@@ -960,7 +960,7 @@ $$
 g(z) = \frac{1}{1+e^{-z}}
 $$
 
-![Screenshot 2022-11-04 at 12.49.36 PM.png](Screenshot_2022-11-04_at_12.49.36_PM.png)
+![Screenshot 2022-11-04 at 12.49.36 PM.png](Screenshot_2022-11-04_at_12.49.36_PM.jpeg)
 
 The interpretation of the hypotesis ($h_\theta(x)$) output is that it describes the probability that $y=1$ on the input $x$. So if $h_\theta(x) = 0.7$ there’s a $70\%$ probability that $x$, parametrized by $\theta$ is in class 1:
 
@@ -990,13 +990,13 @@ $$
 
 Then, applying what we said before, we can predict $y=1$ if $\theta^Tx = -3 + x_1 + x_2 \geq 0$, where this equation is the equation of the line that represent the decision boundary.
 
-![Screenshot 2022-11-04 at 1.46.35 PM.png](Screenshot_2022-11-04_at_1.46.35_PM.png)
+![Screenshot 2022-11-04 at 1.46.35 PM.png](Screenshot_2022-11-04_at_1.46.35_PM.jpeg)
 
 ### Non-linear decision boundaries
 
 We can also have a decision boundary that’s not a line, but some type of curve. The curve could also be a circle, inside of which there are all the samples belonging to a class and outside the rest of the samples.
 
-![Screenshot 2022-11-04 at 1.48.28 PM.png](Screenshot_2022-11-04_at_1.48.28_PM.png)
+![Screenshot 2022-11-04 at 1.48.28 PM.png](Screenshot_2022-11-04_at_1.48.28_PM.jpeg)
 
 ## Learn $\theta$s with logistic regression
 
@@ -1226,7 +1226,7 @@ A linear classifier is a classifier that makes the decision upon a linear combin
 
 This data $x$ is combined with a weight $W$ and some biases $b$. So the function can be written as $f(x,W) = Wx+b$. The output is a vector of $k$ dimension, where $k$ is the number of classes, that describes the probability distribution of the image to belong in that class.
 
-![Example with an image of 4 pixels and 3 classes](Screenshot_2022-11-18_at_10.16.53_PM.png)
+![Example with an image of 4 pixels and 3 classes](Screenshot_2022-11-18_at_10.16.53_PM.jpeg)
 
 Example with an image of 4 pixels and 3 classes
 
@@ -1303,17 +1303,17 @@ Let’s assume that $a = -1, b= 3, c=4$
 
 In order to easily analyze expression, we can also draw the computational graph of the loss function
 
-![Screenshot 2022-11-23 at 1.58.04 PM.png](Screenshot_2022-11-23_at_1.58.04_PM.png)
+![Screenshot 2022-11-23 at 1.58.04 PM.png](Screenshot_2022-11-23_at_1.58.04_PM.jpeg)
 
 Every node ($x$, $y$ and $f$) in the computational graph can compute two things without being aware of the rest of the graph:
 
 - Output of the node
 - Local gradient of the node
 
-| Output | Local gradients |
-| --- | --- |
-| $x = a+b$ | $\frac{\partial x}{\partial a} = 1, \frac{\partial x}{\partial b} = 1$ |
-| $y = b+c$ | $\frac{\partial y}{\partial b} = 1, \frac{\partial y}{\partial c} = 1$ |
+| Output          | Local gradients                                                        |
+| --------------- | ---------------------------------------------------------------------- |
+| $x = a+b$       | $\frac{\partial x}{\partial a} = 1, \frac{\partial x}{\partial b} = 1$ |
+| $y = b+c$       | $\frac{\partial y}{\partial b} = 1, \frac{\partial y}{\partial c} = 1$ |
 | $f = x \cdot y$ | $\frac{\partial f}{\partial x} = y, \frac{\partial f}{\partial y} = x$ |
 
 Remember that the chain rule state that:
@@ -1324,7 +1324,7 @@ $$
 
 We define the **upstream gradient** as the gradient calculated in the forward phase that’s now backpropagating. Each step in the backpropagation, we calculate the new gradient to backpropagate as the product of the local gradient and the upstream gradient.
 
-![Example of the backpropagation process using the recursive appllication of the chain rule with the local and upstream gradient.](Screenshot_2022-11-23_at_2.06.02_PM.png)
+![Example of the backpropagation process using the recursive appllication of the chain rule with the local and upstream gradient.](Screenshot_2022-11-23_at_2.06.02_PM.jpeg)
 
 Example of the backpropagation process using the recursive appllication of the chain rule with the local and upstream gradient.
 
@@ -1470,7 +1470,7 @@ $$
 \Sigma = ...
 $$
 
-![Screenshot 2022-12-28 at 11.23.20 AM.png](Screenshot_2022-12-28_at_11.23.20_AM.png)
+![Screenshot 2022-12-28 at 11.23.20 AM.png](Screenshot_2022-12-28_at_11.23.20_AM.jpeg)
 
 The way of making a prediction is the following:
 
@@ -1549,7 +1549,7 @@ It’s possible to write the joint likelihood of these parameters similarly as w
 
 If we apply MLE (Maximum Likelihood Estimation) we obtain:
 
-![Screenshot 2022-12-02 at 4.24.34 PM.png](Screenshot_2022-12-02_at_4.24.34_PM.png)
+![Screenshot 2022-12-02 at 4.24.34 PM.png](Screenshot_2022-12-02_at_4.24.34_PM.jpeg)
 
 For now, this model performs worst on email classification that linear regression, but it’s much more efficient.
 
@@ -1611,7 +1611,7 @@ The learning algorithms, also called estimator, is deterministic, meaning given 
 
 Also the output is random since it depends on a random value.
 
-![Screenshot 2022-12-27 at 4.41.46 PM.png](Screenshot_2022-12-27_at_4.41.46_PM.png)
+![Screenshot 2022-12-27 at 4.41.46 PM.png](Screenshot_2022-12-27_at_4.41.46_PM.jpeg)
 
 We call the distribution of the output variable $\hat{h}$ or $\hat{\theta}$ the *sampling distribution*.
 
@@ -1623,7 +1623,7 @@ The parameter view is a way to visualize the predictions made by the learning al
 
 The $x$ axis represent the variance and the $y$ axis represent the bias.
 
-![Screenshot 2022-12-27 at 4.58.33 PM.png](Screenshot_2022-12-27_at_4.58.33_PM.png)
+![Screenshot 2022-12-27 at 4.58.33 PM.png](Screenshot_2022-12-27_at_4.58.33_PM.jpeg)
 
 ---
 
@@ -1689,7 +1689,7 @@ We can also decompose $\text{est error}$  as $\text{est variance} + \text{est bi
 
 Since also approximation error gives some bias, we can see that:
 
-![Screenshot 2022-12-27 at 7.04.39 PM.png](Screenshot_2022-12-27_at_7.04.39_PM.png)
+![Screenshot 2022-12-27 at 7.04.39 PM.png](Screenshot_2022-12-27_at_7.04.39_PM.jpeg)
 
 ---
 
@@ -1711,7 +1711,7 @@ $$
 
 Regularization lower variance, but adds some bias.
 
-![Screenshot 2022-12-27 at 7.59.28 PM.png](Screenshot_2022-12-27_at_7.59.28_PM.png)
+![Screenshot 2022-12-27 at 7.59.28 PM.png](Screenshot_2022-12-27_at_7.59.28_PM.jpeg)
 
 In case of we want to maximise the loss function, for example in MLE, the regularization term becomes:
 

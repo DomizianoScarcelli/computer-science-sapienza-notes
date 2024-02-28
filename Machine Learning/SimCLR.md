@@ -12,11 +12,11 @@ The *pretext task* proposed in the paper is the following:
     3. It feeds the representations $h_i, h_j$ into a projector $g$ (which in the paper is a simple MLP with a one layer) which will outputs the relative embeddings $z_i, z_j$.
 2. The objective is to maximise the cosine similarity between all the pairs $z_i, z_j$ if the two augmented images comes from the same image (positive pair), and minimize it if they come from different images (negative pair).
     
-    ![Screenshot 2024-01-27 at 3.22.52 PM.png](Screenshot_2024-01-27_at_3.22.52_PM.png)
+    ![Screenshot 2024-01-27 at 3.22.52 PM.png](Screenshot_2024-01-27_at_3.22.52_PM.jpeg)
 >[!Note]
  Note that they augment two times each sample in the batch, so if the batch has size $N$, the total datapoints will be $2N$, where $2$ are positive and $2(N-1)$ are negative.
 
-![Screenshot 2024-01-30 at 7.03.38 PM.png](Screenshot_2024-01-30_at_7.03.38_PM.png)
+![Screenshot 2024-01-30 at 7.03.38 PM.png](Screenshot_2024-01-30_at_7.03.38_PM.jpeg)
 
 In order to fine-tune the model on the downstream task for classification(the one with the small dataset and labels) you only keep the encoder $f$ trained with the pretext task, and you add a single linear layer $l$. The encode $f$ is freezed and the train only updates the final classification layer.
 

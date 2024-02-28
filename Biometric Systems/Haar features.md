@@ -50,7 +50,7 @@ A series of classifier are applied to every sub-window. The order of the classif
 
  Every classifier outputs a True/False result. If a classifier outputs a True value for a certain sub-window, then the sub-window is given in input to another classifier. If one of the classifier in the cascade outputs a False, then the sub-window is rejected.
 
-![Screenshot 2022-11-20 at 10.14.54 PM.png](Screenshot_2022-11-20_at_10.14.54_PM.png)
+![Screenshot 2022-11-20 at 10.14.54 PM.png](Screenshot_2022-11-20_at_10.14.54_PM.jpeg)
 
 Every classifier is trained with AdaBoost, and the threshold is adjusted in order to have the least false negatives as possible.
 
@@ -58,6 +58,6 @@ Every classifier is trained with AdaBoost, and the threshold is adjusted in orde
 
 It’s possible to adjust the weak learner threshold in order to minimise the false negatives. Each classifier is trained on the false positives of the previous stage.
 
-![Screenshot 2022-12-28 at 12.33.00 PM.png](Screenshot_2022-12-28_at_12.33.00_PM.png)
+![Screenshot 2022-12-28 at 12.33.00 PM.png](Screenshot_2022-12-28_at_12.33.00_PM.jpeg)
 
 Another approach to localize faces is to use Deep Leaning with Neural Networks.

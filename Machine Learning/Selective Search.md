@@ -34,9 +34,9 @@ Since images are intrinsically hierarchical, detection at a single scale is not 
 4. Go back to step 1 until the whole image is a single region.
 5. Take the bounding boxes of all generated regions and treat them as possible object locations.
     
-    ![Screenshot 2024-01-09 at 11.23.40 AM.png](Screenshot_2024-01-09_at_11.23.40_AM.png)
+    ![Screenshot 2024-01-09 at 11.23.40 AM.png](Screenshot_2024-01-09_at_11.23.40_AM.jpeg)
     
-    ![Screenshot 2024-01-09 at 11.23.46 AM.png](Screenshot_2024-01-09_at_11.23.46_AM.png)
+    ![Screenshot 2024-01-09 at 11.23.46 AM.png](Screenshot_2024-01-09_at_11.23.46_AM.jpeg)
     
 
 The number $K$ of region to propose is an hyperparameter that has to compromise efficiency with recall (and F1 score in general). I'm happy if the proposed region has an Intersection over Union of at least 0.5 with the ground truth bounding box. Recall is then computed as the proportion of objects that has $IoU \ge 0.5$.

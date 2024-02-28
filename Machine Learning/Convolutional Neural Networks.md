@@ -39,11 +39,11 @@ Let’s say we have in input an image $x$ of shape $(32,32,3)$, where $32 \times
 
 We put the filter on the top-left corner of the image, and we output the dot-product plus learnable bias $w^Tx + b$ between the filter and the image, which will produce a single number. Then we let the filter slide on all possible position, and we map those results into a final activation map. This activation map will have shape $(h, w, 1)$ where $h$ and $w$ will be smaller than the original height and width.
 
-![Screenshot 2023-12-05 at 11.54.32 AM.png](Screenshot_2023-12-05_at_11.54.32_AM.png)
+![Screenshot 2023-12-05 at 11.54.32 AM.png](Screenshot_2023-12-05_at_11.54.32_AM.jpeg)
 
 We do that process for each filter we want to learn, wand we stack the activation maps together.
 
-![Screenshot 2023-12-05 at 11.54.19 AM.png](Screenshot_2023-12-05_at_11.54.19_AM.png)
+![Screenshot 2023-12-05 at 11.54.19 AM.png](Screenshot_2023-12-05_at_11.54.19_AM.jpeg)
 
 >[!Note]
 > The filter always extend the full depth of the input volume, that’s why the third dimension is $3$, because the input depth is $3$.
@@ -85,7 +85,7 @@ Pooling can be fully replaced by the a stride greater than one.
 
 The receptive field is the amount of information a certain pixels at level $L$ holds, w.r.t to the original input. If a layer has receptive field of $K$, this means that a single pixels aggregates the information of a patch $K \times K$ pixels in the input.
 
-![Screenshot 2023-12-05 at 12.11.04 PM.png](Screenshot_2023-12-05_at_12.11.04_PM.png)
+![Screenshot 2023-12-05 at 12.11.04 PM.png](Screenshot_2023-12-05_at_12.11.04_PM.jpeg)
 
 For convolutions with a kernels of size $K$, each element in the output depends on a $K \times K$ receptive field in the input.
 
@@ -127,7 +127,7 @@ ResNet was the first architecture to be very deep. The first version ResNet arch
 
 In order to solve the problem of the vanishing gradients when dealing with really deep networks, they used Residual Connections (hence the name ResNet), which are skip connections that connect a layer input to the next layer input, without passing through the convolution. The result is then simply added.
 
-![ResBlock.png](ResBlock.png)
+![ResBlock.png](ResBlock.jpeg)
 
 Thanks to the added term, the gradient will always have that term, and so it won’t vanish, meaning that an update to the weights will always be done, and the training will go on.
 
@@ -164,7 +164,7 @@ For example, if we want to solve a small-piece jigsaw puzzle, where an image is 
 
 ## Self-Similarity
 
-![Screenshot 2023-04-05 at 3.19.49 PM.png](Screenshot_2023-04-05_at_3.19.49_PM.png)
+![Screenshot 2023-04-05 at 3.19.49 PM.png](Screenshot_2023-04-05_at_3.19.49_PM.jpeg)
 
 Data tends to be self-similar across the domain. For example in the image above, we can see that patches of pixels, even if they semantically represent different things, are very similar between each other.
 
@@ -172,7 +172,7 @@ This is also true at different scales, meaning that the phenomenon will appear e
 
 ### An example: PatchMatch
 
-![three.png](three.png)
+![three.png](three.jpeg)
 
 Here we can see an example on applied self similarity. The purpose of the algorithm is to remove the eagle from the image. It works by letting an user drawing a mask that represent the region where the eagle is, and then replacing each region of the mask with the patch (taken from within the image) that is the most similar to the borders of the mask.
 # Convolution
@@ -183,7 +183,7 @@ $$
 \underbrace{(f \star g)(x)}_\text{feature map} = \int_{-\pi}^\pi f(t)\underbrace{g(x-t)}_\text{filter}dt
 $$
 
-![Screenshot 2023-04-05 at 3.49.34 PM.png](Screenshot_2023-04-05_at_3.49.34_PM.png)
+![Screenshot 2023-04-05 at 3.49.34 PM.png](Screenshot_2023-04-05_at_3.49.34_PM.jpeg)
 
 >[!Note]
 The convolutional filter $g$ is also called convolutional kernel in the calculus terminology.
@@ -298,13 +298,13 @@ Furthermore, the weights of the convolutional kernels are shared, meaning that t
 
 The number of parameters also doesn’t depend on the input size, differently from an MLP, since the first linear map has to be the size of the input.
 
-![MLP fully connected layer](Screenshot_2023-04-05_at_4.32.00_PM.png)
+![MLP fully connected layer](Screenshot_2023-04-05_at_4.32.00_PM.jpeg)
 
 MLP fully connected layer
 
 In a MLP fully connected layer, we have that each input dimension contributes to each output dimension, and so each ouput dimension has a contribute to each input dimensions. Each edge is a different weight, which represent the matrix that we apply at a certain level.
 
-![Convolutional layer](Screenshot_2023-04-05_at_4.33.18_PM.png)
+![Convolutional layer](Screenshot_2023-04-05_at_4.33.18_PM.jpeg)
 
 Convolutional layer
 
@@ -321,8 +321,8 @@ Max pooling for example takes only the max for each patch. This is sensible to n
 
 Another type of pooling is the average pooling, that returns the average value of the patch.
 
-![Screenshot 2023-04-05 at 4.37.50 PM.png](Screenshot_2023-04-05_at_4.37.50_PM.png)
+![Screenshot 2023-04-05 at 4.37.50 PM.png](Screenshot_2023-04-05_at_4.37.50_PM.jpeg)
 
 Pooling allows to capture higher and higher features deeper in the network.
 
-![Screenshot 2023-04-05 at 4.38.24 PM.png](Screenshot_2023-04-05_at_4.38.24_PM.png)
+![Screenshot 2023-04-05 at 4.38.24 PM.png](Screenshot_2023-04-05_at_4.38.24_PM.jpeg)

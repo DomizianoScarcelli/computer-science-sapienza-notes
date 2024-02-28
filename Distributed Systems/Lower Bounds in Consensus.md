@@ -11,17 +11,17 @@ Remember that the FLP theorem says:
 > Consensus with faults it’s impossible to solve in an asynchronous system
 
 ## Taxonomy
-|  | Crash faults | Byzantine faults | Byzantine faults w/ signatures |
-| --- | --- | --- | --- |
-| Synchronous | $f+1$ | $3f+1$ | $2f+1$ |
-| Asynchronous | $2f+1$ (Paxos) | $3f+1$ | $3f+1$ |
+|              | Crash faults   | Byzantine faults | Byzantine faults w/ signatures |
+| ------------ | -------------- | ---------------- | ------------------------------ |
+| Synchronous  | $f+1$          | $3f+1$           | $2f+1$                         |
+| Asynchronous | $2f+1$ (Paxos) | $3f+1$           | $3f+1$                         |
 ### Byzantine faults
 
 Byzantine faults needs $3f+1$ nodes.
 
 Let’s assume we have $3$ nodes and we want to tolerate $1$ byzantine fault. This isn’t possible since we haven't reached the requirement. Let’s see why:
 
-![photo1.png](photo1.png)
+![photo1.png](photo1.jpeg)
 
 $G$ is the General, $L$ is the lieutenant. $G$ has to give both the liutenants the same order, otherwise they will lose the battle.
 
@@ -33,7 +33,7 @@ In both cases, $L_1$ receives the same information.
 
 In order for $L_1$ to be able to make a safe decision, another node is needed to reach the minimum requirement of $3f+1$ nodes. Other more or less advanced algorithms will be used in order to exchange messages with this extra node to check wether a node is byzantine or not.
 
-![Photo2.png](Photo2.png)
+![Photo2.png](Photo2.jpeg)
 
 ### Byzantine faults with digital signature
 

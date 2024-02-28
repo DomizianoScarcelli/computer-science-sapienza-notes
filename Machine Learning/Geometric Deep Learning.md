@@ -25,7 +25,7 @@ We can try to apply convolution on 3D shapes with 3D kernels, just like it happe
 
 In order to solve this problem, we can perform an intrinsic convolution, in which the convolutional kernel lives on the shape surface (and not in the embedding space), in order for it to change together with the structure. In this case the convolution will be invariant to that change.
 
-![Screenshot 2023-05-12 at 11.09.41 AM.png](Screenshot_2023-05-12_at_11.09.41_AM.png)
+![Screenshot 2023-05-12 at 11.09.41 AM.png](Screenshot_2023-05-12_at_11.09.41_AM.jpeg)
 
 This is a major difference, since If I want to train a classifier with extrinsic convolution, I need to train it with all the possible poses, hence it’s undoable.
 

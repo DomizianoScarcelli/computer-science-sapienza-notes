@@ -35,7 +35,7 @@ Manifold learning is a field of machine learning that aims to solve this problem
 
 This problem is so difficult that today the procedure usually is to fix one dimensionality and try to find the rest of the unknowns. If everything works well than it’s ok, otherwise we try again with another dimensionality.
 
-![Screenshot 2023-03-01 at 6.15.54 PM.png](Screenshot_2023-03-01_at_6.15.54_PM.png)
+![Screenshot 2023-03-01 at 6.15.54 PM.png](Screenshot_2023-03-01_at_6.15.54_PM.jpeg)
 
 This phenomenon describes how increasing the dimensionality of the data, the model performs better, until a certain peaking point. (Each line is a different model, that can be seen as a different $\sigma$).
 

@@ -21,7 +21,7 @@ Attention-based mechanism compute the vector each time they need to sample a new
 
 Attention allows to compute a score vector that tells how much the past decoder state relates to the current decoder state. From this score vector it’s possible to compute some attention weights, which gives to each token a weight. We then softmax those tokens and element-wise multiply them with the current hidden states, in order to have an hidden state that is scaled based on the attention weights relative to the current word. In this way, the context should encode which part of the input sentence is more relevant to sample the next word. We do that each time we need to sample a word.
 
-![Screenshot 2023-12-08 at 5.34.48 PM.png](Screenshot_2023-12-08_at_5.34.48_PM.png)
+![Screenshot 2023-12-08 at 5.34.48 PM.png](Screenshot_2023-12-08_at_5.34.48_PM.jpeg)
 
 All those operations are fully differentiable, and so we can run backpropagation through them, which allows the model to learn the attention weights. The attention is in fact just a MLP which is trained in an unsupervised manner (otherwise it would be required to have labels for the attention for each sentence).
 
@@ -71,12 +71,12 @@ $$
 $$
 This mechanism is the same as the Dot-product attention, but with the addition of the scaling factor $\frac{1}{\sqrt{d_k}}$, since the standard Dot-product attention performs worse when $d_k$ increases, probably because the dot products grows large in magnitude, pushing the softmax function into regions where it has very small gradients.
 
-![Screenshot 2024-01-24 at 6.19.40 PM.png](Screenshot_2024-01-24_at_6.19.40_PM.png)
+![Screenshot 2024-01-24 at 6.19.40 PM.png](Screenshot_2024-01-24_at_6.19.40_PM.jpeg)
 
 ## Multi-head attention
 Instead of performing a single attention function with $d$-dimensional keys, values and queries, they found to be more beneficial perform $h$ attention functions with $h$ different learned matrices. The final result will produce $h$ attention scores, which will then be concatenated and projected into a $d$ dimensional vector with the use of a learned matrix $W^O$. 
 
-![Screenshot 2024-01-24 at 6.24.55 PM.png](Screenshot_2024-01-24_at_6.24.55_PM.png)
+![Screenshot 2024-01-24 at 6.24.55 PM.png](Screenshot_2024-01-24_at_6.24.55_PM.jpeg)
 
 Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions. 
 
@@ -105,7 +105,7 @@ $$
 
 It’s called self-attention because the input $x$ is the only input needed to generate the queries, keys and values.
 
-![General attention vs self-attention](Screenshot_2023-12-08_at_6.29.58_PM.png)
+![General attention vs self-attention](Screenshot_2023-12-08_at_6.29.58_PM.jpeg)
 
 General attention vs self-attention
 
@@ -142,7 +142,7 @@ If the $t$ is small (which happens in the last positions of the vector) the $pos
 
 The intuition is that this will behave similarly to binary counting, meaning functions with a smaller period (the last positions in the vectors) will oscillate more frequently, while the ones with an higher period will oscillate rarely. 
 
-![Screenshot 2023-12-13 at 2.18.14 PM.png](Screenshot_2023-12-13_at_2.18.14_PM.png)
+![Screenshot 2023-12-13 at 2.18.14 PM.png](Screenshot_2023-12-13_at_2.18.14_PM.jpeg)
 
 Once we have the encoding for each token in the sentence, we just add it to the token embedding. This will allow the model to distinguish two equal tokens in different position.
 
@@ -160,7 +160,7 @@ Introduced in the paper “*Attention is all you need”* by Vaswani et al. in 2
 
 ## Architecture Details
 
-![Screenshot 2024-01-24 at 6.14.37 PM.png](Screenshot_2024-01-24_at_6.14.37_PM.png)
+![Screenshot 2024-01-24 at 6.14.37 PM.png](Screenshot_2024-01-24_at_6.14.37_PM.jpeg)
 
 The **encoder** is composed of a stack of $N = 6$ identical layers. Each layer has two sub-layers. The first is a multi-head self-attention mechanism, and the second is a simple, position- fully connected feed-forward network. There is a residual connection around each of the two sub-layers, followed by layer normalization. That is, the output of each sub-layer is $\text{LayerNorm}(x + \text{Sublayer}(x))$, where $\text{Sublayer}(x)$ is the function implemented by the sub-layer itself.
 
@@ -196,7 +196,7 @@ Still today, encoding long-term dependencies is still challenging and a very act
 
 In order to solve this problem, we need relative self-attention, which is another way of encoding the positions of the points in the sentence, generally more performant than positional encoding. (Remember that the Transformer, without positional encoding, it’s completely invariant to the sentence ordering).
 
-![motifs_shaded_boxes.png](motifs_shaded_boxes.png)
+![motifs_shaded_boxes.png](motifs_shaded_boxes.jpeg)
 
 In this figure, the arcs represent what past notes the model looks in order to generate a new note. We can see that it makes sense, since it’s currently predicting a chorus, and to do that it’s looking at notes in the previous two choruses.
 

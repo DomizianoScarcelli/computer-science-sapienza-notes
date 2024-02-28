@@ -4,7 +4,7 @@ Exam:
   - Fundamentals of Data Science
   - Deep Learning
 ---
-![Underfitting - Just right fit - Overfitting](Screenshot_2023-03-15_at_5.45.18_PM.png)
+![Underfitting - Just right fit - Overfitting](Screenshot_2023-03-15_at_5.45.18_PM.jpeg)
 
 Underfitting - Just right fit - Overfitting
 
@@ -20,11 +20,11 @@ In order to see if the model is able to generalize, we should reserve some data 
 
 In general we can see if we’re building the model in a good way by following this path
 
-![Untitled-2023-02-04-1558.png](Untitled-2023-02-04-1558.png)
+![Untitled-2023-02-04-1558.png](Untitled-2023-02-04-1558.jpeg)
 ### Note on overfitting
 
 Note that the number of parameters and overfitting are not directly correlated. Usually when a polynomial regression model has many parameters, it has the higher change to overfit, but this is not true for MLPs and other models.
 
 Overfitting is a local phenomenon. The model can overfit in some regions of the data, and fit right on other.
 
-![Screenshot 2023-04-12 at 4.59.33 PM.png](Screenshot_2023-04-12_at_4.59.33_PM.png)
+![Screenshot 2023-04-12 at 4.59.33 PM.png](Screenshot_2023-04-12_at_4.59.33_PM.jpeg)

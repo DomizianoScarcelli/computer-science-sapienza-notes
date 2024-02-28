@@ -15,7 +15,7 @@ $$
 \sigma(x) = \frac{1}{1+e^{-x}}
 $$
 
-![Screenshot 2023-03-15 at 5.58.58 PM.png](Screenshot_2023-03-15_at_5.58.58_PM.png)
+![Screenshot 2023-03-15 at 5.58.58 PM.png](Screenshot_2023-03-15_at_5.58.58_PM.jpeg)
 
 The sigmoid function is used to *squash* the output of $f$ into a value between $(0,1)$. This means that the function has a *saturation* effect as it maps $\mathbb{R} \to (0,1)$.
 
@@ -149,4 +149,4 @@ Furthermore, the system is a transcendental equation, because it involves the ex
 
 In order to find the parameters that minimize the loss, we need to use an iterative method like stochastic gradient descent.
 
-![Screenshot 2023-03-15 at 6.11.06 PM.png](Screenshot_2023-03-15_at_6.11.06_PM.png)
+![Screenshot 2023-03-15 at 6.11.06 PM.png](Screenshot_2023-03-15_at_6.11.06_PM.jpeg)

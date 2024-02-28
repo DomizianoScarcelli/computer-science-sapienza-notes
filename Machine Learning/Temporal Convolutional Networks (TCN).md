@@ -8,7 +8,7 @@ In 1D convolutions, let’s say we have a kernel of size 3. This kernel always p
 
 What this kernel could do, it predict the position at the 4th step, by seeing the first three steps.
 
-![Screenshot 2024-01-22 at 3.11.24 PM.png](Screenshot_2024-01-22_at_3.11.24_PM.png)
+![Screenshot 2024-01-22 at 3.11.24 PM.png](Screenshot_2024-01-22_at_3.11.24_PM.jpeg)
 
 The first problem is that CNN accept a fixed-size input, and when we’re dealing with sequences, the length of the sequence may vary.
 
@@ -16,15 +16,15 @@ The second problem with CNN is that they are only able to output a single choice
 
 These types of model are not suited for predicting future words or future motions. This because for example in the picture below, if the kernel is centered on represent, it’s also looking at the future word, and so it can just copy the next word, and it wouldn’t learn.
 
-![Screenshot 2024-01-22 at 5.46.46 PM.png](Screenshot_2024-01-22_at_5.46.46_PM.png)
+![Screenshot 2024-01-22 at 5.46.46 PM.png](Screenshot_2024-01-22_at_5.46.46_PM.jpeg)
 
 In order to solve this problem, we need the CNN to become casual, meaning that it just has to look at the past inputs.
 
-![Screenshot 2024-01-22 at 6.14.19 PM.png](Screenshot_2024-01-22_at_6.14.19_PM.png)
+![Screenshot 2024-01-22 at 6.14.19 PM.png](Screenshot_2024-01-22_at_6.14.19_PM.jpeg)
 
 It’s possible to achive this by just padding asymmetrically, adding the padding only at the $K-1$ initial starting positions, where $K$ is the kernel size.
 
-![Screenshot 2024-01-28 at 4.24.44 PM.png](Screenshot_2024-01-28_at_4.24.44_PM.png)
+![Screenshot 2024-01-28 at 4.24.44 PM.png](Screenshot_2024-01-28_at_4.24.44_PM.jpeg)
 
 With this kind of architecture, where there are some convolutions between the first and the last layer, and all convolution are causal, the model is able to look at $T+1$ words in the past ($0$ from $T$), and predict the word at step $T+1$.
 
@@ -58,7 +58,7 @@ In this way we won’t have any gaps, and so the output would still be a functio
 
 With this solution, the relationship between the number of layers and the receptive field is logarithmic instead of linear.
 
-![Screenshot 2024-01-22 at 8.19.32 PM.png](Screenshot_2024-01-22_at_8.19.32_PM.png)
+![Screenshot 2024-01-22 at 8.19.32 PM.png](Screenshot_2024-01-22_at_8.19.32_PM.jpeg)
 
 >[!Note]
 This isn't like stride, since a stride of 2 it means you consider one position and then move by 2., while here the kernel move in the same way, but it’s dilated, meaning it considers only one value each $d$ values. This also doesn't change the output size like stride.

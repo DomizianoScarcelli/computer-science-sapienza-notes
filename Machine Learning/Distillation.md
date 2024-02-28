@@ -18,6 +18,6 @@ This works well since the data generated and labelled by the Teacher is already 
 
 This concept is similar to the Data++ concept, where you train a generator with some data, the you use this generator to re-generate the original data which will be cleaner (with less noise) in order to train another model.
 
-![Screenshot 2023-12-13 at 6.15.17 PM.png](Screenshot_2023-12-13_at_6.15.17_PM.png)
+![Screenshot 2023-12-13 at 6.15.17 PM.png](Screenshot_2023-12-13_at_6.15.17_PM.jpeg)
 
 Distillation works much better than pre-training and fine-tuning on a more specific task, since it’s way faster at inference time.

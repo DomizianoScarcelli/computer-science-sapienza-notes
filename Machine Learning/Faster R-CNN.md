@@ -4,11 +4,11 @@ Exam:
 ---
 If we analyze the time spent by the region proposal algorithm and the time spent by the [[R-CNN]], we see that in the [[Fast R-CNN]], most of the time is spent finding region to propose.
 
-![Screenshot 2024-01-09 at 12.16.52 PM.png](Screenshot_2024-01-09_at_12.16.52_PM.png)
+![Screenshot 2024-01-09 at 12.16.52 PM.png](Screenshot_2024-01-09_at_12.16.52_PM.jpeg)
 
 A solution to make the region proposal phase faster is to insert a Region Proposal Network (RPN) inside of the CNN which takes in input the whole image and outputs a set of rectangular object proposals, each one with an objectness score. This is the Faster R-CNN model.
 
-![Screenshot 2024-01-09 at 12.18.18 PM.png](Screenshot_2024-01-09_at_12.18.18_PM.png)
+![Screenshot 2024-01-09 at 12.18.18 PM.png](Screenshot_2024-01-09_at_12.18.18_PM.jpeg)
 
 In order to do that, for each pixel I consider an anchor box, which is a bounding box of size $n \times n$ in which the pixel is in the center. For each of these anchor boxes, I compute their objectness score, which is the likelihood of the anchor box containing an object. 
 
@@ -29,5 +29,5 @@ We train the Faster R-CNN using a mixture of 4 losses:
 - Final classification score (Object class)
 - Final box coordinates
     
-    ![Screenshot 2024-01-09 at 1.12.01 PM.png](Screenshot_2024-01-09_at_1.12.01_PM.png)
+    ![Screenshot 2024-01-09 at 1.12.01 PM.png](Screenshot_2024-01-09_at_1.12.01_PM.jpeg)
     

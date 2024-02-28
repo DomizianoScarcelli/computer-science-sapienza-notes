@@ -85,4 +85,4 @@ Normalizing with respect to something means to compute the mean and variance wit
 
 Everytime you change what is being normalized, that is a variant of the Batch Normalization. 
 
-![Screenshot 2023-04-16 at 1.48.40 PM.png](Screenshot_2023-04-16_at_1.48.40_PM.png)
+![Screenshot 2023-04-16 at 1.48.40 PM.png](Screenshot_2023-04-16_at_1.48.40_PM.jpeg)

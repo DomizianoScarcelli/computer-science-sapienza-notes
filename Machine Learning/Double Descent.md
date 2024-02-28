@@ -6,7 +6,7 @@ Exam:
 
 [[Early Stopping]] can be done in with respect to two dimensions: capacity of the model and training time.
 
-![Screenshot 2023-04-12 at 5.01.07 PM.png](Screenshot_2023-04-12_at_5.01.07_PM.png)
+![Screenshot 2023-04-12 at 5.01.07 PM.png](Screenshot_2023-04-12_at_5.01.07_PM.jpeg)
 
 From this plot we can see how is the trend of training and validation data, varying the capacity $\mathcal{H}$ of the model, meaning each time we increase the number of parameters of the model, train it for a fixed number of epochs, and see what is the final validation error.
 
@@ -20,6 +20,6 @@ The surprising fact is that [[Gradient Descent#Stochastic gradient descent|SGD]]
 
 As said before, early stopping can also happen with respect to training time, meaning that if we train the model long enough, the validation error will go down again.
 
-![Bluer the color, lower the validation error.](Screenshot_2023-04-12_at_5.11.34_PM.png)
+![Bluer the color, lower the validation error.](Screenshot_2023-04-12_at_5.11.34_PM.jpeg)
 
 The bluer the color, the lower the validation error.

@@ -9,7 +9,7 @@ Sequence models are a different type of model which can get in input a sequence 
 
 In particular, there are three types of sequence models:
 
-![Screenshot 2023-12-08 at 12.04.19 PM.png](Screenshot_2023-12-08_at_12.04.19_PM.png)
+![Screenshot 2023-12-08 at 12.04.19 PM.png](Screenshot_2023-12-08_at_12.04.19_PM.jpeg)
 
 - One-to-many: an example of this is a captioning model, which takes in input an image of something and outputs a text that describes the photo. Note that the sentence in output is as long as needed (it doesn’t have a size fixed a priori)
 - Many-to-one: an example of this is action classification model, which takes in input a video (sequence of frames) and outputs an action class, such as running, jumping, dancing.

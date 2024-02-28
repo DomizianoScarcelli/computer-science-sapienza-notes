@@ -8,7 +8,7 @@ The idea behind LSTM is to not use the same memory for both long term and short 
 
 The RNN internal unit is replaced with the LSTM unit, which has four components, called gates:
 
-![Screenshot 2023-12-08 at 3.40.44 PM.png](Screenshot_2023-12-08_at_3.40.44_PM.png)
+![Screenshot 2023-12-08 at 3.40.44 PM.png](Screenshot_2023-12-08_at_3.40.44_PM.jpeg)
 
 - **Forget gate $f$**: since this multiplies the previous cell state $c_{t-1}$, and it’s a number between $0$ and $1$ (because of the sigmoid activation function), it determines what is the percentage of the previous cell state that has to be remembered.
 - **Input gate $i$**: since this is multiplied with $g$ and added to the previous cell state $c_{t-1}$, and it’s a number between $0$ and $1$ because of the sigmoid, it determines the percentage of the input signal that has to be put into the new cell state $c_t$.

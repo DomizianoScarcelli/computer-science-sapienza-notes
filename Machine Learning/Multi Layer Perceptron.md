@@ -60,11 +60,11 @@ We can see the matrix multiplication $\mathbb{Wx}$ as a collection of $q$ vector
 
 A single layer may be illustrated also with a graph where the first layer represents the components of $\boldsymbol{x}$, the second layer represents the output of the product $\boldsymbol{Wx}$, that is the linear combination between the vector $\boldsymbol{x}$ and the $i$-th row $\boldsymbol{w}_i$ of $\boldsymbol{W}$. We can see that the neuron will be a fully connected with the inputs, this is a fully connected layer. (There will also be cases of non-fully connected layers)
 
-![A graph of the fully connected layer](Screenshot_2023-03-30_at_2.04.41_PM.png)
+![A graph of the fully connected layer](Screenshot_2023-03-30_at_2.04.41_PM.jpeg)
 
 A graph of the fully connected layer
 
-![Adding the non-linear function $\sigma$](Screenshot_2023-03-30_at_2.04.33_PM.png)
+![Adding the non-linear function $\sigma$](Screenshot_2023-03-30_at_2.04.33_PM.jpeg)
 
 Adding the non-linear function $\sigma$
 

@@ -39,19 +39,19 @@ At the end of the process, the patterns can be classified by their weight: highe
     
     Let’s assume we have a two dimensional features. Each element could be in the blue or red class. We can see in the image how it couldn’t exist a line (weak classifier) that could perfectly divide blue dots from red dots.
     
-    ![Screenshot 2022-11-20 at 7.01.24 PM.png](Screenshot_2022-11-20_at_7.01.24_PM.png)
+    ![Screenshot 2022-11-20 at 7.01.24 PM.png](Screenshot_2022-11-20_at_7.01.24_PM.jpeg)
     
     The samples that are misclassified, in this case the two blue dots over the line and the red dot under the line, will get an higher weigth in the next run.
     
     In each step, the linear classifier aims to maximise the sum of correctly classified weights. The second classifier will divide the samples as the following
     
-    ![Screenshot 2022-11-20 at 7.03.51 PM.png](Screenshot_2022-11-20_at_7.03.51_PM.png)
+    ![Screenshot 2022-11-20 at 7.03.51 PM.png](Screenshot_2022-11-20_at_7.03.51_PM.jpeg)
     
     Once again, we increase the weight of the misclassified samples, we run the linear classification again and we’ll have this classification
     
-    ![Screenshot 2022-11-20 at 7.04.32 PM.png](Screenshot_2022-11-20_at_7.04.32_PM.png)
+    ![Screenshot 2022-11-20 at 7.04.32 PM.png](Screenshot_2022-11-20_at_7.04.32_PM.jpeg)
     
     The final classifier (strong classifier) is the linear combination of the weak classifiers.
     
-    ![Screenshot 2022-11-20 at 7.05.00 PM.png](Screenshot_2022-11-20_at_7.05.00_PM.png)
+    ![Screenshot 2022-11-20 at 7.05.00 PM.png](Screenshot_2022-11-20_at_7.05.00_PM.jpeg)
     

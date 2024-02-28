@@ -26,7 +26,7 @@ The clock condition is always true if there is a global clock, but since process
 
 Every time an event occurs in a process, it labels it with a serial number (1,2,3 etc.). If a process $P_1$ makes an event that sends a message to a process $P_2$,  $P_2$ labels it with the next number of the greatest next number between $P_1$ and $P_2$.
 
-![Untitled](Untitled%202.png)
+![Untitled](Untitled%202.jpeg)
 
 In this way, $P_0$ can reconstruct the run in a consistent one, and the problem is solved without the use of a global clock.
 
@@ -47,7 +47,7 @@ $P_0$ will deliver a message $m$ only if it's **stable**.
 > [!Stable Message]
 Message $m$ is stable at $p_i$ if no message $m'$ such that $TS(m') < TS(m)$ can arrive in the future.
 
-![The received message 2 is not stable because I still can receive a 1 in the future, and 1 < 2. ](Untitled%203.png)
+![The received message 2 is not stable because I still can receive a 1 in the future, and 1 < 2. ](Untitled%203.jpeg)
 
 The received message 2 is not stable because I still can receive a 1 in the future, and 1 < 2. 
 
@@ -57,7 +57,7 @@ We define the array $D[i] = \text{highest TS received from process }i$ . In the 
 
 In this way, a message received from $P_0$ is stable only if all the other values in the vector are greater than the $TS$ of the message received. That’s because in order to deliver a message, all the messages with the $TS$ lower than the received message have to be delivered too, since the current message may depend on one of them. 
 
-![TODO: Change the vectors because they’re wrong](Untitled%204.png)
+![TODO: Change the vectors because they’re wrong](Untitled%204.jpeg)
 
 > [!TODO]
 TODO: Change the vectors because they’re wrong
@@ -80,7 +80,7 @@ $$
 
 Logical clocks don’t have this condition:
 
-![Untitled](Untitled%205.png)
+![Untitled](Untitled%205.jpeg)
 
 In this picture, we can see how $TS(e') < TS(e)$ but it's not true that $e'\rightarrow e$, since they’re concurrent.
 
@@ -89,7 +89,7 @@ If two events in two processes are concurrent, it’s hard to assign them a nume
 As we can see from the picture below, the timestamps 4-5 or 6-5 are not right because no event happens before one another. 
 I cannot give them 5-5 because if then another event happens I would have 5-6, but it’s not true that the event with $TS = 6$ on the first process happens before the event on process 2 with $TS = 5$.
 
-![Untitled](Untitled%206.png)
+![Untitled](Untitled%206.jpeg)
 
 So we arrived at the fact that a numerical $TS$ is not enough in order to have a strong clock condition.
 
@@ -101,7 +101,7 @@ $\theta(e) = \{ e' \in H : e'\rightarrow e \} \cup\{e\}$
 
 The causal history is the set of events that may have contributed to the event $e$.
 
-![Untitled](Untitled%207.png)
+![Untitled](Untitled%207.jpeg)
 
 $$
 \theta(e_1^1) = \{e_1^1\} \\
@@ -129,7 +129,7 @@ $VC[i] = \text{internal clock of the latest event inside process }i$
 
 This type of clock has a strong clock condition.
 
-![Computed vector clocks for all the events in the processes](Untitled%208.png)
+![Computed vector clocks for all the events in the processes](Untitled%208.jpeg)
 
 Computed vector clocks for all the events in the processes
 

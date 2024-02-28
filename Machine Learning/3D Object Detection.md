@@ -5,11 +5,11 @@ Exam:
 ## Dense Captioning
 Dense captioning means doing object detection and then do captioning for each bounding box, describing each thing that happens in the image using the natural language.
 
-![Screenshot 2024-01-09 at 2.38.42 PM.png](Screenshot_2024-01-09_at_2.38.42_PM.png)
+![Screenshot 2024-01-09 at 2.38.42 PM.png](Screenshot_2024-01-09_at_2.38.42_PM.jpeg)
 
 This was also applied later on on video.
 
-![Screenshot 2024-01-09 at 2.50.04 PM.png](Screenshot_2024-01-09_at_2.50.04_PM.png)
+![Screenshot 2024-01-09 at 2.50.04 PM.png](Screenshot_2024-01-09_at_2.50.04_PM.jpeg)
 
 ## 3D Object Detection
 

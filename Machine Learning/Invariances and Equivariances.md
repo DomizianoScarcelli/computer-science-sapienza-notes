@@ -8,7 +8,7 @@ Being invariant with respect to an operator means that the result of the operati
 
 If we build a classificator $\mathcal{C}$ that tells us if the image contains a cat or not, the result should be the same if the cat is translated inside the image.
 
-![Screenshot 2023-04-05 at 3.34.50 PM.png](Screenshot_2023-04-05_at_3.34.50_PM.png)
+![Screenshot 2023-04-05 at 3.34.50 PM.png](Screenshot_2023-04-05_at_3.34.50_PM.jpeg)
 
 We define the (linear) translation operator $\mathcal{T}$ along a vector $v \in \mathbb{R}^2$ as:
 
@@ -42,7 +42,7 @@ $$
 Watch out that invariance and equivariance are two very different things!
 Being invariant from an operator means that the result doesn’t change; being equivariant means that we can invert the order of the operations and the result won’t change.
 
-![Shift-equivariance: if I invert the order of the translation-convolution operation the result remains the same](Screenshot_2023-04-05_at_3.58.35_PM.png)
+![Shift-equivariance: if I invert the order of the translation-convolution operation the result remains the same](Screenshot_2023-04-05_at_3.58.35_PM.jpeg)
 
 Shift-equivariance: if I invert the order of the translation-convolution operation the result remains the same
 
@@ -53,7 +53,7 @@ This type of equivariance allow us to define in another way convolutions:
 
 Other types of invariances are possible, for example invariance to partiality and isometric deformations. This is useful if we have a 3D morphable model of a dog, and we want to be invariant if the model is morphed in another position. This is an hard problem.
 
-![Screenshot 2023-04-05 at 3.42.04 PM.png](Screenshot_2023-04-05_at_3.42.04_PM.png)
+![Screenshot 2023-04-05 at 3.42.04 PM.png](Screenshot_2023-04-05_at_3.42.04_PM.jpeg)
 
 ---
 

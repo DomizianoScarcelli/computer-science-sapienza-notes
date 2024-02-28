@@ -34,7 +34,7 @@ $$
 \|\mathbb{x} - \mathbb{y}\|_p=  \left( \sum_{i=1}^d(x_i-y_i)^p \right) ^{1 \over p}
 $$
 
-![$L_p$ distance in $R^2$ with different values for $p$.](Screenshot_2023-03-15_at_5.09.48_PM.png)
+![$L_p$ distance in $R^2$ with different values for $p$.](Screenshot_2023-03-15_at_5.09.48_PM.jpeg)
 
 $L_p$ distance in $R^2$ with different values for $p$.
 

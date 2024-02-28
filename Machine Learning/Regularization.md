@@ -25,7 +25,7 @@ $$
 \rho(\Theta) = \|\Theta\|_2 = \sum\theta^2
 $$
 
-![Each bin represent the amount of parameters having that particular value](Screenshot_2023-04-12_at_4.43.13_PM.png)
+![Each bin represent the amount of parameters having that particular value](Screenshot_2023-04-12_at_4.43.13_PM.jpeg)
 
 Each bin represent the amount of parameters having that particular value
 
@@ -43,7 +43,7 @@ $$
 \rho(\Theta) = \|\Theta\|_1 = \sum|\theta|
 $$
 
-![Screenshot 2023-04-12 at 4.46.13 PM.png](Screenshot_2023-04-12_at_4.46.13_PM.png)
+![Screenshot 2023-04-12 at 4.46.13 PM.png](Screenshot_2023-04-12_at_4.46.13_PM.jpeg)
 
 This type of regularization promotes sparsity, meaning that most of the parameters will be equal to $0$.
 

@@ -24,7 +24,7 @@ An aggregation of things can make a stuff, for example multiple threes make up a
 
 This approach consists in taking a patch of an image and classify the center pixel using a CNN. The rest of the pixels will be used as context. The patch is then moved in order to classify all the pixels.
 
-![Screenshot 2024-01-08 at 11.04.32 PM.png](Screenshot_2024-01-08_at_11.04.32_PM.png)
+![Screenshot 2024-01-08 at 11.04.32 PM.png](Screenshot_2024-01-08_at_11.04.32_PM.jpeg)
 
 This is very inefficient since we are not reusing the shared features between the overlapping patches.
 
@@ -34,7 +34,7 @@ In order to make the method more efficient, we can design a network as a bunch o
 
 Each $1 \times H \times W$ contains the score of each pixels belonging to that particular class.
 
-![Screenshot 2024-01-08 at 11.08.47 PM.png](Screenshot_2024-01-08_at_11.08.47_PM.png)
+![Screenshot 2024-01-08 at 11.08.47 PM.png](Screenshot_2024-01-08_at_11.08.47_PM.jpeg)
 
 The problem is that the convolutions at the original image resolution will be very expensive, since in the middle layers you would have many channels, from $64$ to $256$, with a huge resolution.
 
@@ -42,7 +42,7 @@ In order to avoid that, we can downsample the image at the beginning of the netw
 
 In most of these types of networks the downsampling and upsampling is symmetrical.
 
-![Screenshot 2024-01-08 at 11.09.46 PM.png](Screenshot_2024-01-08_at_11.09.46_PM.png)
+![Screenshot 2024-01-08 at 11.09.46 PM.png](Screenshot_2024-01-08_at_11.09.46_PM.jpeg)
 
 Regarding the downsampling, we can achieve that in the classical ways, such as with pooling or strided convolution.
 
@@ -54,11 +54,11 @@ The unpooling operation tries to revert the result of the pooling operation loos
 
 The most naive techniques are Nearest Neighbours, which just replicates the value $n$ times in order to get to the original dimensionality; and *Bed of Nails*, which replaces all the other values with $0$ and puts the current value in the just one region square obtained by each expansion, in the figure below that region is the upper-left corner.
 
-![Screenshot 2024-01-08 at 11.13.32 PM.png](Screenshot_2024-01-08_at_11.13.32_PM.png)
+![Screenshot 2024-01-08 at 11.13.32 PM.png](Screenshot_2024-01-08_at_11.13.32_PM.jpeg)
 
 A smarter way of unpooling is Max Unpooling, which can be applied as the reverse of Max Pooling. The idea is to remember in which position in the original matrix the value was, and to place it back in that position when using an unpooling technique similar to *bed of nails*.
 
-![Screenshot 2024-01-08 at 11.15.27 PM.png](Screenshot_2024-01-08_at_11.15.27_PM.png)
+![Screenshot 2024-01-08 at 11.15.27 PM.png](Screenshot_2024-01-08_at_11.15.27_PM.jpeg)
 
 The problem with all these techniques is that we will lose a lot of information regardless.
 
@@ -73,11 +73,11 @@ The input is used as a weight that weights the convolutional kernel. So the outp
 > [!Note]
 > Remember that in the standard convolution the stride tells the ratio of the input  w.r.t. the output.
 
-![Screenshot 2024-01-08 at 11.21.50 PM.png](Screenshot_2024-01-08_at_11.21.50_PM.png)
+![Screenshot 2024-01-08 at 11.21.50 PM.png](Screenshot_2024-01-08_at_11.21.50_PM.jpeg)
 
 Below there is also an example of a 1D transpose convolution. As we can see each kernel element is weighted by the input and then copied on the output. The overlap is then summed.
 
-![Screenshot 2024-01-30 at 1.14.15 PM.png](Screenshot_2024-01-30_at_1.14.15_PM.png)
+![Screenshot 2024-01-30 at 1.14.15 PM.png](Screenshot_2024-01-30_at_1.14.15_PM.jpeg)
 
 The sum can be a problem since it might produce some checkboard artifacts in the output, because the more the upsampling layers, the higher the magnitude of some elements. Because of that, a kernel of $4 \times 4$ or $2 \times 2$ both with a stride of $2$ instead than a $3 \times 3$ with a stride of $2$ can be helpful.
 

@@ -238,7 +238,7 @@
     
     We can apply MLE to obtain these parameter and make a prediciton.
     
-    ![Screenshot 2022-12-02 at 4.24.34 PM.png](Screenshot_2022-12-02_at_4.24.34_PM.png)
+    ![Screenshot 2022-12-02 at 4.24.34 PM.png](Screenshot_2022-12-02_at_4.24.34_PM.jpeg)
     
 - **Multinomial event model**
     
@@ -266,9 +266,9 @@
     
     A confusion matrix is a structure where it's possible to have a recap of the performance of the model.
     
-    | TP | FP |
+    | TP  | FP  |
     | --- | --- |
-    | FN | TN |
+    | FN  | TN  |
 - **Accuracy, precision, recall, F1**
     
     The following are metrics to evaluate the system performance, and allows to compare two or more systems. 
